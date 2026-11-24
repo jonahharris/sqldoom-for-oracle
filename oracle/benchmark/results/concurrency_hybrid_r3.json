@@ -1,0 +1,227 @@
+{
+ "sql": "render_hybrid.sql",
+ "runs": [
+  {
+   "sessions": 1,
+   "frames": 1200,
+   "frames_over_33ms": 0,
+   "frames_over_100ms": 0,
+   "wait_events_delta": {
+    "cursor: pin S": {
+     "waits": 0,
+     "ms": 0
+    },
+    "library cache: mutex X": {
+     "waits": 0,
+     "ms": 0
+    },
+    "resmgr:cpu quantum": {
+     "waits": 0,
+     "ms": 0
+    },
+    "latch free": {
+     "waits": 0,
+     "ms": 0
+    }
+   },
+   "wall_s": 24.81,
+   "throughput_fps": 48.4,
+   "latency_ms": {
+    "mean": 20.67,
+    "p50": 22.2,
+    "p95": 27.07,
+    "p99": 28.5,
+    "max": 30.21
+   },
+   "per_session": [
+    {
+     "session": 0,
+     "frames": 1200,
+     "first_frame_ms": 138.7,
+     "mean_ms": 20.67,
+     "p95_ms": 27.07,
+     "max_ms": 30.21,
+     "fps": 48.4,
+     "mem_mb": {
+      "session uga memory": 68.11,
+      "session uga memory max": 70.18,
+      "session pga memory": 69.48,
+      "session pga memory max": 71.48
+     }
+    }
+   ],
+   "mem_per_session_mb": {
+    "pga_mean": 69.5,
+    "pga_max_max": 71.5
+   }
+  },
+  {
+   "sessions": 2,
+   "frames": 1200,
+   "frames_over_33ms": 0,
+   "frames_over_100ms": 0,
+   "wait_events_delta": {
+    "cursor: pin S": {
+     "waits": 0,
+     "ms": 0
+    },
+    "library cache: mutex X": {
+     "waits": 5,
+     "ms": 0
+    },
+    "resmgr:cpu quantum": {
+     "waits": 0,
+     "ms": 0
+    },
+    "latch free": {
+     "waits": 0,
+     "ms": 0
+    }
+   },
+   "wall_s": 13.07,
+   "throughput_fps": 91.8,
+   "latency_ms": {
+    "mean": 21.78,
+    "p50": 23.34,
+    "p95": 28.49,
+    "p99": 30.09,
+    "max": 31.62
+   },
+   "per_session": [
+    {
+     "session": 0,
+     "frames": 600,
+     "first_frame_ms": 146.8,
+     "mean_ms": 21.78,
+     "p95_ms": 28.41,
+     "max_ms": 31.62,
+     "fps": 45.9,
+     "mem_mb": {
+      "session uga memory": 68.18,
+      "session uga memory max": 70.18,
+      "session pga memory": 69.48,
+      "session pga memory max": 71.48
+     }
+    },
+    {
+     "session": 1,
+     "frames": 600,
+     "first_frame_ms": 143.0,
+     "mean_ms": 21.78,
+     "p95_ms": 28.5,
+     "max_ms": 30.71,
+     "fps": 45.9,
+     "mem_mb": {
+      "session uga memory": 68.18,
+      "session uga memory max": 70.18,
+      "session pga memory": 69.48,
+      "session pga memory max": 71.48
+     }
+    }
+   ],
+   "mem_per_session_mb": {
+    "pga_mean": 69.5,
+    "pga_max_max": 71.5
+   }
+  },
+  {
+   "sessions": 4,
+   "frames": 1200,
+   "frames_over_33ms": 67,
+   "frames_over_100ms": 44,
+   "wait_events_delta": {
+    "cursor: pin S": {
+     "waits": 4,
+     "ms": 5
+    },
+    "library cache: mutex X": {
+     "waits": 52,
+     "ms": 42
+    },
+    "resmgr:cpu quantum": {
+     "waits": 460,
+     "ms": 48226
+    },
+    "latch free": {
+     "waits": 0,
+     "ms": 0
+    }
+   },
+   "wall_s": 13.39,
+   "throughput_fps": 89.6,
+   "latency_ms": {
+    "mean": 44.59,
+    "p50": 24.21,
+    "p95": 34.96,
+    "p99": 634.8,
+    "max": 659.41
+   },
+   "per_session": [
+    {
+     "session": 0,
+     "frames": 300,
+     "first_frame_ms": 144.5,
+     "mean_ms": 44.58,
+     "p95_ms": 34.73,
+     "max_ms": 657.69,
+     "fps": 22.4,
+     "mem_mb": {
+      "session uga memory": 67.18,
+      "session uga memory max": 69.18,
+      "session pga memory": 68.48,
+      "session pga memory max": 70.48
+     }
+    },
+    {
+     "session": 1,
+     "frames": 300,
+     "first_frame_ms": 146.8,
+     "mean_ms": 44.55,
+     "p95_ms": 33.46,
+     "max_ms": 659.41,
+     "fps": 22.4,
+     "mem_mb": {
+      "session uga memory": 66.18,
+      "session uga memory max": 69.18,
+      "session pga memory": 67.41,
+      "session pga memory max": 70.41
+     }
+    },
+    {
+     "session": 2,
+     "frames": 300,
+     "first_frame_ms": 143.2,
+     "mean_ms": 44.59,
+     "p95_ms": 38.58,
+     "max_ms": 653.69,
+     "fps": 22.4,
+     "mem_mb": {
+      "session uga memory": 67.18,
+      "session uga memory max": 69.18,
+      "session pga memory": 68.48,
+      "session pga memory max": 70.48
+     }
+    },
+    {
+     "session": 3,
+     "frames": 300,
+     "first_frame_ms": 143.1,
+     "mean_ms": 44.63,
+     "p95_ms": 31.4,
+     "max_ms": 657.09,
+     "fps": 22.4,
+     "mem_mb": {
+      "session uga memory": 66.18,
+      "session uga memory max": 69.18,
+      "session pga memory": 67.41,
+      "session pga memory max": 70.41
+     }
+    }
+   ],
+   "mem_per_session_mb": {
+    "pga_mean": 67.9,
+    "pga_max_max": 70.5
+   }
+  }
+ ]
+}

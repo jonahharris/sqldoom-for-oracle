@@ -1,0 +1,29 @@
+# CTEs materialized as cursor-duration temp results (one name per line). Each was measured;
+# see analysis/optimization-log.md. build_optimized.py injects /*+ MATERIALIZE */ into them.
+bsp
+segh
+minocc
+wvert
+pclip
+items
+segcls
+fseg
+pitems
+tbound
+witems
+flused
+fsegw
+rs
+cam
+wr
+secl
+player_sector
+vchild
+nfront
+spx
+wlay
+skycol
+wparts
+prow
+eseg
+cand

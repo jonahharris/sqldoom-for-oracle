@@ -1,0 +1,67 @@
+{
+ "renderer": "render_baseline.sql",
+ "encoding": "hexrows",
+ "frames": 117,
+ "warmup_frames": 3,
+ "warmup_s": 24.078,
+ "first_frame_ms": 14371.94,
+ "end_to_end": {
+  "n": 117,
+  "mean": 4936.407,
+  "p50": 5043.675,
+  "p95": 7921.515,
+  "p99": 11137.551,
+  "min": 1748.302,
+  "max": 11326.11,
+  "sustained_fps": 0.203
+ },
+ "execute_fetch": {
+  "n": 117,
+  "mean": 4935.763,
+  "p50": 5042.999,
+  "p95": 7920.629,
+  "p99": 11136.914,
+  "min": 1747.661,
+  "max": 11325.475
+ },
+ "execute": {
+  "n": 117,
+  "mean": 4935.742,
+  "p50": 5042.975,
+  "p95": 7920.558,
+  "p99": 11136.897,
+  "min": 1747.643,
+  "max": 11325.456
+ },
+ "fetch": {
+  "n": 117,
+  "mean": 0.02,
+  "p50": 0.019,
+  "p95": 0.024,
+  "p99": 0.028,
+  "min": 0.017,
+  "max": 0.072
+ },
+ "decode": {
+  "n": 117,
+  "mean": 0.148,
+  "p50": 0.146,
+  "p95": 0.156,
+  "p99": 0.164,
+  "min": 0.139,
+  "max": 0.209
+ },
+ "v$sql": {
+  "sql_id": "48vrbh2xvu5n7",
+  "child_cursors": 1,
+  "executions": 117,
+  "parse_calls": 0,
+  "hard_parses(loads)": 0,
+  "db_elapsed_ms_per_exec": 4934.165,
+  "db_cpu_ms_per_exec": 4916.956,
+  "buffer_gets_per_exec": 66280.9,
+  "rows_per_exec": 200.0
+ },
+ "database_only_fps": 0.2,
+ "end_to_end_fps": 0.2
+}

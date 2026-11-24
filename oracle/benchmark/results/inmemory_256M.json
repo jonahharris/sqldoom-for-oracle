@@ -1,0 +1,65 @@
+{
+ "inmemory_size": "256M",
+ "tables": [
+  "BSP_STEPS",
+  "NODE_CHILDREN",
+  "NODES",
+  "RENDER_SEGS_EXT",
+  "ST_SECTORS",
+  "ST_THINGS",
+  "ST_RENDER_THINGS",
+  "SPRITE_FRAMES"
+ ],
+ "v$im_segments": [
+  [
+   "BSP_STEPS",
+   "COMPLETED",
+   1310720,
+   1998848
+  ],
+  [
+   "NODES",
+   "COMPLETED",
+   1310720,
+   106496
+  ],
+  [
+   "NODE_CHILDREN",
+   "COMPLETED",
+   1310720,
+   286720
+  ],
+  [
+   "RENDER_SEGS_EXT",
+   "COMPLETED",
+   1310720,
+   843776
+  ],
+  [
+   "SPRITE_FRAMES",
+   "COMPLETED",
+   1310720,
+   106496
+  ],
+  [
+   "ST_RENDER_THINGS",
+   "COMPLETED",
+   3407872,
+   14385152
+  ],
+  [
+   "ST_SECTORS",
+   "COMPLETED",
+   3407872,
+   16449536
+  ],
+  [
+   "ST_THINGS",
+   "COMPLETED",
+   4456448,
+   36061184
+  ]
+ ],
+ "inmemory_ms": 144.7,
+ "rowstore_ms_same_instance": 141.1
+}

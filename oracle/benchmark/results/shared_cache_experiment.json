@@ -1,0 +1,45 @@
+{
+ "working_set": {
+  "mean": {
+   "textures": 11.6,
+   "columns": 449,
+   "texels": 53700
+  },
+  "max": {
+   "textures": 24,
+   "columns": 883,
+   "texels": 104064
+  }
+ },
+ "per_frame_ms": {
+  "rc_tex_mean_ms_per_frame": 4.367,
+  "rc_col_mean_ms_per_frame": 1.153,
+  "sql_pk_mean_ms_per_frame": 2.029,
+  "sql_bulk_mean_ms_per_frame": 0.114,
+  "conv_mean_ms_per_frame": 6.308,
+  "rc_tex_max_ms_per_frame": 7.738,
+  "rc_col_max_ms_per_frame": 2.226,
+  "sql_pk_max_ms_per_frame": 3.962,
+  "sql_bulk_max_ms_per_frame": 0.223,
+  "conv_max_ms_per_frame": 12.289
+ },
+ "session_mem_mb_before": {
+  "session uga memory": 3.88,
+  "session pga memory": 6.77
+ },
+ "session_mem_mb_after": {
+  "session uga memory": 3.75,
+  "session pga memory": 5.65
+ },
+ "rc_all_map1_textures": {
+  "textures": 103,
+  "texels": 1191936,
+  "Block Size (Bytes)": 4096,
+  "Block Count Current": 3616,
+  "Create Count Success": 103,
+  "Find Count": 0,
+  "sgastat_result_cache_mb": 14.39,
+  "result_cache_mb": 14.12,
+  "bytes_per_texel": 12.42
+ }
+}

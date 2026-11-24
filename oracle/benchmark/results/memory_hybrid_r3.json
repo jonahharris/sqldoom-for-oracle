@@ -1,0 +1,27 @@
+{
+ "sql": "render_hybrid.sql",
+ "first_frame_ms": 149.8,
+ "frames": 1200,
+ "mean_ms": 20.79,
+ "max_ms": 29.96,
+ "p95_ms": 27.22,
+ "mem_start_mb": {
+  "session uga memory": 0.51,
+  "session uga memory max": 0.57,
+  "session pga memory": 1.73,
+  "session pga memory max": 2.6
+ },
+ "mem_after_first_mb": {
+  "session uga memory": 40.68,
+  "session uga memory max": 40.68,
+  "session pga memory": 42.54,
+  "session pga memory max": 42.54
+ },
+ "mem_end_mb": {
+  "session uga memory": 68.18,
+  "session uga memory max": 68.18,
+  "session pga memory": 70.04,
+  "session pga memory max": 70.04
+ },
+ "mem_info": "g_tx=1303750 g_m64=65536 g_m64y=65536 g_hex2=65536 g_cmap=16384 g_lt256=8320 g_hud=10240 g_hudfb=10240 g_zq0=53760 g_fb0=53760 zq=53760 zo=0 fb=53760 hb=10240 g_wc=9760 g_wr=13056 segs=2057 nodes=681 planespans=3816 zt_rows=3192 tx_wallfull=1/32768 tx_wallcols=110/5324/649472 wallrows=13056/2340352ch coltab=9760 tx_flats=43/176128 tx_sprites=178/445382 "
+}

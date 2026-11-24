@@ -1,0 +1,27 @@
+{
+ "sql": "render_hybrid.sql",
+ "first_frame_ms": 365.2,
+ "frames": 1200,
+ "mean_ms": 21.5,
+ "max_ms": 38.11,
+ "p95_ms": 28.03,
+ "mem_start_mb": {
+  "session uga memory": 0.51,
+  "session uga memory max": 0.57,
+  "session pga memory": 1.73,
+  "session pga memory max": 1.73
+ },
+ "mem_after_first_mb": {
+  "session uga memory": 76.18,
+  "session uga memory max": 76.18,
+  "session pga memory": 77.48,
+  "session pga memory max": 77.48
+ },
+ "mem_end_mb": {
+  "session uga memory": 90.18,
+  "session uga memory max": 92.18,
+  "session pga memory": 91.48,
+  "session pga memory max": 93.48
+ },
+ "mem_info": "g_ta:t_d=320 g_atn:t_d=320 g_yd:t_d=320 g_dy:t_d=200 g_hex:t_h=256 g_hex2:t_h4=65536 g_hexval:t_ni=256 g_cmap:t_i=16384 g_cmapk:t_i=1024 g_zl:t_i=128 g_skyv:t_i=200 g_m64:t_i=262144 g_m64y:t_i=262144 g_lt256:t_i=8320 g_hudfb:t_i=10240 g_nd_x:t_d=681 g_nd_y:t_d=681 g_nd_dx:t_d=681 g_nd_dy:t_d=681 g_nd_ids:t_i=681 g_ch:t_i=1362 g_nc_key:t_i=1362 g_nc_l:t_d=1362 g_nc_r:t_d=1362 g_nc_b:t_d=1362 g_nc_t:t_d=1362 g_sg_from:t_i=682 g_sg_cnt:t_i=682 g_sg_id:t_i=2057 g_sg_x1:t_d=2057 g_sg_y1:t_d=2057 g_sg_x2:t_d=2057 g_sg_y2:t_d=2057 g_sg_u1:t_d=2057 g_sg_u2:t_d=2057 g_sg_fsec:t_i=2057 g_sg_bsec:t_i=2057 g_sg_xoff:t_i=2057 g_sg_yoff:t_i=2057 g_sg_up:t_v=2057 g_sg_mid:t_v=2057 g_sg_lo:t_v=2057 g_sg_upc:t_i=2057 g_sg_midc:t_i=2057 g_sg_loc:t_i=2057 g_sg_pegb:t_i=2057 g_sg_pegt:t_i=2057 g_sg_lbias:t_i=2057 g_sg_scroll:t_i=2057 g_tx:t_i=1791686 g_wt_idx:t_ni=963 g_wt_name:t_v=963 g_wt_w:t_i=963 g_wt_h:t_i=963 g_wt_base:t_i=963 g_fl_idx:t_ni=240 g_fl_name:t_v=240 g_fl_base:t_i=240 g_sp_base:t_ni=178 g_sf_idx:t_ni=1035 g_sf_lump:t_v=1035 g_sf_flip:t_i=1035 g_sf_w:t_i=1035 g_sf_h:t_i=1035 g_sf_left:t_i=1035 g_sf_top:t_i=1035 g_sf_base:t_i=1035 g_hud:t_i=10240 g_up_idx:t_ni=242 g_up_w:t_i=242 g_up_left:t_i=242 g_up_top:t_i=242 g_px_from:t_ni=45 g_px_cnt:t_ni=45 g_px_dx:t_i=3350 g_px_dy:t_i=3350 g_px_pi:t_i=3350 g_am_type:t_v=4 g_am_cap:t_i=4 g_am_bcap:t_i=4 s_ok:t_i=182 s_floor:t_i=182 s_ceil:t_i=182 s_light:t_i=182 s_csky:t_i=182 s_ftex:t_v=182 s_ctex:t_v=182 s_fcode:t_i=182 s_ccode:t_i=182 s_lb:t_i=182 s_fb:t_i=182 s_cb:t_i=182 s_sf:t_i=182 s_sc:t_i=182 zmap:t_i=0 zt_vlo:t_i=19 zt_vhi:t_i=19 bt:t_i=320 bk:t_d=320 bb:t_i=320 bkb:t_d=320 zt_q:t_d=3192 zt_d:t_d=3090 zt_l:t_i=3090 zt_a:t_d=3090 zt_b:t_d=3090 zt_fast:t_i=19 o_up:t_v=0 o_mid:t_v=0 o_lo:t_v=0 zq:t_d=53760 zo:t_i=0 g_zq0:t_d=53760 g_zo0:t_i=53760 g_fb0:t_i=53760 fb:t_i=53760 hb:t_i=10240 pl_x:t_i=3816 pl_y0:t_i=3816 pl_y1:t_i=3816 pl_sky:t_i=3816 pl_s:t_i=3816 pl_tex:t_i=3816 pl_lb:t_i=3816 pl_zi:t_i=3816 pl_z:t_i=3816 pl_fb:t_i=3816 sp_xl:t_d=158 sp_xr:t_d=158 sp_yt:t_d=158 sp_yb:t_d=158 sp_sc:t_d=158 sp_w:t_i=158 sp_h:t_i=158 sp_fl:t_i=158 sp_base:t_i=158 sp_q:t_d=158 sp_s:t_i=0 sp_l:t_i=158 sp_fz:t_i=158 sp_rd:t_i=158 sp_slot:t_i=158 skyu:t_i=320 "
+}

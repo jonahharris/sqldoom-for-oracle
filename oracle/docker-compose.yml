@@ -1,0 +1,39 @@
+# Oracle AI Database 26ai Free for the SQL Doom renderer.
+# The rolling `full` tag is pinned by digest in analysis/environment.md for every
+# published benchmark; re-pin here (image: gvenzl/oracle-free@sha256:...) to reproduce.
+services:
+  oracle:
+    image: gvenzl/oracle-free:full
+    container_name: sqldoom-oracle
+    ports:
+      - "1521:1521"
+    environment:
+      ORACLE_PASSWORD: "DoomSys_26ai"
+      APP_USER: "doom"
+      APP_USER_PASSWORD: "doom"
+    # Oracle Free self-limits to 2 CPU threads and 2 GB of SGA+PGA; the container
+    # is given headroom so Docker is never the bottleneck.
+    shm_size: "2g"
+    volumes:
+      - oradata:/opt/oracle/oradata
+      - ./sql/startup:/container-entrypoint-startdb.d:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 120s
+
+  # Ground truth only: the CedarDB SQLDoom reference renderer runs here so the
+  # Oracle renderers can be compared against the original implementation.
+  cedar:
+    image: cedardb/cedardb:latest
+    container_name: sqldoom-cedar
+    profiles: ["reference"]
+    ports:
+      - "55433:5432"
+    environment:
+      CEDAR_PASSWORD: "postgres_doom_reference_pw"
+
+volumes:
+  oradata:

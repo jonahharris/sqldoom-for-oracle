@@ -1,0 +1,165 @@
+{
+ "host": {
+  "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.6"
+ },
+ "image": {
+  "id": "sha256:7e95311077d8d4a2d839883f7eb8717c0a7f04fe3d4b1cd330dde8b39aa588ab",
+  "repo_digests": [
+   "gvenzl/oracle-free@sha256:7e95311077d8d4a2d839883f7eb8717c0a7f04fe3d4b1cd330dde8b39aa588ab"
+  ],
+  "arch": "arm64",
+  "created": "2026-11-17T19:17:36.365470112Z"
+ },
+ "docker": "29.4.0 arm64",
+ "docker_ncpu_mem": "12 16807862272",
+ "v$version": [
+  {
+   "BANNER_FULL": "Oracle AI Database 26ai Free Release 23.26.4.0.0 - Develop, Learn, and Run for Free\nVersion 23.26.4.0.0"
+  }
+ ],
+ "instance": [
+  {
+   "VERSION_FULL": "23.26.4.0.0",
+   "INSTANCE_NAME": "FREE",
+   "HOST_NAME": "537e6d45705e"
+  }
+ ],
+ "platform": [
+  {
+   "PLATFORM_NAME": "Linux OS (AARCH64)"
+  }
+ ],
+ "params": [
+  {
+   "NAME": "compatible",
+   "DISPLAY_VALUE": "23.6.0"
+  },
+  {
+   "NAME": "cpu_count",
+   "DISPLAY_VALUE": "2"
+  },
+  {
+   "NAME": "cpu_min_count",
+   "DISPLAY_VALUE": "2"
+  },
+  {
+   "NAME": "db_block_size",
+   "DISPLAY_VALUE": "8192"
+  },
+  {
+   "NAME": "db_cache_size",
+   "DISPLAY_VALUE": "0"
+  },
+  {
+   "NAME": "inmemory_force",
+   "DISPLAY_VALUE": "DEFAULT"
+  },
+  {
+   "NAME": "inmemory_optimized_arithmetic",
+   "DISPLAY_VALUE": "DISABLE"
+  },
+  {
+   "NAME": "inmemory_query",
+   "DISPLAY_VALUE": "ENABLE"
+  },
+  {
+   "NAME": "inmemory_size",
+   "DISPLAY_VALUE": "0"
+  },
+  {
+   "NAME": "memory_target",
+   "DISPLAY_VALUE": "0"
+  },
+  {
+   "NAME": "optimizer_adaptive_plans",
+   "DISPLAY_VALUE": "TRUE"
+  },
+  {
+   "NAME": "optimizer_features_enable",
+   "DISPLAY_VALUE": "23.1.0"
+  },
+  {
+   "NAME": "parallel_degree_policy",
+   "DISPLAY_VALUE": "MANUAL"
+  },
+  {
+   "NAME": "parallel_max_servers",
+   "DISPLAY_VALUE": "1"
+  },
+  {
+   "NAME": "pga_aggregate_limit",
+   "DISPLAY_VALUE": "2G"
+  },
+  {
+   "NAME": "pga_aggregate_target",
+   "DISPLAY_VALUE": "512M"
+  },
+  {
+   "NAME": "resource_manager_plan",
+   "DISPLAY_VALUE": null
+  },
+  {
+   "NAME": "result_cache_mode",
+   "DISPLAY_VALUE": "MANUAL"
+  },
+  {
+   "NAME": "sga_max_size",
+   "DISPLAY_VALUE": "1536M"
+  },
+  {
+   "NAME": "sga_target",
+   "DISPLAY_VALUE": "0"
+  },
+  {
+   "NAME": "shared_pool_size",
+   "DISPLAY_VALUE": "0"
+  },
+  {
+   "NAME": "sql_transpiler",
+   "DISPLAY_VALUE": "OFF"
+  },
+  {
+   "NAME": "statistics_level",
+   "DISPLAY_VALUE": "TYPICAL"
+  }
+ ],
+ "options": [
+  {
+   "PARAMETER": "Advanced Compression",
+   "VALUE": "TRUE"
+  },
+  {
+   "PARAMETER": "In-Memory Column Store",
+   "VALUE": "TRUE"
+  },
+  {
+   "PARAMETER": "Parallel execution",
+   "VALUE": "FALSE"
+  },
+  {
+   "PARAMETER": "Partitioning",
+   "VALUE": "TRUE"
+  },
+  {
+   "PARAMETER": "Real Application Clusters",
+   "VALUE": "FALSE"
+  }
+ ],
+ "im_area": [],
+ "os_cpu": [
+  {
+   "STAT_NAME": "NUM_CPUS",
+   "VALUE": 12
+  },
+  {
+   "STAT_NAME": "NUM_CPU_CORES",
+   "VALUE": 12
+  },
+  {
+   "STAT_NAME": "PHYSICAL_MEMORY_BYTES",
+   "VALUE": 16807862272
+  }
+ ]
+}

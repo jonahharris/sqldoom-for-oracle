@@ -1,0 +1,9789 @@
+{
+ "renderer": "render_optimized.sql",
+ "encoding": "packed",
+ "frames": 1080,
+ "warmup_frames": 120,
+ "warmup_s": 21.261,
+ "first_frame_ms": 2322.736,
+ "end_to_end": {
+  "n": 1080,
+  "mean": 131.266,
+  "p50": 140.728,
+  "p95": 190.937,
+  "p99": 202.743,
+  "min": 52.437,
+  "max": 523.894,
+  "sustained_fps": 7.618
+ },
+ "execute_fetch": {
+  "n": 1080,
+  "mean": 128.213,
+  "p50": 137.579,
+  "p95": 187.843,
+  "p99": 199.686,
+  "min": 49.427,
+  "max": 520.769
+ },
+ "execute": {
+  "n": 1080,
+  "mean": 123.184,
+  "p50": 132.637,
+  "p95": 182.375,
+  "p99": 194.438,
+  "min": 44.971,
+  "max": 515.437
+ },
+ "fetch": {
+  "n": 1080,
+  "mean": 5.029,
+  "p50": 5.013,
+  "p95": 5.591,
+  "p99": 5.897,
+  "min": 4.256,
+  "max": 6.897
+ },
+ "decode": {
+  "n": 1080,
+  "mean": 2.507,
+  "p50": 2.504,
+  "p95": 2.556,
+  "p99": 2.621,
+  "min": 2.39,
+  "max": 2.976
+ },
+ "v$sql": {
+  "sql_id": "3fqybv5u6hwjg",
+  "child_cursors": 1,
+  "executions": 1080,
+  "parse_calls": 0,
+  "hard_parses(loads)": 0,
+  "db_elapsed_ms_per_exec": 123.203,
+  "db_cpu_ms_per_exec": 121.967,
+  "buffer_gets_per_exec": 12407.2,
+  "rows_per_exec": 4400.0
+ },
+ "database_only_fps": 8.12,
+ "end_to_end_fps": 7.62,
+ "per_frame": [
+  {
+   "tic": 121,
+   "e2e_ms": 72.737,
+   "exec_ms": 64.964,
+   "fetch_ms": 4.741,
+   "decode_ms": 2.464,
+   "total_ms": 72.169,
+   "rows": 4400
+  },
+  {
+   "tic": 122,
+   "e2e_ms": 73.255,
+   "exec_ms": 65.525,
+   "fetch_ms": 4.641,
+   "decode_ms": 2.517,
+   "total_ms": 72.683,
+   "rows": 4400
+  },
+  {
+   "tic": 123,
+   "e2e_ms": 73.902,
+   "exec_ms": 65.79,
+   "fetch_ms": 5.074,
+   "decode_ms": 2.489,
+   "total_ms": 73.354,
+   "rows": 4400
+  },
+  {
+   "tic": 124,
+   "e2e_ms": 71.93,
+   "exec_ms": 63.723,
+   "fetch_ms": 5.199,
+   "decode_ms": 2.469,
+   "total_ms": 71.391,
+   "rows": 4400
+  },
+  {
+   "tic": 125,
+   "e2e_ms": 70.254,
+   "exec_ms": 62.104,
+   "fetch_ms": 5.123,
+   "decode_ms": 2.488,
+   "total_ms": 69.716,
+   "rows": 4400
+  },
+  {
+   "tic": 126,
+   "e2e_ms": 70.672,
+   "exec_ms": 62.687,
+   "fetch_ms": 4.889,
+   "decode_ms": 2.518,
+   "total_ms": 70.094,
+   "rows": 4400
+  },
+  {
+   "tic": 127,
+   "e2e_ms": 97.974,
+   "exec_ms": 88.902,
+   "fetch_ms": 5.988,
+   "decode_ms": 2.514,
+   "total_ms": 97.404,
+   "rows": 4400
+  },
+  {
+   "tic": 128,
+   "e2e_ms": 76.844,
+   "exec_ms": 68.377,
+   "fetch_ms": 5.47,
+   "decode_ms": 2.458,
+   "total_ms": 76.305,
+   "rows": 4400
+  },
+  {
+   "tic": 129,
+   "e2e_ms": 75.445,
+   "exec_ms": 67.062,
+   "fetch_ms": 5.355,
+   "decode_ms": 2.477,
+   "total_ms": 74.894,
+   "rows": 4400
+  },
+  {
+   "tic": 130,
+   "e2e_ms": 75.836,
+   "exec_ms": 67.76,
+   "fetch_ms": 5.039,
+   "decode_ms": 2.476,
+   "total_ms": 75.275,
+   "rows": 4400
+  },
+  {
+   "tic": 131,
+   "e2e_ms": 73.617,
+   "exec_ms": 65.602,
+   "fetch_ms": 4.997,
+   "decode_ms": 2.475,
+   "total_ms": 73.074,
+   "rows": 4400
+  },
+  {
+   "tic": 132,
+   "e2e_ms": 72.914,
+   "exec_ms": 65.174,
+   "fetch_ms": 4.651,
+   "decode_ms": 2.525,
+   "total_ms": 72.35,
+   "rows": 4400
+  },
+  {
+   "tic": 133,
+   "e2e_ms": 75.014,
+   "exec_ms": 67.088,
+   "fetch_ms": 4.887,
+   "decode_ms": 2.484,
+   "total_ms": 74.459,
+   "rows": 4400
+  },
+  {
+   "tic": 134,
+   "e2e_ms": 76.468,
+   "exec_ms": 67.856,
+   "fetch_ms": 5.571,
+   "decode_ms": 2.48,
+   "total_ms": 75.907,
+   "rows": 4400
+  },
+  {
+   "tic": 135,
+   "e2e_ms": 75.603,
+   "exec_ms": 67.079,
+   "fetch_ms": 5.404,
+   "decode_ms": 2.552,
+   "total_ms": 75.035,
+   "rows": 4400
+  },
+  {
+   "tic": 136,
+   "e2e_ms": 77.924,
+   "exec_ms": 67.104,
+   "fetch_ms": 6.897,
+   "decode_ms": 2.929,
+   "total_ms": 76.93,
+   "rows": 4400
+  },
+  {
+   "tic": 137,
+   "e2e_ms": 73.095,
+   "exec_ms": 65.007,
+   "fetch_ms": 5.021,
+   "decode_ms": 2.483,
+   "total_ms": 72.511,
+   "rows": 4400
+  },
+  {
+   "tic": 138,
+   "e2e_ms": 67.668,
+   "exec_ms": 59.906,
+   "fetch_ms": 4.75,
+   "decode_ms": 2.47,
+   "total_ms": 67.127,
+   "rows": 4400
+  },
+  {
+   "tic": 139,
+   "e2e_ms": 71.045,
+   "exec_ms": 63.137,
+   "fetch_ms": 4.916,
+   "decode_ms": 2.455,
+   "total_ms": 70.508,
+   "rows": 4400
+  },
+  {
+   "tic": 140,
+   "e2e_ms": 66.627,
+   "exec_ms": 58.561,
+   "fetch_ms": 5.042,
+   "decode_ms": 2.481,
+   "total_ms": 66.084,
+   "rows": 4400
+  },
+  {
+   "tic": 141,
+   "e2e_ms": 66.106,
+   "exec_ms": 58.196,
+   "fetch_ms": 4.887,
+   "decode_ms": 2.481,
+   "total_ms": 65.564,
+   "rows": 4400
+  },
+  {
+   "tic": 142,
+   "e2e_ms": 64.793,
+   "exec_ms": 57.102,
+   "fetch_ms": 4.685,
+   "decode_ms": 2.467,
+   "total_ms": 64.254,
+   "rows": 4400
+  },
+  {
+   "tic": 143,
+   "e2e_ms": 68.549,
+   "exec_ms": 60.582,
+   "fetch_ms": 4.914,
+   "decode_ms": 2.512,
+   "total_ms": 68.008,
+   "rows": 4400
+  },
+  {
+   "tic": 144,
+   "e2e_ms": 78.753,
+   "exec_ms": 70.89,
+   "fetch_ms": 4.828,
+   "decode_ms": 2.481,
+   "total_ms": 78.198,
+   "rows": 4400
+  },
+  {
+   "tic": 145,
+   "e2e_ms": 96.399,
+   "exec_ms": 88.238,
+   "fetch_ms": 5.117,
+   "decode_ms": 2.503,
+   "total_ms": 95.858,
+   "rows": 4400
+  },
+  {
+   "tic": 146,
+   "e2e_ms": 107.003,
+   "exec_ms": 99.55,
+   "fetch_ms": 4.41,
+   "decode_ms": 2.499,
+   "total_ms": 106.459,
+   "rows": 4400
+  },
+  {
+   "tic": 147,
+   "e2e_ms": 114.701,
+   "exec_ms": 106.664,
+   "fetch_ms": 4.983,
+   "decode_ms": 2.51,
+   "total_ms": 114.157,
+   "rows": 4400
+  },
+  {
+   "tic": 148,
+   "e2e_ms": 124.922,
+   "exec_ms": 116.937,
+   "fetch_ms": 4.98,
+   "decode_ms": 2.462,
+   "total_ms": 124.38,
+   "rows": 4400
+  },
+  {
+   "tic": 149,
+   "e2e_ms": 137.174,
+   "exec_ms": 128.541,
+   "fetch_ms": 5.593,
+   "decode_ms": 2.491,
+   "total_ms": 136.625,
+   "rows": 4400
+  },
+  {
+   "tic": 150,
+   "e2e_ms": 144.832,
+   "exec_ms": 136.938,
+   "fetch_ms": 4.873,
+   "decode_ms": 2.475,
+   "total_ms": 144.286,
+   "rows": 4400
+  },
+  {
+   "tic": 151,
+   "e2e_ms": 154.737,
+   "exec_ms": 146.019,
+   "fetch_ms": 5.652,
+   "decode_ms": 2.515,
+   "total_ms": 154.185,
+   "rows": 4400
+  },
+  {
+   "tic": 152,
+   "e2e_ms": 165.252,
+   "exec_ms": 157.026,
+   "fetch_ms": 5.17,
+   "decode_ms": 2.499,
+   "total_ms": 164.695,
+   "rows": 4400
+  },
+  {
+   "tic": 153,
+   "e2e_ms": 187.92,
+   "exec_ms": 179.079,
+   "fetch_ms": 5.779,
+   "decode_ms": 2.513,
+   "total_ms": 187.371,
+   "rows": 4400
+  },
+  {
+   "tic": 154,
+   "e2e_ms": 172.555,
+   "exec_ms": 163.352,
+   "fetch_ms": 6.167,
+   "decode_ms": 2.469,
+   "total_ms": 171.987,
+   "rows": 4400
+  },
+  {
+   "tic": 155,
+   "e2e_ms": 172.392,
+   "exec_ms": 163.655,
+   "fetch_ms": 5.635,
+   "decode_ms": 2.532,
+   "total_ms": 171.823,
+   "rows": 4400
+  },
+  {
+   "tic": 156,
+   "e2e_ms": 172.854,
+   "exec_ms": 163.874,
+   "fetch_ms": 5.897,
+   "decode_ms": 2.539,
+   "total_ms": 172.311,
+   "rows": 4400
+  },
+  {
+   "tic": 157,
+   "e2e_ms": 176.856,
+   "exec_ms": 168.072,
+   "fetch_ms": 5.726,
+   "decode_ms": 2.517,
+   "total_ms": 176.316,
+   "rows": 4400
+  },
+  {
+   "tic": 158,
+   "e2e_ms": 173.866,
+   "exec_ms": 165.485,
+   "fetch_ms": 5.347,
+   "decode_ms": 2.495,
+   "total_ms": 173.327,
+   "rows": 4400
+  },
+  {
+   "tic": 159,
+   "e2e_ms": 174.769,
+   "exec_ms": 165.714,
+   "fetch_ms": 5.969,
+   "decode_ms": 2.543,
+   "total_ms": 174.226,
+   "rows": 4400
+  },
+  {
+   "tic": 160,
+   "e2e_ms": 175.207,
+   "exec_ms": 166.559,
+   "fetch_ms": 5.591,
+   "decode_ms": 2.515,
+   "total_ms": 174.665,
+   "rows": 4400
+  },
+  {
+   "tic": 161,
+   "e2e_ms": 174.895,
+   "exec_ms": 166.358,
+   "fetch_ms": 5.452,
+   "decode_ms": 2.539,
+   "total_ms": 174.349,
+   "rows": 4400
+  },
+  {
+   "tic": 162,
+   "e2e_ms": 173.31,
+   "exec_ms": 164.872,
+   "fetch_ms": 5.389,
+   "decode_ms": 2.507,
+   "total_ms": 172.769,
+   "rows": 4400
+  },
+  {
+   "tic": 163,
+   "e2e_ms": 165.518,
+   "exec_ms": 157.164,
+   "fetch_ms": 5.245,
+   "decode_ms": 2.541,
+   "total_ms": 164.95,
+   "rows": 4400
+  },
+  {
+   "tic": 164,
+   "e2e_ms": 158.714,
+   "exec_ms": 150.146,
+   "fetch_ms": 5.527,
+   "decode_ms": 2.497,
+   "total_ms": 158.17,
+   "rows": 4400
+  },
+  {
+   "tic": 165,
+   "e2e_ms": 156.96,
+   "exec_ms": 148.964,
+   "fetch_ms": 4.96,
+   "decode_ms": 2.497,
+   "total_ms": 156.421,
+   "rows": 4400
+  },
+  {
+   "tic": 166,
+   "e2e_ms": 153.527,
+   "exec_ms": 144.92,
+   "fetch_ms": 5.567,
+   "decode_ms": 2.499,
+   "total_ms": 152.987,
+   "rows": 4400
+  },
+  {
+   "tic": 167,
+   "e2e_ms": 151.954,
+   "exec_ms": 143.835,
+   "fetch_ms": 5.07,
+   "decode_ms": 2.505,
+   "total_ms": 151.41,
+   "rows": 4400
+  },
+  {
+   "tic": 168,
+   "e2e_ms": 144.109,
+   "exec_ms": 135.874,
+   "fetch_ms": 5.138,
+   "decode_ms": 2.556,
+   "total_ms": 143.568,
+   "rows": 4400
+  },
+  {
+   "tic": 169,
+   "e2e_ms": 142.669,
+   "exec_ms": 134.753,
+   "fetch_ms": 4.868,
+   "decode_ms": 2.495,
+   "total_ms": 142.115,
+   "rows": 4400
+  },
+  {
+   "tic": 170,
+   "e2e_ms": 142.241,
+   "exec_ms": 133.567,
+   "fetch_ms": 5.571,
+   "decode_ms": 2.555,
+   "total_ms": 141.693,
+   "rows": 4400
+  },
+  {
+   "tic": 171,
+   "e2e_ms": 140.224,
+   "exec_ms": 132.048,
+   "fetch_ms": 5.129,
+   "decode_ms": 2.501,
+   "total_ms": 139.678,
+   "rows": 4400
+  },
+  {
+   "tic": 172,
+   "e2e_ms": 135.948,
+   "exec_ms": 127.756,
+   "fetch_ms": 5.139,
+   "decode_ms": 2.496,
+   "total_ms": 135.392,
+   "rows": 4400
+  },
+  {
+   "tic": 173,
+   "e2e_ms": 135.097,
+   "exec_ms": 126.295,
+   "fetch_ms": 5.766,
+   "decode_ms": 2.49,
+   "total_ms": 134.55,
+   "rows": 4400
+  },
+  {
+   "tic": 174,
+   "e2e_ms": 132.983,
+   "exec_ms": 124.538,
+   "fetch_ms": 5.432,
+   "decode_ms": 2.473,
+   "total_ms": 132.442,
+   "rows": 4400
+  },
+  {
+   "tic": 175,
+   "e2e_ms": 127.872,
+   "exec_ms": 119.823,
+   "fetch_ms": 5.012,
+   "decode_ms": 2.497,
+   "total_ms": 127.332,
+   "rows": 4400
+  },
+  {
+   "tic": 176,
+   "e2e_ms": 128.272,
+   "exec_ms": 119.659,
+   "fetch_ms": 5.591,
+   "decode_ms": 2.482,
+   "total_ms": 127.732,
+   "rows": 4400
+  },
+  {
+   "tic": 177,
+   "e2e_ms": 127.009,
+   "exec_ms": 118.644,
+   "fetch_ms": 5.332,
+   "decode_ms": 2.496,
+   "total_ms": 126.471,
+   "rows": 4400
+  },
+  {
+   "tic": 178,
+   "e2e_ms": 131.118,
+   "exec_ms": 123.006,
+   "fetch_ms": 5.067,
+   "decode_ms": 2.499,
+   "total_ms": 130.572,
+   "rows": 4400
+  },
+  {
+   "tic": 179,
+   "e2e_ms": 139.176,
+   "exec_ms": 131.027,
+   "fetch_ms": 5.106,
+   "decode_ms": 2.497,
+   "total_ms": 138.63,
+   "rows": 4400
+  },
+  {
+   "tic": 180,
+   "e2e_ms": 145.187,
+   "exec_ms": 137.169,
+   "fetch_ms": 4.988,
+   "decode_ms": 2.481,
+   "total_ms": 144.637,
+   "rows": 4400
+  },
+  {
+   "tic": 181,
+   "e2e_ms": 147.354,
+   "exec_ms": 138.962,
+   "fetch_ms": 5.363,
+   "decode_ms": 2.482,
+   "total_ms": 146.807,
+   "rows": 4400
+  },
+  {
+   "tic": 182,
+   "e2e_ms": 140.437,
+   "exec_ms": 132.225,
+   "fetch_ms": 5.187,
+   "decode_ms": 2.48,
+   "total_ms": 139.893,
+   "rows": 4400
+  },
+  {
+   "tic": 183,
+   "e2e_ms": 140.728,
+   "exec_ms": 132.296,
+   "fetch_ms": 5.283,
+   "decode_ms": 2.584,
+   "total_ms": 140.163,
+   "rows": 4400
+  },
+  {
+   "tic": 184,
+   "e2e_ms": 144.415,
+   "exec_ms": 136.421,
+   "fetch_ms": 4.944,
+   "decode_ms": 2.506,
+   "total_ms": 143.871,
+   "rows": 4400
+  },
+  {
+   "tic": 185,
+   "e2e_ms": 144.931,
+   "exec_ms": 136.365,
+   "fetch_ms": 5.53,
+   "decode_ms": 2.492,
+   "total_ms": 144.386,
+   "rows": 4400
+  },
+  {
+   "tic": 186,
+   "e2e_ms": 146.647,
+   "exec_ms": 138.735,
+   "fetch_ms": 4.856,
+   "decode_ms": 2.512,
+   "total_ms": 146.103,
+   "rows": 4400
+  },
+  {
+   "tic": 187,
+   "e2e_ms": 146.158,
+   "exec_ms": 138.128,
+   "fetch_ms": 4.946,
+   "decode_ms": 2.543,
+   "total_ms": 145.616,
+   "rows": 4400
+  },
+  {
+   "tic": 188,
+   "e2e_ms": 151.179,
+   "exec_ms": 142.945,
+   "fetch_ms": 5.184,
+   "decode_ms": 2.504,
+   "total_ms": 150.633,
+   "rows": 4400
+  },
+  {
+   "tic": 189,
+   "e2e_ms": 147.172,
+   "exec_ms": 139.105,
+   "fetch_ms": 5.021,
+   "decode_ms": 2.501,
+   "total_ms": 146.627,
+   "rows": 4400
+  },
+  {
+   "tic": 190,
+   "e2e_ms": 142.488,
+   "exec_ms": 134.2,
+   "fetch_ms": 5.248,
+   "decode_ms": 2.499,
+   "total_ms": 141.947,
+   "rows": 4400
+  },
+  {
+   "tic": 191,
+   "e2e_ms": 138.829,
+   "exec_ms": 130.685,
+   "fetch_ms": 5.096,
+   "decode_ms": 2.508,
+   "total_ms": 138.289,
+   "rows": 4400
+  },
+  {
+   "tic": 192,
+   "e2e_ms": 138.619,
+   "exec_ms": 130.323,
+   "fetch_ms": 5.25,
+   "decode_ms": 2.495,
+   "total_ms": 138.068,
+   "rows": 4400
+  },
+  {
+   "tic": 193,
+   "e2e_ms": 137.209,
+   "exec_ms": 129.019,
+   "fetch_ms": 5.123,
+   "decode_ms": 2.524,
+   "total_ms": 136.665,
+   "rows": 4400
+  },
+  {
+   "tic": 194,
+   "e2e_ms": 140.179,
+   "exec_ms": 132.13,
+   "fetch_ms": 5.019,
+   "decode_ms": 2.492,
+   "total_ms": 139.64,
+   "rows": 4400
+  },
+  {
+   "tic": 195,
+   "e2e_ms": 147.192,
+   "exec_ms": 138.713,
+   "fetch_ms": 5.422,
+   "decode_ms": 2.51,
+   "total_ms": 146.645,
+   "rows": 4400
+  },
+  {
+   "tic": 196,
+   "e2e_ms": 153.22,
+   "exec_ms": 145.472,
+   "fetch_ms": 4.716,
+   "decode_ms": 2.493,
+   "total_ms": 152.682,
+   "rows": 4400
+  },
+  {
+   "tic": 197,
+   "e2e_ms": 151.365,
+   "exec_ms": 143.123,
+   "fetch_ms": 5.187,
+   "decode_ms": 2.51,
+   "total_ms": 150.82,
+   "rows": 4400
+  },
+  {
+   "tic": 198,
+   "e2e_ms": 147.379,
+   "exec_ms": 138.967,
+   "fetch_ms": 5.371,
+   "decode_ms": 2.501,
+   "total_ms": 146.839,
+   "rows": 4400
+  },
+  {
+   "tic": 199,
+   "e2e_ms": 143.993,
+   "exec_ms": 135.925,
+   "fetch_ms": 5.025,
+   "decode_ms": 2.506,
+   "total_ms": 143.456,
+   "rows": 4400
+  },
+  {
+   "tic": 200,
+   "e2e_ms": 141.553,
+   "exec_ms": 133.363,
+   "fetch_ms": 5.138,
+   "decode_ms": 2.509,
+   "total_ms": 141.01,
+   "rows": 4400
+  },
+  {
+   "tic": 201,
+   "e2e_ms": 139.957,
+   "exec_ms": 131.423,
+   "fetch_ms": 5.486,
+   "decode_ms": 2.508,
+   "total_ms": 139.417,
+   "rows": 4400
+  },
+  {
+   "tic": 202,
+   "e2e_ms": 141.637,
+   "exec_ms": 133.737,
+   "fetch_ms": 4.852,
+   "decode_ms": 2.505,
+   "total_ms": 141.094,
+   "rows": 4400
+  },
+  {
+   "tic": 203,
+   "e2e_ms": 139.419,
+   "exec_ms": 130.914,
+   "fetch_ms": 5.457,
+   "decode_ms": 2.507,
+   "total_ms": 138.878,
+   "rows": 4400
+  },
+  {
+   "tic": 204,
+   "e2e_ms": 139.357,
+   "exec_ms": 130.761,
+   "fetch_ms": 5.53,
+   "decode_ms": 2.515,
+   "total_ms": 138.806,
+   "rows": 4400
+  },
+  {
+   "tic": 205,
+   "e2e_ms": 139.106,
+   "exec_ms": 131.102,
+   "fetch_ms": 4.949,
+   "decode_ms": 2.501,
+   "total_ms": 138.553,
+   "rows": 4400
+  },
+  {
+   "tic": 206,
+   "e2e_ms": 139.354,
+   "exec_ms": 131.235,
+   "fetch_ms": 5.064,
+   "decode_ms": 2.506,
+   "total_ms": 138.805,
+   "rows": 4400
+  },
+  {
+   "tic": 207,
+   "e2e_ms": 140.374,
+   "exec_ms": 131.804,
+   "fetch_ms": 5.491,
+   "decode_ms": 2.527,
+   "total_ms": 139.822,
+   "rows": 4400
+  },
+  {
+   "tic": 208,
+   "e2e_ms": 140.763,
+   "exec_ms": 132.524,
+   "fetch_ms": 5.154,
+   "decode_ms": 2.542,
+   "total_ms": 140.22,
+   "rows": 4400
+  },
+  {
+   "tic": 209,
+   "e2e_ms": 145.682,
+   "exec_ms": 137.552,
+   "fetch_ms": 5.031,
+   "decode_ms": 2.519,
+   "total_ms": 145.102,
+   "rows": 4400
+  },
+  {
+   "tic": 210,
+   "e2e_ms": 141.336,
+   "exec_ms": 132.637,
+   "fetch_ms": 5.652,
+   "decode_ms": 2.509,
+   "total_ms": 140.797,
+   "rows": 4400
+  },
+  {
+   "tic": 211,
+   "e2e_ms": 141.745,
+   "exec_ms": 133.577,
+   "fetch_ms": 5.117,
+   "decode_ms": 2.507,
+   "total_ms": 141.202,
+   "rows": 4400
+  },
+  {
+   "tic": 212,
+   "e2e_ms": 137.373,
+   "exec_ms": 128.772,
+   "fetch_ms": 5.567,
+   "decode_ms": 2.49,
+   "total_ms": 136.829,
+   "rows": 4400
+  },
+  {
+   "tic": 213,
+   "e2e_ms": 133.673,
+   "exec_ms": 125.373,
+   "fetch_ms": 5.253,
+   "decode_ms": 2.506,
+   "total_ms": 133.132,
+   "rows": 4400
+  },
+  {
+   "tic": 214,
+   "e2e_ms": 131.918,
+   "exec_ms": 123.713,
+   "fetch_ms": 5.18,
+   "decode_ms": 2.483,
+   "total_ms": 131.376,
+   "rows": 4400
+  },
+  {
+   "tic": 215,
+   "e2e_ms": 130.013,
+   "exec_ms": 122.129,
+   "fetch_ms": 4.821,
+   "decode_ms": 2.518,
+   "total_ms": 129.468,
+   "rows": 4400
+  },
+  {
+   "tic": 216,
+   "e2e_ms": 130.732,
+   "exec_ms": 122.404,
+   "fetch_ms": 5.285,
+   "decode_ms": 2.499,
+   "total_ms": 130.187,
+   "rows": 4400
+  },
+  {
+   "tic": 217,
+   "e2e_ms": 132.674,
+   "exec_ms": 124.716,
+   "fetch_ms": 4.923,
+   "decode_ms": 2.494,
+   "total_ms": 132.133,
+   "rows": 4400
+  },
+  {
+   "tic": 218,
+   "e2e_ms": 135.784,
+   "exec_ms": 127.467,
+   "fetch_ms": 5.254,
+   "decode_ms": 2.519,
+   "total_ms": 135.241,
+   "rows": 4400
+  },
+  {
+   "tic": 219,
+   "e2e_ms": 145.43,
+   "exec_ms": 137.025,
+   "fetch_ms": 5.255,
+   "decode_ms": 2.533,
+   "total_ms": 144.813,
+   "rows": 4400
+  },
+  {
+   "tic": 220,
+   "e2e_ms": 143.231,
+   "exec_ms": 135.101,
+   "fetch_ms": 5.055,
+   "decode_ms": 2.531,
+   "total_ms": 142.686,
+   "rows": 4400
+  },
+  {
+   "tic": 221,
+   "e2e_ms": 144.33,
+   "exec_ms": 136.181,
+   "fetch_ms": 5.106,
+   "decode_ms": 2.504,
+   "total_ms": 143.791,
+   "rows": 4400
+  },
+  {
+   "tic": 222,
+   "e2e_ms": 143.942,
+   "exec_ms": 135.455,
+   "fetch_ms": 5.453,
+   "decode_ms": 2.49,
+   "total_ms": 143.398,
+   "rows": 4400
+  },
+  {
+   "tic": 223,
+   "e2e_ms": 144.245,
+   "exec_ms": 136.15,
+   "fetch_ms": 5.038,
+   "decode_ms": 2.517,
+   "total_ms": 143.705,
+   "rows": 4400
+  },
+  {
+   "tic": 224,
+   "e2e_ms": 143.428,
+   "exec_ms": 135.082,
+   "fetch_ms": 5.305,
+   "decode_ms": 2.499,
+   "total_ms": 142.886,
+   "rows": 4400
+  },
+  {
+   "tic": 225,
+   "e2e_ms": 142.731,
+   "exec_ms": 135.054,
+   "fetch_ms": 4.631,
+   "decode_ms": 2.506,
+   "total_ms": 142.191,
+   "rows": 4400
+  },
+  {
+   "tic": 226,
+   "e2e_ms": 146.322,
+   "exec_ms": 137.765,
+   "fetch_ms": 5.474,
+   "decode_ms": 2.535,
+   "total_ms": 145.774,
+   "rows": 4400
+  },
+  {
+   "tic": 227,
+   "e2e_ms": 148.3,
+   "exec_ms": 139.921,
+   "fetch_ms": 5.32,
+   "decode_ms": 2.514,
+   "total_ms": 147.755,
+   "rows": 4400
+  },
+  {
+   "tic": 228,
+   "e2e_ms": 147.291,
+   "exec_ms": 139.072,
+   "fetch_ms": 5.295,
+   "decode_ms": 2.392,
+   "total_ms": 146.759,
+   "rows": 4400
+  },
+  {
+   "tic": 229,
+   "e2e_ms": 148.322,
+   "exec_ms": 140.081,
+   "fetch_ms": 5.158,
+   "decode_ms": 2.525,
+   "total_ms": 147.764,
+   "rows": 4400
+  },
+  {
+   "tic": 230,
+   "e2e_ms": 152.592,
+   "exec_ms": 143.91,
+   "fetch_ms": 5.602,
+   "decode_ms": 2.519,
+   "total_ms": 152.031,
+   "rows": 4400
+  },
+  {
+   "tic": 231,
+   "e2e_ms": 159.901,
+   "exec_ms": 151.52,
+   "fetch_ms": 5.331,
+   "decode_ms": 2.506,
+   "total_ms": 159.357,
+   "rows": 4400
+  },
+  {
+   "tic": 232,
+   "e2e_ms": 139.535,
+   "exec_ms": 131.428,
+   "fetch_ms": 5.026,
+   "decode_ms": 2.534,
+   "total_ms": 138.988,
+   "rows": 4400
+  },
+  {
+   "tic": 233,
+   "e2e_ms": 134.252,
+   "exec_ms": 126.04,
+   "fetch_ms": 5.16,
+   "decode_ms": 2.504,
+   "total_ms": 133.704,
+   "rows": 4400
+  },
+  {
+   "tic": 234,
+   "e2e_ms": 132.56,
+   "exec_ms": 124.135,
+   "fetch_ms": 5.378,
+   "decode_ms": 2.509,
+   "total_ms": 132.023,
+   "rows": 4400
+  },
+  {
+   "tic": 235,
+   "e2e_ms": 135.657,
+   "exec_ms": 127.512,
+   "fetch_ms": 5.094,
+   "decode_ms": 2.509,
+   "total_ms": 135.116,
+   "rows": 4400
+  },
+  {
+   "tic": 236,
+   "e2e_ms": 132.958,
+   "exec_ms": 125.067,
+   "fetch_ms": 4.862,
+   "decode_ms": 2.489,
+   "total_ms": 132.419,
+   "rows": 4400
+  },
+  {
+   "tic": 237,
+   "e2e_ms": 135.503,
+   "exec_ms": 127.203,
+   "fetch_ms": 5.249,
+   "decode_ms": 2.503,
+   "total_ms": 134.954,
+   "rows": 4400
+  },
+  {
+   "tic": 238,
+   "e2e_ms": 136.24,
+   "exec_ms": 127.813,
+   "fetch_ms": 5.313,
+   "decode_ms": 2.553,
+   "total_ms": 135.678,
+   "rows": 4400
+  },
+  {
+   "tic": 239,
+   "e2e_ms": 134.076,
+   "exec_ms": 125.973,
+   "fetch_ms": 5.055,
+   "decode_ms": 2.507,
+   "total_ms": 133.535,
+   "rows": 4400
+  },
+  {
+   "tic": 240,
+   "e2e_ms": 135.783,
+   "exec_ms": 127.102,
+   "fetch_ms": 5.618,
+   "decode_ms": 2.519,
+   "total_ms": 135.238,
+   "rows": 4400
+  },
+  {
+   "tic": 241,
+   "e2e_ms": 136.635,
+   "exec_ms": 128.286,
+   "fetch_ms": 5.298,
+   "decode_ms": 2.511,
+   "total_ms": 136.096,
+   "rows": 4400
+  },
+  {
+   "tic": 242,
+   "e2e_ms": 138.995,
+   "exec_ms": 130.621,
+   "fetch_ms": 5.329,
+   "decode_ms": 2.5,
+   "total_ms": 138.451,
+   "rows": 4400
+  },
+  {
+   "tic": 243,
+   "e2e_ms": 142.415,
+   "exec_ms": 133.813,
+   "fetch_ms": 5.405,
+   "decode_ms": 2.636,
+   "total_ms": 141.854,
+   "rows": 4400
+  },
+  {
+   "tic": 244,
+   "e2e_ms": 149.838,
+   "exec_ms": 141.856,
+   "fetch_ms": 4.943,
+   "decode_ms": 2.508,
+   "total_ms": 149.307,
+   "rows": 4400
+  },
+  {
+   "tic": 245,
+   "e2e_ms": 148.481,
+   "exec_ms": 140.21,
+   "fetch_ms": 5.231,
+   "decode_ms": 2.494,
+   "total_ms": 147.935,
+   "rows": 4400
+  },
+  {
+   "tic": 246,
+   "e2e_ms": 152.134,
+   "exec_ms": 143.808,
+   "fetch_ms": 5.26,
+   "decode_ms": 2.523,
+   "total_ms": 151.59,
+   "rows": 4400
+  },
+  {
+   "tic": 247,
+   "e2e_ms": 150.961,
+   "exec_ms": 142.544,
+   "fetch_ms": 5.346,
+   "decode_ms": 2.53,
+   "total_ms": 150.42,
+   "rows": 4400
+  },
+  {
+   "tic": 248,
+   "e2e_ms": 149.455,
+   "exec_ms": 140.588,
+   "fetch_ms": 5.833,
+   "decode_ms": 2.496,
+   "total_ms": 148.917,
+   "rows": 4400
+  },
+  {
+   "tic": 249,
+   "e2e_ms": 150.426,
+   "exec_ms": 142.207,
+   "fetch_ms": 5.296,
+   "decode_ms": 2.39,
+   "total_ms": 149.893,
+   "rows": 4400
+  },
+  {
+   "tic": 250,
+   "e2e_ms": 146.794,
+   "exec_ms": 138.183,
+   "fetch_ms": 5.56,
+   "decode_ms": 2.486,
+   "total_ms": 146.229,
+   "rows": 4400
+  },
+  {
+   "tic": 251,
+   "e2e_ms": 144.548,
+   "exec_ms": 136.192,
+   "fetch_ms": 5.312,
+   "decode_ms": 2.503,
+   "total_ms": 144.006,
+   "rows": 4400
+  },
+  {
+   "tic": 252,
+   "e2e_ms": 142.573,
+   "exec_ms": 134.25,
+   "fetch_ms": 5.288,
+   "decode_ms": 2.489,
+   "total_ms": 142.028,
+   "rows": 4400
+  },
+  {
+   "tic": 253,
+   "e2e_ms": 148.082,
+   "exec_ms": 139.619,
+   "fetch_ms": 5.408,
+   "decode_ms": 2.515,
+   "total_ms": 147.542,
+   "rows": 4400
+  },
+  {
+   "tic": 254,
+   "e2e_ms": 143.802,
+   "exec_ms": 135.598,
+   "fetch_ms": 5.157,
+   "decode_ms": 2.504,
+   "total_ms": 143.259,
+   "rows": 4400
+  },
+  {
+   "tic": 255,
+   "e2e_ms": 142.118,
+   "exec_ms": 134.045,
+   "fetch_ms": 5.003,
+   "decode_ms": 2.534,
+   "total_ms": 141.582,
+   "rows": 4400
+  },
+  {
+   "tic": 256,
+   "e2e_ms": 143.351,
+   "exec_ms": 134.777,
+   "fetch_ms": 5.544,
+   "decode_ms": 2.488,
+   "total_ms": 142.81,
+   "rows": 4400
+  },
+  {
+   "tic": 257,
+   "e2e_ms": 143.517,
+   "exec_ms": 135.743,
+   "fetch_ms": 4.732,
+   "decode_ms": 2.506,
+   "total_ms": 142.98,
+   "rows": 4400
+  },
+  {
+   "tic": 258,
+   "e2e_ms": 154.916,
+   "exec_ms": 146.234,
+   "fetch_ms": 5.546,
+   "decode_ms": 2.569,
+   "total_ms": 154.348,
+   "rows": 4400
+  },
+  {
+   "tic": 259,
+   "e2e_ms": 151.731,
+   "exec_ms": 143.522,
+   "fetch_ms": 5.153,
+   "decode_ms": 2.508,
+   "total_ms": 151.184,
+   "rows": 4400
+  },
+  {
+   "tic": 260,
+   "e2e_ms": 147.801,
+   "exec_ms": 139.784,
+   "fetch_ms": 5.004,
+   "decode_ms": 2.479,
+   "total_ms": 147.267,
+   "rows": 4400
+  },
+  {
+   "tic": 261,
+   "e2e_ms": 147.549,
+   "exec_ms": 139.545,
+   "fetch_ms": 4.971,
+   "decode_ms": 2.492,
+   "total_ms": 147.008,
+   "rows": 4400
+  },
+  {
+   "tic": 262,
+   "e2e_ms": 145.442,
+   "exec_ms": 137.501,
+   "fetch_ms": 4.918,
+   "decode_ms": 2.483,
+   "total_ms": 144.902,
+   "rows": 4400
+  },
+  {
+   "tic": 263,
+   "e2e_ms": 146.921,
+   "exec_ms": 138.953,
+   "fetch_ms": 4.876,
+   "decode_ms": 2.549,
+   "total_ms": 146.378,
+   "rows": 4400
+  },
+  {
+   "tic": 264,
+   "e2e_ms": 153.213,
+   "exec_ms": 145.151,
+   "fetch_ms": 5.019,
+   "decode_ms": 2.497,
+   "total_ms": 152.668,
+   "rows": 4400
+  },
+  {
+   "tic": 265,
+   "e2e_ms": 154.687,
+   "exec_ms": 146.193,
+   "fetch_ms": 5.455,
+   "decode_ms": 2.494,
+   "total_ms": 154.142,
+   "rows": 4400
+  },
+  {
+   "tic": 266,
+   "e2e_ms": 151.571,
+   "exec_ms": 143.605,
+   "fetch_ms": 4.921,
+   "decode_ms": 2.492,
+   "total_ms": 151.018,
+   "rows": 4400
+  },
+  {
+   "tic": 267,
+   "e2e_ms": 153.01,
+   "exec_ms": 144.898,
+   "fetch_ms": 5.067,
+   "decode_ms": 2.504,
+   "total_ms": 152.469,
+   "rows": 4400
+  },
+  {
+   "tic": 268,
+   "e2e_ms": 153.667,
+   "exec_ms": 145.613,
+   "fetch_ms": 5.027,
+   "decode_ms": 2.484,
+   "total_ms": 153.123,
+   "rows": 4400
+  },
+  {
+   "tic": 269,
+   "e2e_ms": 151.801,
+   "exec_ms": 143.735,
+   "fetch_ms": 4.987,
+   "decode_ms": 2.529,
+   "total_ms": 151.252,
+   "rows": 4400
+  },
+  {
+   "tic": 270,
+   "e2e_ms": 149.996,
+   "exec_ms": 142.079,
+   "fetch_ms": 4.897,
+   "decode_ms": 2.48,
+   "total_ms": 149.456,
+   "rows": 4400
+  },
+  {
+   "tic": 271,
+   "e2e_ms": 147.894,
+   "exec_ms": 139.73,
+   "fetch_ms": 5.121,
+   "decode_ms": 2.5,
+   "total_ms": 147.352,
+   "rows": 4400
+  },
+  {
+   "tic": 272,
+   "e2e_ms": 146.747,
+   "exec_ms": 138.679,
+   "fetch_ms": 5.047,
+   "decode_ms": 2.481,
+   "total_ms": 146.207,
+   "rows": 4400
+  },
+  {
+   "tic": 273,
+   "e2e_ms": 142.064,
+   "exec_ms": 133.918,
+   "fetch_ms": 5.132,
+   "decode_ms": 2.481,
+   "total_ms": 141.531,
+   "rows": 4400
+  },
+  {
+   "tic": 274,
+   "e2e_ms": 141.921,
+   "exec_ms": 133.903,
+   "fetch_ms": 4.958,
+   "decode_ms": 2.514,
+   "total_ms": 141.376,
+   "rows": 4400
+  },
+  {
+   "tic": 275,
+   "e2e_ms": 140.225,
+   "exec_ms": 132.124,
+   "fetch_ms": 5.068,
+   "decode_ms": 2.494,
+   "total_ms": 139.686,
+   "rows": 4400
+  },
+  {
+   "tic": 276,
+   "e2e_ms": 140.452,
+   "exec_ms": 132.309,
+   "fetch_ms": 5.101,
+   "decode_ms": 2.496,
+   "total_ms": 139.906,
+   "rows": 4400
+  },
+  {
+   "tic": 277,
+   "e2e_ms": 139.57,
+   "exec_ms": 131.453,
+   "fetch_ms": 5.075,
+   "decode_ms": 2.501,
+   "total_ms": 139.029,
+   "rows": 4400
+  },
+  {
+   "tic": 278,
+   "e2e_ms": 141.173,
+   "exec_ms": 132.819,
+   "fetch_ms": 5.197,
+   "decode_ms": 2.561,
+   "total_ms": 140.577,
+   "rows": 4400
+  },
+  {
+   "tic": 279,
+   "e2e_ms": 138.474,
+   "exec_ms": 129.859,
+   "fetch_ms": 5.531,
+   "decode_ms": 2.527,
+   "total_ms": 137.917,
+   "rows": 4400
+  },
+  {
+   "tic": 280,
+   "e2e_ms": 139.938,
+   "exec_ms": 131.392,
+   "fetch_ms": 5.504,
+   "decode_ms": 2.493,
+   "total_ms": 139.388,
+   "rows": 4400
+  },
+  {
+   "tic": 281,
+   "e2e_ms": 137.998,
+   "exec_ms": 129.52,
+   "fetch_ms": 5.374,
+   "decode_ms": 2.542,
+   "total_ms": 137.436,
+   "rows": 4400
+  },
+  {
+   "tic": 282,
+   "e2e_ms": 132.668,
+   "exec_ms": 124.407,
+   "fetch_ms": 5.225,
+   "decode_ms": 2.488,
+   "total_ms": 132.12,
+   "rows": 4400
+  },
+  {
+   "tic": 283,
+   "e2e_ms": 131.035,
+   "exec_ms": 122.836,
+   "fetch_ms": 5.164,
+   "decode_ms": 2.496,
+   "total_ms": 130.496,
+   "rows": 4400
+  },
+  {
+   "tic": 284,
+   "e2e_ms": 137.684,
+   "exec_ms": 129.578,
+   "fetch_ms": 5.073,
+   "decode_ms": 2.485,
+   "total_ms": 137.135,
+   "rows": 4400
+  },
+  {
+   "tic": 285,
+   "e2e_ms": 138.251,
+   "exec_ms": 130.78,
+   "fetch_ms": 4.405,
+   "decode_ms": 2.514,
+   "total_ms": 137.699,
+   "rows": 4400
+  },
+  {
+   "tic": 286,
+   "e2e_ms": 133.163,
+   "exec_ms": 125.015,
+   "fetch_ms": 5.067,
+   "decode_ms": 2.54,
+   "total_ms": 132.622,
+   "rows": 4400
+  },
+  {
+   "tic": 287,
+   "e2e_ms": 131.596,
+   "exec_ms": 123.4,
+   "fetch_ms": 5.16,
+   "decode_ms": 2.497,
+   "total_ms": 131.057,
+   "rows": 4400
+  },
+  {
+   "tic": 288,
+   "e2e_ms": 129.762,
+   "exec_ms": 121.941,
+   "fetch_ms": 4.798,
+   "decode_ms": 2.488,
+   "total_ms": 129.226,
+   "rows": 4400
+  },
+  {
+   "tic": 289,
+   "e2e_ms": 132.466,
+   "exec_ms": 123.908,
+   "fetch_ms": 5.509,
+   "decode_ms": 2.494,
+   "total_ms": 131.911,
+   "rows": 4400
+  },
+  {
+   "tic": 290,
+   "e2e_ms": 130.466,
+   "exec_ms": 122.473,
+   "fetch_ms": 4.96,
+   "decode_ms": 2.492,
+   "total_ms": 129.925,
+   "rows": 4400
+  },
+  {
+   "tic": 291,
+   "e2e_ms": 128.133,
+   "exec_ms": 120.173,
+   "fetch_ms": 4.929,
+   "decode_ms": 2.485,
+   "total_ms": 127.587,
+   "rows": 4400
+  },
+  {
+   "tic": 292,
+   "e2e_ms": 128.291,
+   "exec_ms": 120.107,
+   "fetch_ms": 5.168,
+   "decode_ms": 2.474,
+   "total_ms": 127.75,
+   "rows": 4400
+  },
+  {
+   "tic": 293,
+   "e2e_ms": 122.666,
+   "exec_ms": 114.862,
+   "fetch_ms": 4.767,
+   "decode_ms": 2.5,
+   "total_ms": 122.129,
+   "rows": 4400
+  },
+  {
+   "tic": 294,
+   "e2e_ms": 122.25,
+   "exec_ms": 114.051,
+   "fetch_ms": 5.159,
+   "decode_ms": 2.498,
+   "total_ms": 121.708,
+   "rows": 4400
+  },
+  {
+   "tic": 295,
+   "e2e_ms": 121.541,
+   "exec_ms": 113.393,
+   "fetch_ms": 5.01,
+   "decode_ms": 2.576,
+   "total_ms": 120.98,
+   "rows": 4400
+  },
+  {
+   "tic": 296,
+   "e2e_ms": 115.21,
+   "exec_ms": 107.244,
+   "fetch_ms": 4.945,
+   "decode_ms": 2.481,
+   "total_ms": 114.671,
+   "rows": 4400
+  },
+  {
+   "tic": 297,
+   "e2e_ms": 124.395,
+   "exec_ms": 116.264,
+   "fetch_ms": 5.079,
+   "decode_ms": 2.502,
+   "total_ms": 123.845,
+   "rows": 4400
+  },
+  {
+   "tic": 298,
+   "e2e_ms": 130.549,
+   "exec_ms": 122.695,
+   "fetch_ms": 4.817,
+   "decode_ms": 2.496,
+   "total_ms": 130.007,
+   "rows": 4400
+  },
+  {
+   "tic": 299,
+   "e2e_ms": 134.944,
+   "exec_ms": 127.097,
+   "fetch_ms": 4.755,
+   "decode_ms": 2.555,
+   "total_ms": 134.407,
+   "rows": 4400
+  },
+  {
+   "tic": 300,
+   "e2e_ms": 134.131,
+   "exec_ms": 126.099,
+   "fetch_ms": 5.003,
+   "decode_ms": 2.488,
+   "total_ms": 133.59,
+   "rows": 4400
+  },
+  {
+   "tic": 301,
+   "e2e_ms": 133.83,
+   "exec_ms": 125.604,
+   "fetch_ms": 5.165,
+   "decode_ms": 2.518,
+   "total_ms": 133.288,
+   "rows": 4400
+  },
+  {
+   "tic": 302,
+   "e2e_ms": 134.615,
+   "exec_ms": 126.607,
+   "fetch_ms": 4.969,
+   "decode_ms": 2.5,
+   "total_ms": 134.076,
+   "rows": 4400
+  },
+  {
+   "tic": 303,
+   "e2e_ms": 134.632,
+   "exec_ms": 126.377,
+   "fetch_ms": 5.195,
+   "decode_ms": 2.522,
+   "total_ms": 134.094,
+   "rows": 4400
+  },
+  {
+   "tic": 304,
+   "e2e_ms": 136.405,
+   "exec_ms": 128.226,
+   "fetch_ms": 5.172,
+   "decode_ms": 2.468,
+   "total_ms": 135.866,
+   "rows": 4400
+  },
+  {
+   "tic": 305,
+   "e2e_ms": 137.859,
+   "exec_ms": 129.617,
+   "fetch_ms": 5.197,
+   "decode_ms": 2.504,
+   "total_ms": 137.318,
+   "rows": 4400
+  },
+  {
+   "tic": 306,
+   "e2e_ms": 138.188,
+   "exec_ms": 130.044,
+   "fetch_ms": 5.094,
+   "decode_ms": 2.503,
+   "total_ms": 137.641,
+   "rows": 4400
+  },
+  {
+   "tic": 307,
+   "e2e_ms": 142.451,
+   "exec_ms": 134.299,
+   "fetch_ms": 5.091,
+   "decode_ms": 2.515,
+   "total_ms": 141.904,
+   "rows": 4400
+  },
+  {
+   "tic": 308,
+   "e2e_ms": 140.356,
+   "exec_ms": 132.317,
+   "fetch_ms": 4.972,
+   "decode_ms": 2.51,
+   "total_ms": 139.798,
+   "rows": 4400
+  },
+  {
+   "tic": 309,
+   "e2e_ms": 139.543,
+   "exec_ms": 131.682,
+   "fetch_ms": 4.861,
+   "decode_ms": 2.464,
+   "total_ms": 139.008,
+   "rows": 4400
+  },
+  {
+   "tic": 310,
+   "e2e_ms": 137.81,
+   "exec_ms": 129.975,
+   "fetch_ms": 4.78,
+   "decode_ms": 2.503,
+   "total_ms": 137.258,
+   "rows": 4400
+  },
+  {
+   "tic": 311,
+   "e2e_ms": 135.133,
+   "exec_ms": 126.871,
+   "fetch_ms": 5.213,
+   "decode_ms": 2.505,
+   "total_ms": 134.589,
+   "rows": 4400
+  },
+  {
+   "tic": 312,
+   "e2e_ms": 133.175,
+   "exec_ms": 125.09,
+   "fetch_ms": 5.063,
+   "decode_ms": 2.483,
+   "total_ms": 132.635,
+   "rows": 4400
+  },
+  {
+   "tic": 313,
+   "e2e_ms": 132.245,
+   "exec_ms": 124.368,
+   "fetch_ms": 4.842,
+   "decode_ms": 2.495,
+   "total_ms": 131.705,
+   "rows": 4400
+  },
+  {
+   "tic": 314,
+   "e2e_ms": 134.32,
+   "exec_ms": 126.201,
+   "fetch_ms": 5.063,
+   "decode_ms": 2.509,
+   "total_ms": 133.773,
+   "rows": 4400
+  },
+  {
+   "tic": 315,
+   "e2e_ms": 135.664,
+   "exec_ms": 127.508,
+   "fetch_ms": 5.139,
+   "decode_ms": 2.482,
+   "total_ms": 135.129,
+   "rows": 4400
+  },
+  {
+   "tic": 316,
+   "e2e_ms": 131.714,
+   "exec_ms": 123.454,
+   "fetch_ms": 5.231,
+   "decode_ms": 2.486,
+   "total_ms": 131.172,
+   "rows": 4400
+  },
+  {
+   "tic": 317,
+   "e2e_ms": 129.049,
+   "exec_ms": 121.139,
+   "fetch_ms": 4.965,
+   "decode_ms": 2.41,
+   "total_ms": 128.514,
+   "rows": 4400
+  },
+  {
+   "tic": 318,
+   "e2e_ms": 128.887,
+   "exec_ms": 120.279,
+   "fetch_ms": 5.494,
+   "decode_ms": 2.563,
+   "total_ms": 128.336,
+   "rows": 4400
+  },
+  {
+   "tic": 319,
+   "e2e_ms": 130.433,
+   "exec_ms": 122.625,
+   "fetch_ms": 4.734,
+   "decode_ms": 2.521,
+   "total_ms": 129.88,
+   "rows": 4400
+  },
+  {
+   "tic": 320,
+   "e2e_ms": 129.774,
+   "exec_ms": 121.663,
+   "fetch_ms": 5.075,
+   "decode_ms": 2.488,
+   "total_ms": 129.226,
+   "rows": 4400
+  },
+  {
+   "tic": 321,
+   "e2e_ms": 129.662,
+   "exec_ms": 121.594,
+   "fetch_ms": 5.017,
+   "decode_ms": 2.503,
+   "total_ms": 129.114,
+   "rows": 4400
+  },
+  {
+   "tic": 322,
+   "e2e_ms": 123.992,
+   "exec_ms": 116.144,
+   "fetch_ms": 4.801,
+   "decode_ms": 2.507,
+   "total_ms": 123.452,
+   "rows": 4400
+  },
+  {
+   "tic": 323,
+   "e2e_ms": 124.841,
+   "exec_ms": 117.362,
+   "fetch_ms": 4.308,
+   "decode_ms": 2.588,
+   "total_ms": 124.258,
+   "rows": 4400
+  },
+  {
+   "tic": 324,
+   "e2e_ms": 126.144,
+   "exec_ms": 117.74,
+   "fetch_ms": 5.342,
+   "decode_ms": 2.515,
+   "total_ms": 125.597,
+   "rows": 4400
+  },
+  {
+   "tic": 325,
+   "e2e_ms": 118.711,
+   "exec_ms": 110.466,
+   "fetch_ms": 5.165,
+   "decode_ms": 2.536,
+   "total_ms": 118.166,
+   "rows": 4400
+  },
+  {
+   "tic": 326,
+   "e2e_ms": 113.96,
+   "exec_ms": 105.955,
+   "fetch_ms": 4.968,
+   "decode_ms": 2.496,
+   "total_ms": 113.418,
+   "rows": 4400
+  },
+  {
+   "tic": 327,
+   "e2e_ms": 114.278,
+   "exec_ms": 106.248,
+   "fetch_ms": 4.983,
+   "decode_ms": 2.504,
+   "total_ms": 113.735,
+   "rows": 4400
+  },
+  {
+   "tic": 328,
+   "e2e_ms": 112.19,
+   "exec_ms": 103.94,
+   "fetch_ms": 5.138,
+   "decode_ms": 2.548,
+   "total_ms": 111.626,
+   "rows": 4400
+  },
+  {
+   "tic": 329,
+   "e2e_ms": 110.968,
+   "exec_ms": 102.919,
+   "fetch_ms": 4.997,
+   "decode_ms": 2.505,
+   "total_ms": 110.421,
+   "rows": 4400
+  },
+  {
+   "tic": 330,
+   "e2e_ms": 105.745,
+   "exec_ms": 97.877,
+   "fetch_ms": 4.841,
+   "decode_ms": 2.483,
+   "total_ms": 105.201,
+   "rows": 4400
+  },
+  {
+   "tic": 331,
+   "e2e_ms": 105.343,
+   "exec_ms": 97.168,
+   "fetch_ms": 5.154,
+   "decode_ms": 2.488,
+   "total_ms": 104.81,
+   "rows": 4400
+  },
+  {
+   "tic": 332,
+   "e2e_ms": 104.153,
+   "exec_ms": 96.373,
+   "fetch_ms": 4.762,
+   "decode_ms": 2.477,
+   "total_ms": 103.613,
+   "rows": 4400
+  },
+  {
+   "tic": 333,
+   "e2e_ms": 102.83,
+   "exec_ms": 94.948,
+   "fetch_ms": 4.926,
+   "decode_ms": 2.418,
+   "total_ms": 102.292,
+   "rows": 4400
+  },
+  {
+   "tic": 334,
+   "e2e_ms": 107.722,
+   "exec_ms": 99.656,
+   "fetch_ms": 5.019,
+   "decode_ms": 2.498,
+   "total_ms": 107.173,
+   "rows": 4400
+  },
+  {
+   "tic": 335,
+   "e2e_ms": 101.536,
+   "exec_ms": 93.265,
+   "fetch_ms": 5.209,
+   "decode_ms": 2.518,
+   "total_ms": 100.992,
+   "rows": 4400
+  },
+  {
+   "tic": 336,
+   "e2e_ms": 100.254,
+   "exec_ms": 91.857,
+   "fetch_ms": 5.342,
+   "decode_ms": 2.499,
+   "total_ms": 99.699,
+   "rows": 4400
+  },
+  {
+   "tic": 337,
+   "e2e_ms": 104.388,
+   "exec_ms": 96.245,
+   "fetch_ms": 5.111,
+   "decode_ms": 2.49,
+   "total_ms": 103.846,
+   "rows": 4400
+  },
+  {
+   "tic": 338,
+   "e2e_ms": 101.634,
+   "exec_ms": 93.483,
+   "fetch_ms": 5.159,
+   "decode_ms": 2.46,
+   "total_ms": 101.102,
+   "rows": 4400
+  },
+  {
+   "tic": 339,
+   "e2e_ms": 99.62,
+   "exec_ms": 91.475,
+   "fetch_ms": 5.115,
+   "decode_ms": 2.497,
+   "total_ms": 99.088,
+   "rows": 4400
+  },
+  {
+   "tic": 340,
+   "e2e_ms": 98.627,
+   "exec_ms": 90.395,
+   "fetch_ms": 5.207,
+   "decode_ms": 2.481,
+   "total_ms": 98.083,
+   "rows": 4400
+  },
+  {
+   "tic": 341,
+   "e2e_ms": 97.857,
+   "exec_ms": 89.793,
+   "fetch_ms": 5.035,
+   "decode_ms": 2.476,
+   "total_ms": 97.304,
+   "rows": 4400
+  },
+  {
+   "tic": 342,
+   "e2e_ms": 97.383,
+   "exec_ms": 89.308,
+   "fetch_ms": 5.072,
+   "decode_ms": 2.467,
+   "total_ms": 96.846,
+   "rows": 4400
+  },
+  {
+   "tic": 343,
+   "e2e_ms": 93.041,
+   "exec_ms": 84.92,
+   "fetch_ms": 5.088,
+   "decode_ms": 2.496,
+   "total_ms": 92.505,
+   "rows": 4400
+  },
+  {
+   "tic": 344,
+   "e2e_ms": 90.661,
+   "exec_ms": 82.333,
+   "fetch_ms": 5.293,
+   "decode_ms": 2.484,
+   "total_ms": 90.111,
+   "rows": 4400
+  },
+  {
+   "tic": 345,
+   "e2e_ms": 85.735,
+   "exec_ms": 77.845,
+   "fetch_ms": 4.861,
+   "decode_ms": 2.485,
+   "total_ms": 85.191,
+   "rows": 4400
+  },
+  {
+   "tic": 346,
+   "e2e_ms": 84.584,
+   "exec_ms": 76.527,
+   "fetch_ms": 5.039,
+   "decode_ms": 2.48,
+   "total_ms": 84.045,
+   "rows": 4400
+  },
+  {
+   "tic": 347,
+   "e2e_ms": 82.834,
+   "exec_ms": 74.745,
+   "fetch_ms": 5.034,
+   "decode_ms": 2.513,
+   "total_ms": 82.292,
+   "rows": 4400
+  },
+  {
+   "tic": 348,
+   "e2e_ms": 81.846,
+   "exec_ms": 73.998,
+   "fetch_ms": 4.836,
+   "decode_ms": 2.474,
+   "total_ms": 81.309,
+   "rows": 4400
+  },
+  {
+   "tic": 349,
+   "e2e_ms": 81.014,
+   "exec_ms": 73.077,
+   "fetch_ms": 4.915,
+   "decode_ms": 2.479,
+   "total_ms": 80.471,
+   "rows": 4400
+  },
+  {
+   "tic": 350,
+   "e2e_ms": 77.154,
+   "exec_ms": 69.285,
+   "fetch_ms": 4.845,
+   "decode_ms": 2.482,
+   "total_ms": 76.612,
+   "rows": 4400
+  },
+  {
+   "tic": 351,
+   "e2e_ms": 81.325,
+   "exec_ms": 73.296,
+   "fetch_ms": 5.041,
+   "decode_ms": 2.453,
+   "total_ms": 80.789,
+   "rows": 4400
+  },
+  {
+   "tic": 352,
+   "e2e_ms": 78.424,
+   "exec_ms": 70.466,
+   "fetch_ms": 4.979,
+   "decode_ms": 2.445,
+   "total_ms": 77.89,
+   "rows": 4400
+  },
+  {
+   "tic": 353,
+   "e2e_ms": 140.785,
+   "exec_ms": 132.888,
+   "fetch_ms": 4.843,
+   "decode_ms": 2.507,
+   "total_ms": 140.239,
+   "rows": 4400
+  },
+  {
+   "tic": 354,
+   "e2e_ms": 135.62,
+   "exec_ms": 127.436,
+   "fetch_ms": 5.137,
+   "decode_ms": 2.508,
+   "total_ms": 135.081,
+   "rows": 4400
+  },
+  {
+   "tic": 355,
+   "e2e_ms": 131.362,
+   "exec_ms": 123.413,
+   "fetch_ms": 4.899,
+   "decode_ms": 2.507,
+   "total_ms": 130.82,
+   "rows": 4400
+  },
+  {
+   "tic": 356,
+   "e2e_ms": 131.612,
+   "exec_ms": 123.637,
+   "fetch_ms": 4.91,
+   "decode_ms": 2.519,
+   "total_ms": 131.066,
+   "rows": 4400
+  },
+  {
+   "tic": 357,
+   "e2e_ms": 131.101,
+   "exec_ms": 122.921,
+   "fetch_ms": 5.132,
+   "decode_ms": 2.502,
+   "total_ms": 130.556,
+   "rows": 4400
+  },
+  {
+   "tic": 358,
+   "e2e_ms": 126.228,
+   "exec_ms": 118.138,
+   "fetch_ms": 5.053,
+   "decode_ms": 2.481,
+   "total_ms": 125.672,
+   "rows": 4400
+  },
+  {
+   "tic": 359,
+   "e2e_ms": 124.12,
+   "exec_ms": 116.399,
+   "fetch_ms": 4.659,
+   "decode_ms": 2.513,
+   "total_ms": 123.571,
+   "rows": 4400
+  },
+  {
+   "tic": 360,
+   "e2e_ms": 124.934,
+   "exec_ms": 117.263,
+   "fetch_ms": 4.633,
+   "decode_ms": 2.497,
+   "total_ms": 124.392,
+   "rows": 4400
+  },
+  {
+   "tic": 361,
+   "e2e_ms": 125.717,
+   "exec_ms": 117.985,
+   "fetch_ms": 4.668,
+   "decode_ms": 2.52,
+   "total_ms": 125.172,
+   "rows": 4400
+  },
+  {
+   "tic": 362,
+   "e2e_ms": 129.084,
+   "exec_ms": 121.08,
+   "fetch_ms": 4.941,
+   "decode_ms": 2.513,
+   "total_ms": 128.534,
+   "rows": 4400
+  },
+  {
+   "tic": 363,
+   "e2e_ms": 134.31,
+   "exec_ms": 126.475,
+   "fetch_ms": 4.784,
+   "decode_ms": 2.504,
+   "total_ms": 133.764,
+   "rows": 4400
+  },
+  {
+   "tic": 364,
+   "e2e_ms": 138.169,
+   "exec_ms": 130.295,
+   "fetch_ms": 4.815,
+   "decode_ms": 2.508,
+   "total_ms": 137.618,
+   "rows": 4400
+  },
+  {
+   "tic": 365,
+   "e2e_ms": 141.016,
+   "exec_ms": 133.363,
+   "fetch_ms": 4.608,
+   "decode_ms": 2.497,
+   "total_ms": 140.468,
+   "rows": 4400
+  },
+  {
+   "tic": 366,
+   "e2e_ms": 144.388,
+   "exec_ms": 136.41,
+   "fetch_ms": 4.934,
+   "decode_ms": 2.494,
+   "total_ms": 143.838,
+   "rows": 4400
+  },
+  {
+   "tic": 367,
+   "e2e_ms": 142.447,
+   "exec_ms": 134.346,
+   "fetch_ms": 5.042,
+   "decode_ms": 2.51,
+   "total_ms": 141.897,
+   "rows": 4400
+  },
+  {
+   "tic": 368,
+   "e2e_ms": 140.528,
+   "exec_ms": 132.831,
+   "fetch_ms": 4.645,
+   "decode_ms": 2.5,
+   "total_ms": 139.975,
+   "rows": 4400
+  },
+  {
+   "tic": 369,
+   "e2e_ms": 137.216,
+   "exec_ms": 129.454,
+   "fetch_ms": 4.712,
+   "decode_ms": 2.505,
+   "total_ms": 136.671,
+   "rows": 4400
+  },
+  {
+   "tic": 370,
+   "e2e_ms": 132.812,
+   "exec_ms": 124.966,
+   "fetch_ms": 4.8,
+   "decode_ms": 2.503,
+   "total_ms": 132.268,
+   "rows": 4400
+  },
+  {
+   "tic": 371,
+   "e2e_ms": 128.752,
+   "exec_ms": 120.679,
+   "fetch_ms": 5.007,
+   "decode_ms": 2.526,
+   "total_ms": 128.212,
+   "rows": 4400
+  },
+  {
+   "tic": 372,
+   "e2e_ms": 130.286,
+   "exec_ms": 121.738,
+   "fetch_ms": 5.404,
+   "decode_ms": 2.583,
+   "total_ms": 129.725,
+   "rows": 4400
+  },
+  {
+   "tic": 373,
+   "e2e_ms": 143.57,
+   "exec_ms": 135.296,
+   "fetch_ms": 5.154,
+   "decode_ms": 2.571,
+   "total_ms": 143.02,
+   "rows": 4400
+  },
+  {
+   "tic": 374,
+   "e2e_ms": 159.227,
+   "exec_ms": 151.169,
+   "fetch_ms": 4.977,
+   "decode_ms": 2.527,
+   "total_ms": 158.673,
+   "rows": 4400
+  },
+  {
+   "tic": 375,
+   "e2e_ms": 163.676,
+   "exec_ms": 155.168,
+   "fetch_ms": 5.46,
+   "decode_ms": 2.509,
+   "total_ms": 163.137,
+   "rows": 4400
+  },
+  {
+   "tic": 376,
+   "e2e_ms": 164.239,
+   "exec_ms": 155.974,
+   "fetch_ms": 5.172,
+   "decode_ms": 2.546,
+   "total_ms": 163.692,
+   "rows": 4400
+  },
+  {
+   "tic": 377,
+   "e2e_ms": 161.589,
+   "exec_ms": 153.361,
+   "fetch_ms": 5.172,
+   "decode_ms": 2.516,
+   "total_ms": 161.049,
+   "rows": 4400
+  },
+  {
+   "tic": 378,
+   "e2e_ms": 167.375,
+   "exec_ms": 158.701,
+   "fetch_ms": 5.577,
+   "decode_ms": 2.556,
+   "total_ms": 166.833,
+   "rows": 4400
+  },
+  {
+   "tic": 379,
+   "e2e_ms": 159.99,
+   "exec_ms": 151.233,
+   "fetch_ms": 5.725,
+   "decode_ms": 2.472,
+   "total_ms": 159.43,
+   "rows": 4400
+  },
+  {
+   "tic": 380,
+   "e2e_ms": 157.693,
+   "exec_ms": 149.124,
+   "fetch_ms": 5.493,
+   "decode_ms": 2.526,
+   "total_ms": 157.142,
+   "rows": 4400
+  },
+  {
+   "tic": 381,
+   "e2e_ms": 151.73,
+   "exec_ms": 143.215,
+   "fetch_ms": 5.456,
+   "decode_ms": 2.513,
+   "total_ms": 151.184,
+   "rows": 4400
+  },
+  {
+   "tic": 382,
+   "e2e_ms": 152.003,
+   "exec_ms": 143.74,
+   "fetch_ms": 5.208,
+   "decode_ms": 2.509,
+   "total_ms": 151.458,
+   "rows": 4400
+  },
+  {
+   "tic": 383,
+   "e2e_ms": 146.619,
+   "exec_ms": 137.989,
+   "fetch_ms": 5.536,
+   "decode_ms": 2.536,
+   "total_ms": 146.061,
+   "rows": 4400
+  },
+  {
+   "tic": 384,
+   "e2e_ms": 141.474,
+   "exec_ms": 133.527,
+   "fetch_ms": 4.887,
+   "decode_ms": 2.511,
+   "total_ms": 140.925,
+   "rows": 4400
+  },
+  {
+   "tic": 385,
+   "e2e_ms": 139.191,
+   "exec_ms": 131.114,
+   "fetch_ms": 5.005,
+   "decode_ms": 2.523,
+   "total_ms": 138.642,
+   "rows": 4400
+  },
+  {
+   "tic": 386,
+   "e2e_ms": 130.837,
+   "exec_ms": 122.555,
+   "fetch_ms": 5.226,
+   "decode_ms": 2.51,
+   "total_ms": 130.29,
+   "rows": 4400
+  },
+  {
+   "tic": 387,
+   "e2e_ms": 128.85,
+   "exec_ms": 120.074,
+   "fetch_ms": 5.713,
+   "decode_ms": 2.518,
+   "total_ms": 128.305,
+   "rows": 4400
+  },
+  {
+   "tic": 388,
+   "e2e_ms": 128.645,
+   "exec_ms": 120.636,
+   "fetch_ms": 4.971,
+   "decode_ms": 2.494,
+   "total_ms": 128.101,
+   "rows": 4400
+  },
+  {
+   "tic": 389,
+   "e2e_ms": 127.079,
+   "exec_ms": 119.189,
+   "fetch_ms": 4.83,
+   "decode_ms": 2.516,
+   "total_ms": 126.535,
+   "rows": 4400
+  },
+  {
+   "tic": 390,
+   "e2e_ms": 130.598,
+   "exec_ms": 122.241,
+   "fetch_ms": 5.307,
+   "decode_ms": 2.506,
+   "total_ms": 130.054,
+   "rows": 4400
+  },
+  {
+   "tic": 391,
+   "e2e_ms": 127.994,
+   "exec_ms": 119.989,
+   "fetch_ms": 4.942,
+   "decode_ms": 2.517,
+   "total_ms": 127.448,
+   "rows": 4400
+  },
+  {
+   "tic": 392,
+   "e2e_ms": 129.254,
+   "exec_ms": 121.166,
+   "fetch_ms": 5.016,
+   "decode_ms": 2.527,
+   "total_ms": 128.708,
+   "rows": 4400
+  },
+  {
+   "tic": 393,
+   "e2e_ms": 126.815,
+   "exec_ms": 118.616,
+   "fetch_ms": 5.146,
+   "decode_ms": 2.51,
+   "total_ms": 126.273,
+   "rows": 4400
+  },
+  {
+   "tic": 394,
+   "e2e_ms": 149.564,
+   "exec_ms": 141.207,
+   "fetch_ms": 5.297,
+   "decode_ms": 2.516,
+   "total_ms": 149.02,
+   "rows": 4400
+  },
+  {
+   "tic": 395,
+   "e2e_ms": 164.623,
+   "exec_ms": 156.512,
+   "fetch_ms": 5.059,
+   "decode_ms": 2.511,
+   "total_ms": 164.082,
+   "rows": 4400
+  },
+  {
+   "tic": 396,
+   "e2e_ms": 168.61,
+   "exec_ms": 160.21,
+   "fetch_ms": 5.365,
+   "decode_ms": 2.492,
+   "total_ms": 168.067,
+   "rows": 4400
+  },
+  {
+   "tic": 397,
+   "e2e_ms": 168.932,
+   "exec_ms": 160.58,
+   "fetch_ms": 5.32,
+   "decode_ms": 2.486,
+   "total_ms": 168.386,
+   "rows": 4400
+  },
+  {
+   "tic": 398,
+   "e2e_ms": 169.616,
+   "exec_ms": 161.122,
+   "fetch_ms": 5.461,
+   "decode_ms": 2.486,
+   "total_ms": 169.069,
+   "rows": 4400
+  },
+  {
+   "tic": 399,
+   "e2e_ms": 171.627,
+   "exec_ms": 162.696,
+   "fetch_ms": 5.878,
+   "decode_ms": 2.512,
+   "total_ms": 171.085,
+   "rows": 4400
+  },
+  {
+   "tic": 400,
+   "e2e_ms": 162.611,
+   "exec_ms": 154.211,
+   "fetch_ms": 5.346,
+   "decode_ms": 2.501,
+   "total_ms": 162.058,
+   "rows": 4400
+  },
+  {
+   "tic": 401,
+   "e2e_ms": 152.018,
+   "exec_ms": 143.751,
+   "fetch_ms": 5.241,
+   "decode_ms": 2.487,
+   "total_ms": 151.479,
+   "rows": 4400
+  },
+  {
+   "tic": 402,
+   "e2e_ms": 143.737,
+   "exec_ms": 136.012,
+   "fetch_ms": 4.71,
+   "decode_ms": 2.475,
+   "total_ms": 143.197,
+   "rows": 4400
+  },
+  {
+   "tic": 403,
+   "e2e_ms": 136.742,
+   "exec_ms": 128.693,
+   "fetch_ms": 4.977,
+   "decode_ms": 2.52,
+   "total_ms": 136.19,
+   "rows": 4400
+  },
+  {
+   "tic": 404,
+   "e2e_ms": 138.463,
+   "exec_ms": 130.308,
+   "fetch_ms": 5.129,
+   "decode_ms": 2.486,
+   "total_ms": 137.924,
+   "rows": 4400
+  },
+  {
+   "tic": 405,
+   "e2e_ms": 135.881,
+   "exec_ms": 128.026,
+   "fetch_ms": 4.793,
+   "decode_ms": 2.52,
+   "total_ms": 135.339,
+   "rows": 4400
+  },
+  {
+   "tic": 406,
+   "e2e_ms": 132.457,
+   "exec_ms": 124.43,
+   "fetch_ms": 5.012,
+   "decode_ms": 2.475,
+   "total_ms": 131.917,
+   "rows": 4400
+  },
+  {
+   "tic": 407,
+   "e2e_ms": 130.995,
+   "exec_ms": 123.24,
+   "fetch_ms": 4.73,
+   "decode_ms": 2.479,
+   "total_ms": 130.449,
+   "rows": 4400
+  },
+  {
+   "tic": 408,
+   "e2e_ms": 130.44,
+   "exec_ms": 122.319,
+   "fetch_ms": 5.096,
+   "decode_ms": 2.479,
+   "total_ms": 129.895,
+   "rows": 4400
+  },
+  {
+   "tic": 409,
+   "e2e_ms": 131.385,
+   "exec_ms": 123.494,
+   "fetch_ms": 4.869,
+   "decode_ms": 2.482,
+   "total_ms": 130.845,
+   "rows": 4400
+  },
+  {
+   "tic": 410,
+   "e2e_ms": 128.15,
+   "exec_ms": 120.248,
+   "fetch_ms": 4.871,
+   "decode_ms": 2.488,
+   "total_ms": 127.607,
+   "rows": 4400
+  },
+  {
+   "tic": 411,
+   "e2e_ms": 137.822,
+   "exec_ms": 129.219,
+   "fetch_ms": 5.55,
+   "decode_ms": 2.513,
+   "total_ms": 137.282,
+   "rows": 4400
+  },
+  {
+   "tic": 412,
+   "e2e_ms": 131.199,
+   "exec_ms": 123.13,
+   "fetch_ms": 5.038,
+   "decode_ms": 2.485,
+   "total_ms": 130.653,
+   "rows": 4400
+  },
+  {
+   "tic": 413,
+   "e2e_ms": 134.354,
+   "exec_ms": 126.416,
+   "fetch_ms": 4.9,
+   "decode_ms": 2.498,
+   "total_ms": 133.813,
+   "rows": 4400
+  },
+  {
+   "tic": 414,
+   "e2e_ms": 145.425,
+   "exec_ms": 137.464,
+   "fetch_ms": 4.926,
+   "decode_ms": 2.492,
+   "total_ms": 144.882,
+   "rows": 4400
+  },
+  {
+   "tic": 415,
+   "e2e_ms": 142.261,
+   "exec_ms": 134.293,
+   "fetch_ms": 4.943,
+   "decode_ms": 2.485,
+   "total_ms": 141.72,
+   "rows": 4400
+  },
+  {
+   "tic": 416,
+   "e2e_ms": 140.289,
+   "exec_ms": 132.461,
+   "fetch_ms": 4.809,
+   "decode_ms": 2.482,
+   "total_ms": 139.752,
+   "rows": 4400
+  },
+  {
+   "tic": 417,
+   "e2e_ms": 140.565,
+   "exec_ms": 132.527,
+   "fetch_ms": 5.002,
+   "decode_ms": 2.499,
+   "total_ms": 140.028,
+   "rows": 4400
+  },
+  {
+   "tic": 418,
+   "e2e_ms": 152.934,
+   "exec_ms": 144.75,
+   "fetch_ms": 5.167,
+   "decode_ms": 2.477,
+   "total_ms": 152.394,
+   "rows": 4400
+  },
+  {
+   "tic": 419,
+   "e2e_ms": 151.381,
+   "exec_ms": 143.24,
+   "fetch_ms": 5.094,
+   "decode_ms": 2.505,
+   "total_ms": 150.839,
+   "rows": 4400
+  },
+  {
+   "tic": 420,
+   "e2e_ms": 165.213,
+   "exec_ms": 157.083,
+   "fetch_ms": 5.083,
+   "decode_ms": 2.504,
+   "total_ms": 164.669,
+   "rows": 4400
+  },
+  {
+   "tic": 421,
+   "e2e_ms": 172.467,
+   "exec_ms": 164.306,
+   "fetch_ms": 5.106,
+   "decode_ms": 2.509,
+   "total_ms": 171.922,
+   "rows": 4400
+  },
+  {
+   "tic": 422,
+   "e2e_ms": 172.599,
+   "exec_ms": 164.48,
+   "fetch_ms": 5.094,
+   "decode_ms": 2.486,
+   "total_ms": 172.06,
+   "rows": 4400
+  },
+  {
+   "tic": 423,
+   "e2e_ms": 173.009,
+   "exec_ms": 165.133,
+   "fetch_ms": 4.865,
+   "decode_ms": 2.48,
+   "total_ms": 172.478,
+   "rows": 4400
+  },
+  {
+   "tic": 424,
+   "e2e_ms": 178.127,
+   "exec_ms": 169.692,
+   "fetch_ms": 5.345,
+   "decode_ms": 2.542,
+   "total_ms": 177.579,
+   "rows": 4400
+  },
+  {
+   "tic": 425,
+   "e2e_ms": 187.596,
+   "exec_ms": 179.014,
+   "fetch_ms": 5.527,
+   "decode_ms": 2.504,
+   "total_ms": 187.045,
+   "rows": 4400
+  },
+  {
+   "tic": 426,
+   "e2e_ms": 170.336,
+   "exec_ms": 162.369,
+   "fetch_ms": 4.929,
+   "decode_ms": 2.496,
+   "total_ms": 169.793,
+   "rows": 4400
+  },
+  {
+   "tic": 427,
+   "e2e_ms": 168.155,
+   "exec_ms": 159.982,
+   "fetch_ms": 5.103,
+   "decode_ms": 2.524,
+   "total_ms": 167.609,
+   "rows": 4400
+  },
+  {
+   "tic": 428,
+   "e2e_ms": 169.333,
+   "exec_ms": 161.071,
+   "fetch_ms": 5.212,
+   "decode_ms": 2.506,
+   "total_ms": 168.789,
+   "rows": 4400
+  },
+  {
+   "tic": 429,
+   "e2e_ms": 167.244,
+   "exec_ms": 159.298,
+   "fetch_ms": 4.885,
+   "decode_ms": 2.517,
+   "total_ms": 166.701,
+   "rows": 4400
+  },
+  {
+   "tic": 430,
+   "e2e_ms": 167.702,
+   "exec_ms": 159.431,
+   "fetch_ms": 5.215,
+   "decode_ms": 2.507,
+   "total_ms": 167.153,
+   "rows": 4400
+  },
+  {
+   "tic": 431,
+   "e2e_ms": 168.456,
+   "exec_ms": 159.705,
+   "fetch_ms": 5.681,
+   "decode_ms": 2.521,
+   "total_ms": 167.906,
+   "rows": 4400
+  },
+  {
+   "tic": 432,
+   "e2e_ms": 169.784,
+   "exec_ms": 161.733,
+   "fetch_ms": 5.109,
+   "decode_ms": 2.405,
+   "total_ms": 169.247,
+   "rows": 4400
+  },
+  {
+   "tic": 433,
+   "e2e_ms": 165.593,
+   "exec_ms": 157.355,
+   "fetch_ms": 5.145,
+   "decode_ms": 2.534,
+   "total_ms": 165.034,
+   "rows": 4400
+  },
+  {
+   "tic": 434,
+   "e2e_ms": 167.571,
+   "exec_ms": 159.424,
+   "fetch_ms": 5.087,
+   "decode_ms": 2.504,
+   "total_ms": 167.014,
+   "rows": 4400
+  },
+  {
+   "tic": 435,
+   "e2e_ms": 167.353,
+   "exec_ms": 159.331,
+   "fetch_ms": 4.939,
+   "decode_ms": 2.537,
+   "total_ms": 166.806,
+   "rows": 4400
+  },
+  {
+   "tic": 436,
+   "e2e_ms": 170.55,
+   "exec_ms": 161.638,
+   "fetch_ms": 5.768,
+   "decode_ms": 2.58,
+   "total_ms": 169.987,
+   "rows": 4400
+  },
+  {
+   "tic": 437,
+   "e2e_ms": 168.903,
+   "exec_ms": 160.735,
+   "fetch_ms": 5.116,
+   "decode_ms": 2.509,
+   "total_ms": 168.36,
+   "rows": 4400
+  },
+  {
+   "tic": 438,
+   "e2e_ms": 167.656,
+   "exec_ms": 159.283,
+   "fetch_ms": 5.203,
+   "decode_ms": 2.598,
+   "total_ms": 167.084,
+   "rows": 4400
+  },
+  {
+   "tic": 439,
+   "e2e_ms": 168.583,
+   "exec_ms": 159.708,
+   "fetch_ms": 5.804,
+   "decode_ms": 2.526,
+   "total_ms": 168.038,
+   "rows": 4400
+  },
+  {
+   "tic": 440,
+   "e2e_ms": 169.748,
+   "exec_ms": 161.488,
+   "fetch_ms": 5.212,
+   "decode_ms": 2.505,
+   "total_ms": 169.204,
+   "rows": 4400
+  },
+  {
+   "tic": 441,
+   "e2e_ms": 165.738,
+   "exec_ms": 157.074,
+   "fetch_ms": 5.598,
+   "decode_ms": 2.516,
+   "total_ms": 165.189,
+   "rows": 4400
+  },
+  {
+   "tic": 442,
+   "e2e_ms": 163.992,
+   "exec_ms": 155.659,
+   "fetch_ms": 5.292,
+   "decode_ms": 2.5,
+   "total_ms": 163.451,
+   "rows": 4400
+  },
+  {
+   "tic": 443,
+   "e2e_ms": 162.693,
+   "exec_ms": 154.78,
+   "fetch_ms": 4.862,
+   "decode_ms": 2.514,
+   "total_ms": 162.156,
+   "rows": 4400
+  },
+  {
+   "tic": 444,
+   "e2e_ms": 163.89,
+   "exec_ms": 155.686,
+   "fetch_ms": 5.17,
+   "decode_ms": 2.496,
+   "total_ms": 163.352,
+   "rows": 4400
+  },
+  {
+   "tic": 445,
+   "e2e_ms": 161.077,
+   "exec_ms": 153.021,
+   "fetch_ms": 5.008,
+   "decode_ms": 2.508,
+   "total_ms": 160.536,
+   "rows": 4400
+  },
+  {
+   "tic": 446,
+   "e2e_ms": 162.728,
+   "exec_ms": 154.19,
+   "fetch_ms": 5.481,
+   "decode_ms": 2.516,
+   "total_ms": 162.187,
+   "rows": 4400
+  },
+  {
+   "tic": 447,
+   "e2e_ms": 161.99,
+   "exec_ms": 153.835,
+   "fetch_ms": 5.08,
+   "decode_ms": 2.531,
+   "total_ms": 161.447,
+   "rows": 4400
+  },
+  {
+   "tic": 448,
+   "e2e_ms": 162.01,
+   "exec_ms": 153.756,
+   "fetch_ms": 5.215,
+   "decode_ms": 2.495,
+   "total_ms": 161.466,
+   "rows": 4400
+  },
+  {
+   "tic": 449,
+   "e2e_ms": 160.957,
+   "exec_ms": 152.509,
+   "fetch_ms": 5.378,
+   "decode_ms": 2.526,
+   "total_ms": 160.413,
+   "rows": 4400
+  },
+  {
+   "tic": 450,
+   "e2e_ms": 161.108,
+   "exec_ms": 152.796,
+   "fetch_ms": 5.242,
+   "decode_ms": 2.525,
+   "total_ms": 160.563,
+   "rows": 4400
+  },
+  {
+   "tic": 451,
+   "e2e_ms": 160.467,
+   "exec_ms": 151.938,
+   "fetch_ms": 5.442,
+   "decode_ms": 2.542,
+   "total_ms": 159.923,
+   "rows": 4400
+  },
+  {
+   "tic": 452,
+   "e2e_ms": 160.787,
+   "exec_ms": 152.482,
+   "fetch_ms": 5.26,
+   "decode_ms": 2.507,
+   "total_ms": 160.249,
+   "rows": 4400
+  },
+  {
+   "tic": 453,
+   "e2e_ms": 161.126,
+   "exec_ms": 152.76,
+   "fetch_ms": 5.298,
+   "decode_ms": 2.519,
+   "total_ms": 160.576,
+   "rows": 4400
+  },
+  {
+   "tic": 454,
+   "e2e_ms": 173.94,
+   "exec_ms": 165.793,
+   "fetch_ms": 5.116,
+   "decode_ms": 2.491,
+   "total_ms": 173.4,
+   "rows": 4400
+  },
+  {
+   "tic": 455,
+   "e2e_ms": 172.091,
+   "exec_ms": 163.746,
+   "fetch_ms": 5.328,
+   "decode_ms": 2.486,
+   "total_ms": 171.56,
+   "rows": 4400
+  },
+  {
+   "tic": 456,
+   "e2e_ms": 173.522,
+   "exec_ms": 165.248,
+   "fetch_ms": 5.234,
+   "decode_ms": 2.5,
+   "total_ms": 172.981,
+   "rows": 4400
+  },
+  {
+   "tic": 457,
+   "e2e_ms": 173.065,
+   "exec_ms": 164.896,
+   "fetch_ms": 5.116,
+   "decode_ms": 2.499,
+   "total_ms": 172.511,
+   "rows": 4400
+  },
+  {
+   "tic": 458,
+   "e2e_ms": 169.999,
+   "exec_ms": 161.181,
+   "fetch_ms": 5.755,
+   "decode_ms": 2.517,
+   "total_ms": 169.453,
+   "rows": 4400
+  },
+  {
+   "tic": 459,
+   "e2e_ms": 158.708,
+   "exec_ms": 150.307,
+   "fetch_ms": 5.315,
+   "decode_ms": 2.521,
+   "total_ms": 158.143,
+   "rows": 4400
+  },
+  {
+   "tic": 460,
+   "e2e_ms": 159.354,
+   "exec_ms": 151.222,
+   "fetch_ms": 5.08,
+   "decode_ms": 2.5,
+   "total_ms": 158.802,
+   "rows": 4400
+  },
+  {
+   "tic": 461,
+   "e2e_ms": 164.336,
+   "exec_ms": 156.004,
+   "fetch_ms": 5.265,
+   "decode_ms": 2.5,
+   "total_ms": 163.77,
+   "rows": 4400
+  },
+  {
+   "tic": 462,
+   "e2e_ms": 157.618,
+   "exec_ms": 149.365,
+   "fetch_ms": 5.196,
+   "decode_ms": 2.509,
+   "total_ms": 157.071,
+   "rows": 4400
+  },
+  {
+   "tic": 463,
+   "e2e_ms": 156.71,
+   "exec_ms": 148.567,
+   "fetch_ms": 5.082,
+   "decode_ms": 2.517,
+   "total_ms": 156.166,
+   "rows": 4400
+  },
+  {
+   "tic": 464,
+   "e2e_ms": 155.7,
+   "exec_ms": 147.644,
+   "fetch_ms": 4.986,
+   "decode_ms": 2.521,
+   "total_ms": 155.151,
+   "rows": 4400
+  },
+  {
+   "tic": 465,
+   "e2e_ms": 156.27,
+   "exec_ms": 148.283,
+   "fetch_ms": 4.921,
+   "decode_ms": 2.519,
+   "total_ms": 155.722,
+   "rows": 4400
+  },
+  {
+   "tic": 466,
+   "e2e_ms": 159.685,
+   "exec_ms": 151.606,
+   "fetch_ms": 5.014,
+   "decode_ms": 2.516,
+   "total_ms": 159.136,
+   "rows": 4400
+  },
+  {
+   "tic": 467,
+   "e2e_ms": 157.402,
+   "exec_ms": 149.119,
+   "fetch_ms": 5.172,
+   "decode_ms": 2.57,
+   "total_ms": 156.862,
+   "rows": 4400
+  },
+  {
+   "tic": 468,
+   "e2e_ms": 158.806,
+   "exec_ms": 150.791,
+   "fetch_ms": 4.944,
+   "decode_ms": 2.526,
+   "total_ms": 158.26,
+   "rows": 4400
+  },
+  {
+   "tic": 469,
+   "e2e_ms": 160.4,
+   "exec_ms": 151.975,
+   "fetch_ms": 5.367,
+   "decode_ms": 2.514,
+   "total_ms": 159.856,
+   "rows": 4400
+  },
+  {
+   "tic": 470,
+   "e2e_ms": 160.567,
+   "exec_ms": 152.279,
+   "fetch_ms": 5.241,
+   "decode_ms": 2.502,
+   "total_ms": 160.022,
+   "rows": 4400
+  },
+  {
+   "tic": 471,
+   "e2e_ms": 164.115,
+   "exec_ms": 155.703,
+   "fetch_ms": 5.348,
+   "decode_ms": 2.517,
+   "total_ms": 163.569,
+   "rows": 4400
+  },
+  {
+   "tic": 472,
+   "e2e_ms": 168.691,
+   "exec_ms": 159.921,
+   "fetch_ms": 5.679,
+   "decode_ms": 2.534,
+   "total_ms": 168.135,
+   "rows": 4400
+  },
+  {
+   "tic": 473,
+   "e2e_ms": 183.848,
+   "exec_ms": 174.162,
+   "fetch_ms": 6.567,
+   "decode_ms": 2.549,
+   "total_ms": 183.278,
+   "rows": 4400
+  },
+  {
+   "tic": 474,
+   "e2e_ms": 415.298,
+   "exec_ms": 406.296,
+   "fetch_ms": 5.913,
+   "decode_ms": 2.523,
+   "total_ms": 414.732,
+   "rows": 4400
+  },
+  {
+   "tic": 475,
+   "e2e_ms": 523.894,
+   "exec_ms": 515.437,
+   "fetch_ms": 5.333,
+   "decode_ms": 2.564,
+   "total_ms": 523.333,
+   "rows": 4400
+  },
+  {
+   "tic": 476,
+   "e2e_ms": 157.686,
+   "exec_ms": 149.158,
+   "fetch_ms": 5.451,
+   "decode_ms": 2.529,
+   "total_ms": 157.138,
+   "rows": 4400
+  },
+  {
+   "tic": 477,
+   "e2e_ms": 155.737,
+   "exec_ms": 146.97,
+   "fetch_ms": 5.71,
+   "decode_ms": 2.514,
+   "total_ms": 155.194,
+   "rows": 4400
+  },
+  {
+   "tic": 478,
+   "e2e_ms": 149.593,
+   "exec_ms": 141.595,
+   "fetch_ms": 4.94,
+   "decode_ms": 2.505,
+   "total_ms": 149.04,
+   "rows": 4400
+  },
+  {
+   "tic": 479,
+   "e2e_ms": 148.56,
+   "exec_ms": 140.216,
+   "fetch_ms": 5.28,
+   "decode_ms": 2.519,
+   "total_ms": 148.016,
+   "rows": 4400
+  },
+  {
+   "tic": 480,
+   "e2e_ms": 149.877,
+   "exec_ms": 141.831,
+   "fetch_ms": 4.996,
+   "decode_ms": 2.505,
+   "total_ms": 149.332,
+   "rows": 4400
+  },
+  {
+   "tic": 481,
+   "e2e_ms": 149.401,
+   "exec_ms": 141.116,
+   "fetch_ms": 5.221,
+   "decode_ms": 2.518,
+   "total_ms": 148.855,
+   "rows": 4400
+  },
+  {
+   "tic": 482,
+   "e2e_ms": 153.188,
+   "exec_ms": 144.648,
+   "fetch_ms": 5.47,
+   "decode_ms": 2.517,
+   "total_ms": 152.636,
+   "rows": 4400
+  },
+  {
+   "tic": 483,
+   "e2e_ms": 150.392,
+   "exec_ms": 142.031,
+   "fetch_ms": 5.294,
+   "decode_ms": 2.518,
+   "total_ms": 149.843,
+   "rows": 4400
+  },
+  {
+   "tic": 484,
+   "e2e_ms": 152.55,
+   "exec_ms": 144.341,
+   "fetch_ms": 5.094,
+   "decode_ms": 2.536,
+   "total_ms": 151.971,
+   "rows": 4400
+  },
+  {
+   "tic": 485,
+   "e2e_ms": 151.123,
+   "exec_ms": 142.661,
+   "fetch_ms": 5.408,
+   "decode_ms": 2.511,
+   "total_ms": 150.579,
+   "rows": 4400
+  },
+  {
+   "tic": 486,
+   "e2e_ms": 150.191,
+   "exec_ms": 141.616,
+   "fetch_ms": 5.543,
+   "decode_ms": 2.491,
+   "total_ms": 149.65,
+   "rows": 4400
+  },
+  {
+   "tic": 487,
+   "e2e_ms": 148.565,
+   "exec_ms": 140.13,
+   "fetch_ms": 5.29,
+   "decode_ms": 2.589,
+   "total_ms": 148.01,
+   "rows": 4400
+  },
+  {
+   "tic": 488,
+   "e2e_ms": 146.317,
+   "exec_ms": 137.574,
+   "fetch_ms": 5.683,
+   "decode_ms": 2.515,
+   "total_ms": 145.772,
+   "rows": 4400
+  },
+  {
+   "tic": 489,
+   "e2e_ms": 146.167,
+   "exec_ms": 138.079,
+   "fetch_ms": 5.037,
+   "decode_ms": 2.511,
+   "total_ms": 145.626,
+   "rows": 4400
+  },
+  {
+   "tic": 490,
+   "e2e_ms": 166.792,
+   "exec_ms": 158.691,
+   "fetch_ms": 5.054,
+   "decode_ms": 2.505,
+   "total_ms": 166.25,
+   "rows": 4400
+  },
+  {
+   "tic": 491,
+   "e2e_ms": 170.649,
+   "exec_ms": 161.777,
+   "fetch_ms": 5.755,
+   "decode_ms": 2.566,
+   "total_ms": 170.098,
+   "rows": 4400
+  },
+  {
+   "tic": 492,
+   "e2e_ms": 186.834,
+   "exec_ms": 178.652,
+   "fetch_ms": 5.134,
+   "decode_ms": 2.507,
+   "total_ms": 186.293,
+   "rows": 4400
+  },
+  {
+   "tic": 493,
+   "e2e_ms": 195.425,
+   "exec_ms": 187.11,
+   "fetch_ms": 5.158,
+   "decode_ms": 2.579,
+   "total_ms": 194.847,
+   "rows": 4400
+  },
+  {
+   "tic": 494,
+   "e2e_ms": 193.878,
+   "exec_ms": 185.142,
+   "fetch_ms": 5.63,
+   "decode_ms": 2.561,
+   "total_ms": 193.333,
+   "rows": 4400
+  },
+  {
+   "tic": 495,
+   "e2e_ms": 197.647,
+   "exec_ms": 189.226,
+   "fetch_ms": 5.339,
+   "decode_ms": 2.535,
+   "total_ms": 197.1,
+   "rows": 4400
+  },
+  {
+   "tic": 496,
+   "e2e_ms": 201.44,
+   "exec_ms": 192.958,
+   "fetch_ms": 5.417,
+   "decode_ms": 2.515,
+   "total_ms": 200.89,
+   "rows": 4400
+  },
+  {
+   "tic": 497,
+   "e2e_ms": 203.323,
+   "exec_ms": 194.964,
+   "fetch_ms": 5.303,
+   "decode_ms": 2.511,
+   "total_ms": 202.778,
+   "rows": 4400
+  },
+  {
+   "tic": 498,
+   "e2e_ms": 199.905,
+   "exec_ms": 191.907,
+   "fetch_ms": 4.943,
+   "decode_ms": 2.511,
+   "total_ms": 199.361,
+   "rows": 4400
+  },
+  {
+   "tic": 499,
+   "e2e_ms": 200.119,
+   "exec_ms": 191.214,
+   "fetch_ms": 5.74,
+   "decode_ms": 2.602,
+   "total_ms": 199.557,
+   "rows": 4400
+  },
+  {
+   "tic": 500,
+   "e2e_ms": 202.743,
+   "exec_ms": 194.438,
+   "fetch_ms": 5.248,
+   "decode_ms": 2.508,
+   "total_ms": 202.195,
+   "rows": 4400
+  },
+  {
+   "tic": 501,
+   "e2e_ms": 200.166,
+   "exec_ms": 191.941,
+   "fetch_ms": 5.168,
+   "decode_ms": 2.506,
+   "total_ms": 199.614,
+   "rows": 4400
+  },
+  {
+   "tic": 502,
+   "e2e_ms": 201.72,
+   "exec_ms": 193.419,
+   "fetch_ms": 5.251,
+   "decode_ms": 2.508,
+   "total_ms": 201.178,
+   "rows": 4400
+  },
+  {
+   "tic": 503,
+   "e2e_ms": 200.313,
+   "exec_ms": 192.026,
+   "fetch_ms": 5.212,
+   "decode_ms": 2.535,
+   "total_ms": 199.773,
+   "rows": 4400
+  },
+  {
+   "tic": 504,
+   "e2e_ms": 200.583,
+   "exec_ms": 191.987,
+   "fetch_ms": 5.547,
+   "decode_ms": 2.505,
+   "total_ms": 200.039,
+   "rows": 4400
+  },
+  {
+   "tic": 505,
+   "e2e_ms": 204.036,
+   "exec_ms": 195.548,
+   "fetch_ms": 5.432,
+   "decode_ms": 2.511,
+   "total_ms": 203.491,
+   "rows": 4400
+  },
+  {
+   "tic": 506,
+   "e2e_ms": 200.185,
+   "exec_ms": 192.246,
+   "fetch_ms": 4.889,
+   "decode_ms": 2.507,
+   "total_ms": 199.643,
+   "rows": 4400
+  },
+  {
+   "tic": 507,
+   "e2e_ms": 199.952,
+   "exec_ms": 191.913,
+   "fetch_ms": 4.966,
+   "decode_ms": 2.529,
+   "total_ms": 199.408,
+   "rows": 4400
+  },
+  {
+   "tic": 508,
+   "e2e_ms": 201.448,
+   "exec_ms": 193.409,
+   "fetch_ms": 5.007,
+   "decode_ms": 2.492,
+   "total_ms": 200.908,
+   "rows": 4400
+  },
+  {
+   "tic": 509,
+   "e2e_ms": 199.991,
+   "exec_ms": 191.452,
+   "fetch_ms": 5.479,
+   "decode_ms": 2.509,
+   "total_ms": 199.441,
+   "rows": 4400
+  },
+  {
+   "tic": 510,
+   "e2e_ms": 198.938,
+   "exec_ms": 190.667,
+   "fetch_ms": 5.162,
+   "decode_ms": 2.561,
+   "total_ms": 198.391,
+   "rows": 4400
+  },
+  {
+   "tic": 511,
+   "e2e_ms": 197.616,
+   "exec_ms": 189.179,
+   "fetch_ms": 5.369,
+   "decode_ms": 2.505,
+   "total_ms": 197.054,
+   "rows": 4400
+  },
+  {
+   "tic": 512,
+   "e2e_ms": 197.89,
+   "exec_ms": 189.671,
+   "fetch_ms": 5.088,
+   "decode_ms": 2.57,
+   "total_ms": 197.329,
+   "rows": 4400
+  },
+  {
+   "tic": 513,
+   "e2e_ms": 200.645,
+   "exec_ms": 192.284,
+   "fetch_ms": 5.28,
+   "decode_ms": 2.53,
+   "total_ms": 200.094,
+   "rows": 4400
+  },
+  {
+   "tic": 514,
+   "e2e_ms": 197.854,
+   "exec_ms": 189.732,
+   "fetch_ms": 5.084,
+   "decode_ms": 2.497,
+   "total_ms": 197.313,
+   "rows": 4400
+  },
+  {
+   "tic": 515,
+   "e2e_ms": 198.346,
+   "exec_ms": 190.01,
+   "fetch_ms": 5.265,
+   "decode_ms": 2.53,
+   "total_ms": 197.805,
+   "rows": 4400
+  },
+  {
+   "tic": 516,
+   "e2e_ms": 198.003,
+   "exec_ms": 189.915,
+   "fetch_ms": 5.028,
+   "decode_ms": 2.519,
+   "total_ms": 197.462,
+   "rows": 4400
+  },
+  {
+   "tic": 517,
+   "e2e_ms": 198.723,
+   "exec_ms": 190.701,
+   "fetch_ms": 4.979,
+   "decode_ms": 2.503,
+   "total_ms": 198.183,
+   "rows": 4400
+  },
+  {
+   "tic": 518,
+   "e2e_ms": 189.63,
+   "exec_ms": 181.718,
+   "fetch_ms": 4.867,
+   "decode_ms": 2.504,
+   "total_ms": 189.089,
+   "rows": 4400
+  },
+  {
+   "tic": 519,
+   "e2e_ms": 188.409,
+   "exec_ms": 180.214,
+   "fetch_ms": 5.133,
+   "decode_ms": 2.518,
+   "total_ms": 187.865,
+   "rows": 4400
+  },
+  {
+   "tic": 520,
+   "e2e_ms": 187.184,
+   "exec_ms": 179.236,
+   "fetch_ms": 4.915,
+   "decode_ms": 2.493,
+   "total_ms": 186.643,
+   "rows": 4400
+  },
+  {
+   "tic": 521,
+   "e2e_ms": 190.416,
+   "exec_ms": 182.375,
+   "fetch_ms": 4.98,
+   "decode_ms": 2.512,
+   "total_ms": 189.867,
+   "rows": 4400
+  },
+  {
+   "tic": 522,
+   "e2e_ms": 189.911,
+   "exec_ms": 181.492,
+   "fetch_ms": 5.354,
+   "decode_ms": 2.518,
+   "total_ms": 189.364,
+   "rows": 4400
+  },
+  {
+   "tic": 523,
+   "e2e_ms": 190.943,
+   "exec_ms": 182.808,
+   "fetch_ms": 5.035,
+   "decode_ms": 2.552,
+   "total_ms": 190.395,
+   "rows": 4400
+  },
+  {
+   "tic": 524,
+   "e2e_ms": 188.382,
+   "exec_ms": 179.364,
+   "fetch_ms": 5.843,
+   "decode_ms": 2.603,
+   "total_ms": 187.81,
+   "rows": 4400
+  },
+  {
+   "tic": 525,
+   "e2e_ms": 192.799,
+   "exec_ms": 184.794,
+   "fetch_ms": 4.939,
+   "decode_ms": 2.519,
+   "total_ms": 192.252,
+   "rows": 4400
+  },
+  {
+   "tic": 526,
+   "e2e_ms": 191.053,
+   "exec_ms": 182.858,
+   "fetch_ms": 5.147,
+   "decode_ms": 2.503,
+   "total_ms": 190.508,
+   "rows": 4400
+  },
+  {
+   "tic": 527,
+   "e2e_ms": 187.944,
+   "exec_ms": 179.714,
+   "fetch_ms": 5.164,
+   "decode_ms": 2.52,
+   "total_ms": 187.398,
+   "rows": 4400
+  },
+  {
+   "tic": 528,
+   "e2e_ms": 188.791,
+   "exec_ms": 180.634,
+   "fetch_ms": 5.097,
+   "decode_ms": 2.514,
+   "total_ms": 188.246,
+   "rows": 4400
+  },
+  {
+   "tic": 529,
+   "e2e_ms": 189.126,
+   "exec_ms": 180.953,
+   "fetch_ms": 5.117,
+   "decode_ms": 2.513,
+   "total_ms": 188.583,
+   "rows": 4400
+  },
+  {
+   "tic": 530,
+   "e2e_ms": 189.535,
+   "exec_ms": 181.614,
+   "fetch_ms": 4.862,
+   "decode_ms": 2.513,
+   "total_ms": 188.989,
+   "rows": 4400
+  },
+  {
+   "tic": 531,
+   "e2e_ms": 190.113,
+   "exec_ms": 181.929,
+   "fetch_ms": 5.119,
+   "decode_ms": 2.52,
+   "total_ms": 189.568,
+   "rows": 4400
+  },
+  {
+   "tic": 532,
+   "e2e_ms": 188.42,
+   "exec_ms": 180.471,
+   "fetch_ms": 4.909,
+   "decode_ms": 2.501,
+   "total_ms": 187.881,
+   "rows": 4400
+  },
+  {
+   "tic": 533,
+   "e2e_ms": 188.406,
+   "exec_ms": 180.407,
+   "fetch_ms": 4.948,
+   "decode_ms": 2.512,
+   "total_ms": 187.868,
+   "rows": 4400
+  },
+  {
+   "tic": 534,
+   "e2e_ms": 189.12,
+   "exec_ms": 180.616,
+   "fetch_ms": 5.448,
+   "decode_ms": 2.51,
+   "total_ms": 188.573,
+   "rows": 4400
+  },
+  {
+   "tic": 535,
+   "e2e_ms": 189.578,
+   "exec_ms": 181.51,
+   "fetch_ms": 5.006,
+   "decode_ms": 2.519,
+   "total_ms": 189.035,
+   "rows": 4400
+  },
+  {
+   "tic": 536,
+   "e2e_ms": 214.093,
+   "exec_ms": 205.548,
+   "fetch_ms": 5.443,
+   "decode_ms": 2.539,
+   "total_ms": 213.531,
+   "rows": 4400
+  },
+  {
+   "tic": 537,
+   "e2e_ms": 192.951,
+   "exec_ms": 184.587,
+   "fetch_ms": 5.3,
+   "decode_ms": 2.515,
+   "total_ms": 192.401,
+   "rows": 4400
+  },
+  {
+   "tic": 538,
+   "e2e_ms": 191.398,
+   "exec_ms": 182.749,
+   "fetch_ms": 5.617,
+   "decode_ms": 2.495,
+   "total_ms": 190.861,
+   "rows": 4400
+  },
+  {
+   "tic": 539,
+   "e2e_ms": 188.971,
+   "exec_ms": 180.328,
+   "fetch_ms": 5.572,
+   "decode_ms": 2.517,
+   "total_ms": 188.417,
+   "rows": 4400
+  },
+  {
+   "tic": 540,
+   "e2e_ms": 190.937,
+   "exec_ms": 182.461,
+   "fetch_ms": 5.43,
+   "decode_ms": 2.497,
+   "total_ms": 190.387,
+   "rows": 4400
+  },
+  {
+   "tic": 541,
+   "e2e_ms": 191.13,
+   "exec_ms": 181.775,
+   "fetch_ms": 6.289,
+   "decode_ms": 2.52,
+   "total_ms": 190.585,
+   "rows": 4400
+  },
+  {
+   "tic": 542,
+   "e2e_ms": 189.21,
+   "exec_ms": 181.204,
+   "fetch_ms": 4.962,
+   "decode_ms": 2.501,
+   "total_ms": 188.666,
+   "rows": 4400
+  },
+  {
+   "tic": 543,
+   "e2e_ms": 192.972,
+   "exec_ms": 184.643,
+   "fetch_ms": 5.251,
+   "decode_ms": 2.528,
+   "total_ms": 192.421,
+   "rows": 4400
+  },
+  {
+   "tic": 544,
+   "e2e_ms": 189.258,
+   "exec_ms": 180.88,
+   "fetch_ms": 5.35,
+   "decode_ms": 2.488,
+   "total_ms": 188.717,
+   "rows": 4400
+  },
+  {
+   "tic": 545,
+   "e2e_ms": 191.242,
+   "exec_ms": 183.281,
+   "fetch_ms": 4.921,
+   "decode_ms": 2.499,
+   "total_ms": 190.7,
+   "rows": 4400
+  },
+  {
+   "tic": 546,
+   "e2e_ms": 194.901,
+   "exec_ms": 186.831,
+   "fetch_ms": 5.011,
+   "decode_ms": 2.511,
+   "total_ms": 194.353,
+   "rows": 4400
+  },
+  {
+   "tic": 547,
+   "e2e_ms": 197.085,
+   "exec_ms": 188.859,
+   "fetch_ms": 5.138,
+   "decode_ms": 2.543,
+   "total_ms": 196.539,
+   "rows": 4400
+  },
+  {
+   "tic": 548,
+   "e2e_ms": 199.085,
+   "exec_ms": 190.816,
+   "fetch_ms": 5.203,
+   "decode_ms": 2.521,
+   "total_ms": 198.54,
+   "rows": 4400
+  },
+  {
+   "tic": 549,
+   "e2e_ms": 195.22,
+   "exec_ms": 187.228,
+   "fetch_ms": 4.931,
+   "decode_ms": 2.52,
+   "total_ms": 194.68,
+   "rows": 4400
+  },
+  {
+   "tic": 550,
+   "e2e_ms": 182.685,
+   "exec_ms": 174.64,
+   "fetch_ms": 4.981,
+   "decode_ms": 2.516,
+   "total_ms": 182.137,
+   "rows": 4400
+  },
+  {
+   "tic": 551,
+   "e2e_ms": 185.753,
+   "exec_ms": 177.565,
+   "fetch_ms": 5.125,
+   "decode_ms": 2.512,
+   "total_ms": 185.202,
+   "rows": 4400
+  },
+  {
+   "tic": 552,
+   "e2e_ms": 186.668,
+   "exec_ms": 178.162,
+   "fetch_ms": 5.462,
+   "decode_ms": 2.501,
+   "total_ms": 186.125,
+   "rows": 4400
+  },
+  {
+   "tic": 553,
+   "e2e_ms": 187.501,
+   "exec_ms": 179.24,
+   "fetch_ms": 5.147,
+   "decode_ms": 2.552,
+   "total_ms": 186.939,
+   "rows": 4400
+  },
+  {
+   "tic": 554,
+   "e2e_ms": 185.075,
+   "exec_ms": 177.058,
+   "fetch_ms": 4.966,
+   "decode_ms": 2.504,
+   "total_ms": 184.529,
+   "rows": 4400
+  },
+  {
+   "tic": 555,
+   "e2e_ms": 182.44,
+   "exec_ms": 174.374,
+   "fetch_ms": 5.078,
+   "decode_ms": 2.45,
+   "total_ms": 181.902,
+   "rows": 4400
+  },
+  {
+   "tic": 556,
+   "e2e_ms": 181.807,
+   "exec_ms": 173.539,
+   "fetch_ms": 5.101,
+   "decode_ms": 2.607,
+   "total_ms": 181.247,
+   "rows": 4400
+  },
+  {
+   "tic": 557,
+   "e2e_ms": 183.572,
+   "exec_ms": 174.716,
+   "fetch_ms": 5.782,
+   "decode_ms": 2.517,
+   "total_ms": 183.016,
+   "rows": 4400
+  },
+  {
+   "tic": 558,
+   "e2e_ms": 193.041,
+   "exec_ms": 184.655,
+   "fetch_ms": 5.317,
+   "decode_ms": 2.522,
+   "total_ms": 192.494,
+   "rows": 4400
+  },
+  {
+   "tic": 559,
+   "e2e_ms": 181.56,
+   "exec_ms": 173.391,
+   "fetch_ms": 5.092,
+   "decode_ms": 2.526,
+   "total_ms": 181.009,
+   "rows": 4400
+  },
+  {
+   "tic": 560,
+   "e2e_ms": 182.84,
+   "exec_ms": 174.744,
+   "fetch_ms": 5.042,
+   "decode_ms": 2.512,
+   "total_ms": 182.298,
+   "rows": 4400
+  },
+  {
+   "tic": 561,
+   "e2e_ms": 181.042,
+   "exec_ms": 172.743,
+   "fetch_ms": 5.324,
+   "decode_ms": 2.437,
+   "total_ms": 180.504,
+   "rows": 4400
+  },
+  {
+   "tic": 562,
+   "e2e_ms": 182.332,
+   "exec_ms": 173.672,
+   "fetch_ms": 5.571,
+   "decode_ms": 2.536,
+   "total_ms": 181.779,
+   "rows": 4400
+  },
+  {
+   "tic": 563,
+   "e2e_ms": 182.492,
+   "exec_ms": 174.19,
+   "fetch_ms": 5.238,
+   "decode_ms": 2.515,
+   "total_ms": 181.943,
+   "rows": 4400
+  },
+  {
+   "tic": 564,
+   "e2e_ms": 179.137,
+   "exec_ms": 170.96,
+   "fetch_ms": 4.98,
+   "decode_ms": 2.631,
+   "total_ms": 178.571,
+   "rows": 4400
+  },
+  {
+   "tic": 565,
+   "e2e_ms": 181.558,
+   "exec_ms": 173.216,
+   "fetch_ms": 5.268,
+   "decode_ms": 2.525,
+   "total_ms": 181.01,
+   "rows": 4400
+  },
+  {
+   "tic": 566,
+   "e2e_ms": 178.577,
+   "exec_ms": 169.962,
+   "fetch_ms": 5.558,
+   "decode_ms": 2.514,
+   "total_ms": 178.033,
+   "rows": 4400
+  },
+  {
+   "tic": 567,
+   "e2e_ms": 170.179,
+   "exec_ms": 162.248,
+   "fetch_ms": 4.857,
+   "decode_ms": 2.525,
+   "total_ms": 169.629,
+   "rows": 4400
+  },
+  {
+   "tic": 568,
+   "e2e_ms": 170.742,
+   "exec_ms": 162.707,
+   "fetch_ms": 4.957,
+   "decode_ms": 2.531,
+   "total_ms": 170.196,
+   "rows": 4400
+  },
+  {
+   "tic": 569,
+   "e2e_ms": 169.853,
+   "exec_ms": 161.966,
+   "fetch_ms": 4.951,
+   "decode_ms": 2.392,
+   "total_ms": 169.309,
+   "rows": 4400
+  },
+  {
+   "tic": 570,
+   "e2e_ms": 167.122,
+   "exec_ms": 159.088,
+   "fetch_ms": 4.974,
+   "decode_ms": 2.496,
+   "total_ms": 166.558,
+   "rows": 4400
+  },
+  {
+   "tic": 571,
+   "e2e_ms": 167.622,
+   "exec_ms": 159.588,
+   "fetch_ms": 4.96,
+   "decode_ms": 2.523,
+   "total_ms": 167.071,
+   "rows": 4400
+  },
+  {
+   "tic": 572,
+   "e2e_ms": 166.671,
+   "exec_ms": 158.537,
+   "fetch_ms": 5.093,
+   "decode_ms": 2.491,
+   "total_ms": 166.122,
+   "rows": 4400
+  },
+  {
+   "tic": 573,
+   "e2e_ms": 166.538,
+   "exec_ms": 158.032,
+   "fetch_ms": 5.45,
+   "decode_ms": 2.507,
+   "total_ms": 165.99,
+   "rows": 4400
+  },
+  {
+   "tic": 574,
+   "e2e_ms": 174.977,
+   "exec_ms": 166.549,
+   "fetch_ms": 5.397,
+   "decode_ms": 2.487,
+   "total_ms": 174.433,
+   "rows": 4400
+  },
+  {
+   "tic": 575,
+   "e2e_ms": 186.668,
+   "exec_ms": 178.432,
+   "fetch_ms": 5.18,
+   "decode_ms": 2.509,
+   "total_ms": 186.121,
+   "rows": 4400
+  },
+  {
+   "tic": 576,
+   "e2e_ms": 196.475,
+   "exec_ms": 188.078,
+   "fetch_ms": 5.338,
+   "decode_ms": 2.505,
+   "total_ms": 195.921,
+   "rows": 4400
+  },
+  {
+   "tic": 577,
+   "e2e_ms": 222.251,
+   "exec_ms": 214.007,
+   "fetch_ms": 5.203,
+   "decode_ms": 2.501,
+   "total_ms": 221.71,
+   "rows": 4400
+  },
+  {
+   "tic": 578,
+   "e2e_ms": 221.196,
+   "exec_ms": 212.743,
+   "fetch_ms": 5.474,
+   "decode_ms": 2.445,
+   "total_ms": 220.662,
+   "rows": 4400
+  },
+  {
+   "tic": 579,
+   "e2e_ms": 221.489,
+   "exec_ms": 212.82,
+   "fetch_ms": 5.595,
+   "decode_ms": 2.528,
+   "total_ms": 220.943,
+   "rows": 4400
+  },
+  {
+   "tic": 580,
+   "e2e_ms": 217.98,
+   "exec_ms": 209.281,
+   "fetch_ms": 5.635,
+   "decode_ms": 2.518,
+   "total_ms": 217.434,
+   "rows": 4400
+  },
+  {
+   "tic": 581,
+   "e2e_ms": 212.571,
+   "exec_ms": 204.444,
+   "fetch_ms": 5.079,
+   "decode_ms": 2.505,
+   "total_ms": 212.028,
+   "rows": 4400
+  },
+  {
+   "tic": 582,
+   "e2e_ms": 203.408,
+   "exec_ms": 195.291,
+   "fetch_ms": 5.087,
+   "decode_ms": 2.485,
+   "total_ms": 202.862,
+   "rows": 4400
+  },
+  {
+   "tic": 583,
+   "e2e_ms": 193.711,
+   "exec_ms": 185.611,
+   "fetch_ms": 5.04,
+   "decode_ms": 2.518,
+   "total_ms": 193.168,
+   "rows": 4400
+  },
+  {
+   "tic": 584,
+   "e2e_ms": 193.109,
+   "exec_ms": 184.908,
+   "fetch_ms": 5.139,
+   "decode_ms": 2.512,
+   "total_ms": 192.559,
+   "rows": 4400
+  },
+  {
+   "tic": 585,
+   "e2e_ms": 177.555,
+   "exec_ms": 169.192,
+   "fetch_ms": 5.313,
+   "decode_ms": 2.506,
+   "total_ms": 177.011,
+   "rows": 4400
+  },
+  {
+   "tic": 586,
+   "e2e_ms": 169.46,
+   "exec_ms": 160.19,
+   "fetch_ms": 6.208,
+   "decode_ms": 2.5,
+   "total_ms": 168.898,
+   "rows": 4400
+  },
+  {
+   "tic": 587,
+   "e2e_ms": 160.209,
+   "exec_ms": 151.853,
+   "fetch_ms": 5.304,
+   "decode_ms": 2.506,
+   "total_ms": 159.663,
+   "rows": 4400
+  },
+  {
+   "tic": 588,
+   "e2e_ms": 154.77,
+   "exec_ms": 146.538,
+   "fetch_ms": 5.18,
+   "decode_ms": 2.496,
+   "total_ms": 154.214,
+   "rows": 4400
+  },
+  {
+   "tic": 589,
+   "e2e_ms": 151.839,
+   "exec_ms": 143.663,
+   "fetch_ms": 5.105,
+   "decode_ms": 2.527,
+   "total_ms": 151.295,
+   "rows": 4400
+  },
+  {
+   "tic": 590,
+   "e2e_ms": 147.415,
+   "exec_ms": 139.405,
+   "fetch_ms": 4.949,
+   "decode_ms": 2.515,
+   "total_ms": 146.869,
+   "rows": 4400
+  },
+  {
+   "tic": 591,
+   "e2e_ms": 145.659,
+   "exec_ms": 137.646,
+   "fetch_ms": 4.937,
+   "decode_ms": 2.532,
+   "total_ms": 145.115,
+   "rows": 4400
+  },
+  {
+   "tic": 592,
+   "e2e_ms": 146.075,
+   "exec_ms": 138.012,
+   "fetch_ms": 5.008,
+   "decode_ms": 2.511,
+   "total_ms": 145.531,
+   "rows": 4400
+  },
+  {
+   "tic": 593,
+   "e2e_ms": 145.24,
+   "exec_ms": 137.1,
+   "fetch_ms": 5.082,
+   "decode_ms": 2.516,
+   "total_ms": 144.697,
+   "rows": 4400
+  },
+  {
+   "tic": 594,
+   "e2e_ms": 149.638,
+   "exec_ms": 141.519,
+   "fetch_ms": 4.994,
+   "decode_ms": 2.565,
+   "total_ms": 149.078,
+   "rows": 4400
+  },
+  {
+   "tic": 595,
+   "e2e_ms": 144.999,
+   "exec_ms": 137.094,
+   "fetch_ms": 4.836,
+   "decode_ms": 2.517,
+   "total_ms": 144.447,
+   "rows": 4400
+  },
+  {
+   "tic": 596,
+   "e2e_ms": 148.82,
+   "exec_ms": 140.186,
+   "fetch_ms": 5.575,
+   "decode_ms": 2.511,
+   "total_ms": 148.272,
+   "rows": 4400
+  },
+  {
+   "tic": 597,
+   "e2e_ms": 147.4,
+   "exec_ms": 139.448,
+   "fetch_ms": 4.878,
+   "decode_ms": 2.527,
+   "total_ms": 146.854,
+   "rows": 4400
+  },
+  {
+   "tic": 598,
+   "e2e_ms": 143.27,
+   "exec_ms": 135.271,
+   "fetch_ms": 4.939,
+   "decode_ms": 2.515,
+   "total_ms": 142.725,
+   "rows": 4400
+  },
+  {
+   "tic": 599,
+   "e2e_ms": 141.345,
+   "exec_ms": 133.189,
+   "fetch_ms": 5.069,
+   "decode_ms": 2.523,
+   "total_ms": 140.781,
+   "rows": 4400
+  },
+  {
+   "tic": 600,
+   "e2e_ms": 142.951,
+   "exec_ms": 134.776,
+   "fetch_ms": 5.133,
+   "decode_ms": 2.5,
+   "total_ms": 142.408,
+   "rows": 4400
+  },
+  {
+   "tic": 601,
+   "e2e_ms": 141.574,
+   "exec_ms": 133.655,
+   "fetch_ms": 4.856,
+   "decode_ms": 2.519,
+   "total_ms": 141.03,
+   "rows": 4400
+  },
+  {
+   "tic": 602,
+   "e2e_ms": 146.934,
+   "exec_ms": 139.009,
+   "fetch_ms": 4.877,
+   "decode_ms": 2.5,
+   "total_ms": 146.386,
+   "rows": 4400
+  },
+  {
+   "tic": 603,
+   "e2e_ms": 153.658,
+   "exec_ms": 145.409,
+   "fetch_ms": 5.2,
+   "decode_ms": 2.509,
+   "total_ms": 153.118,
+   "rows": 4400
+  },
+  {
+   "tic": 604,
+   "e2e_ms": 163.073,
+   "exec_ms": 155.176,
+   "fetch_ms": 4.845,
+   "decode_ms": 2.512,
+   "total_ms": 162.533,
+   "rows": 4400
+  },
+  {
+   "tic": 605,
+   "e2e_ms": 167.466,
+   "exec_ms": 159.076,
+   "fetch_ms": 5.248,
+   "decode_ms": 2.555,
+   "total_ms": 166.879,
+   "rows": 4400
+  },
+  {
+   "tic": 606,
+   "e2e_ms": 167.571,
+   "exec_ms": 159.134,
+   "fetch_ms": 5.385,
+   "decode_ms": 2.506,
+   "total_ms": 167.025,
+   "rows": 4400
+  },
+  {
+   "tic": 607,
+   "e2e_ms": 164.831,
+   "exec_ms": 156.691,
+   "fetch_ms": 5.058,
+   "decode_ms": 2.535,
+   "total_ms": 164.284,
+   "rows": 4400
+  },
+  {
+   "tic": 608,
+   "e2e_ms": 163.927,
+   "exec_ms": 155.84,
+   "fetch_ms": 5.024,
+   "decode_ms": 2.509,
+   "total_ms": 163.373,
+   "rows": 4400
+  },
+  {
+   "tic": 609,
+   "e2e_ms": 166.97,
+   "exec_ms": 158.366,
+   "fetch_ms": 5.519,
+   "decode_ms": 2.521,
+   "total_ms": 166.407,
+   "rows": 4400
+  },
+  {
+   "tic": 610,
+   "e2e_ms": 162.243,
+   "exec_ms": 154.257,
+   "fetch_ms": 4.934,
+   "decode_ms": 2.503,
+   "total_ms": 161.694,
+   "rows": 4400
+  },
+  {
+   "tic": 611,
+   "e2e_ms": 159.656,
+   "exec_ms": 151.663,
+   "fetch_ms": 4.94,
+   "decode_ms": 2.513,
+   "total_ms": 159.117,
+   "rows": 4400
+  },
+  {
+   "tic": 612,
+   "e2e_ms": 156.971,
+   "exec_ms": 148.548,
+   "fetch_ms": 5.373,
+   "decode_ms": 2.509,
+   "total_ms": 156.431,
+   "rows": 4400
+  },
+  {
+   "tic": 613,
+   "e2e_ms": 157.455,
+   "exec_ms": 149.524,
+   "fetch_ms": 4.889,
+   "decode_ms": 2.499,
+   "total_ms": 156.913,
+   "rows": 4400
+  },
+  {
+   "tic": 614,
+   "e2e_ms": 155.125,
+   "exec_ms": 147.046,
+   "fetch_ms": 4.975,
+   "decode_ms": 2.56,
+   "total_ms": 154.581,
+   "rows": 4400
+  },
+  {
+   "tic": 615,
+   "e2e_ms": 154.905,
+   "exec_ms": 147.137,
+   "fetch_ms": 4.714,
+   "decode_ms": 2.513,
+   "total_ms": 154.365,
+   "rows": 4400
+  },
+  {
+   "tic": 616,
+   "e2e_ms": 153.534,
+   "exec_ms": 145.494,
+   "fetch_ms": 4.973,
+   "decode_ms": 2.524,
+   "total_ms": 152.992,
+   "rows": 4400
+  },
+  {
+   "tic": 617,
+   "e2e_ms": 152.287,
+   "exec_ms": 144.423,
+   "fetch_ms": 4.822,
+   "decode_ms": 2.501,
+   "total_ms": 151.745,
+   "rows": 4400
+  },
+  {
+   "tic": 618,
+   "e2e_ms": 151.283,
+   "exec_ms": 143.149,
+   "fetch_ms": 5.124,
+   "decode_ms": 2.474,
+   "total_ms": 150.747,
+   "rows": 4400
+  },
+  {
+   "tic": 619,
+   "e2e_ms": 153.132,
+   "exec_ms": 144.904,
+   "fetch_ms": 5.173,
+   "decode_ms": 2.51,
+   "total_ms": 152.587,
+   "rows": 4400
+  },
+  {
+   "tic": 620,
+   "e2e_ms": 151.063,
+   "exec_ms": 143.083,
+   "fetch_ms": 4.938,
+   "decode_ms": 2.501,
+   "total_ms": 150.521,
+   "rows": 4400
+  },
+  {
+   "tic": 621,
+   "e2e_ms": 151.886,
+   "exec_ms": 143.725,
+   "fetch_ms": 5.088,
+   "decode_ms": 2.5,
+   "total_ms": 151.313,
+   "rows": 4400
+  },
+  {
+   "tic": 622,
+   "e2e_ms": 167.928,
+   "exec_ms": 159.921,
+   "fetch_ms": 4.961,
+   "decode_ms": 2.501,
+   "total_ms": 167.383,
+   "rows": 4400
+  },
+  {
+   "tic": 623,
+   "e2e_ms": 143.588,
+   "exec_ms": 135.614,
+   "fetch_ms": 4.971,
+   "decode_ms": 2.471,
+   "total_ms": 143.056,
+   "rows": 4400
+  },
+  {
+   "tic": 624,
+   "e2e_ms": 142.678,
+   "exec_ms": 134.414,
+   "fetch_ms": 5.196,
+   "decode_ms": 2.512,
+   "total_ms": 142.121,
+   "rows": 4400
+  },
+  {
+   "tic": 625,
+   "e2e_ms": 145.712,
+   "exec_ms": 137.635,
+   "fetch_ms": 5.014,
+   "decode_ms": 2.518,
+   "total_ms": 145.168,
+   "rows": 4400
+  },
+  {
+   "tic": 626,
+   "e2e_ms": 146.209,
+   "exec_ms": 138.241,
+   "fetch_ms": 4.929,
+   "decode_ms": 2.501,
+   "total_ms": 145.67,
+   "rows": 4400
+  },
+  {
+   "tic": 627,
+   "e2e_ms": 142.927,
+   "exec_ms": 135.145,
+   "fetch_ms": 4.73,
+   "decode_ms": 2.515,
+   "total_ms": 142.39,
+   "rows": 4400
+  },
+  {
+   "tic": 628,
+   "e2e_ms": 142.551,
+   "exec_ms": 134.744,
+   "fetch_ms": 4.763,
+   "decode_ms": 2.501,
+   "total_ms": 142.008,
+   "rows": 4400
+  },
+  {
+   "tic": 629,
+   "e2e_ms": 149.06,
+   "exec_ms": 141.109,
+   "fetch_ms": 4.908,
+   "decode_ms": 2.505,
+   "total_ms": 148.522,
+   "rows": 4400
+  },
+  {
+   "tic": 630,
+   "e2e_ms": 153.578,
+   "exec_ms": 145.391,
+   "fetch_ms": 5.141,
+   "decode_ms": 2.503,
+   "total_ms": 153.036,
+   "rows": 4400
+  },
+  {
+   "tic": 631,
+   "e2e_ms": 152.218,
+   "exec_ms": 144.442,
+   "fetch_ms": 4.742,
+   "decode_ms": 2.497,
+   "total_ms": 151.681,
+   "rows": 4400
+  },
+  {
+   "tic": 632,
+   "e2e_ms": 155.135,
+   "exec_ms": 147.297,
+   "fetch_ms": 4.777,
+   "decode_ms": 2.504,
+   "total_ms": 154.578,
+   "rows": 4400
+  },
+  {
+   "tic": 633,
+   "e2e_ms": 165.853,
+   "exec_ms": 157.427,
+   "fetch_ms": 5.379,
+   "decode_ms": 2.497,
+   "total_ms": 165.303,
+   "rows": 4400
+  },
+  {
+   "tic": 634,
+   "e2e_ms": 165.116,
+   "exec_ms": 156.583,
+   "fetch_ms": 5.442,
+   "decode_ms": 2.528,
+   "total_ms": 164.553,
+   "rows": 4400
+  },
+  {
+   "tic": 635,
+   "e2e_ms": 171.183,
+   "exec_ms": 163.043,
+   "fetch_ms": 5.061,
+   "decode_ms": 2.526,
+   "total_ms": 170.631,
+   "rows": 4400
+  },
+  {
+   "tic": 636,
+   "e2e_ms": 170.637,
+   "exec_ms": 162.679,
+   "fetch_ms": 4.913,
+   "decode_ms": 2.501,
+   "total_ms": 170.092,
+   "rows": 4400
+  },
+  {
+   "tic": 637,
+   "e2e_ms": 159.737,
+   "exec_ms": 151.971,
+   "fetch_ms": 4.727,
+   "decode_ms": 2.498,
+   "total_ms": 159.197,
+   "rows": 4400
+  },
+  {
+   "tic": 638,
+   "e2e_ms": 155.79,
+   "exec_ms": 147.881,
+   "fetch_ms": 4.861,
+   "decode_ms": 2.51,
+   "total_ms": 155.252,
+   "rows": 4400
+  },
+  {
+   "tic": 639,
+   "e2e_ms": 151.975,
+   "exec_ms": 143.504,
+   "fetch_ms": 5.406,
+   "decode_ms": 2.524,
+   "total_ms": 151.434,
+   "rows": 4400
+  },
+  {
+   "tic": 640,
+   "e2e_ms": 147.427,
+   "exec_ms": 139.581,
+   "fetch_ms": 4.78,
+   "decode_ms": 2.52,
+   "total_ms": 146.88,
+   "rows": 4400
+  },
+  {
+   "tic": 641,
+   "e2e_ms": 138.969,
+   "exec_ms": 130.542,
+   "fetch_ms": 5.394,
+   "decode_ms": 2.493,
+   "total_ms": 138.429,
+   "rows": 4400
+  },
+  {
+   "tic": 642,
+   "e2e_ms": 140.279,
+   "exec_ms": 132.457,
+   "fetch_ms": 4.772,
+   "decode_ms": 2.508,
+   "total_ms": 139.737,
+   "rows": 4400
+  },
+  {
+   "tic": 643,
+   "e2e_ms": 145.284,
+   "exec_ms": 137.369,
+   "fetch_ms": 4.862,
+   "decode_ms": 2.51,
+   "total_ms": 144.741,
+   "rows": 4400
+  },
+  {
+   "tic": 644,
+   "e2e_ms": 139.133,
+   "exec_ms": 131.094,
+   "fetch_ms": 5.016,
+   "decode_ms": 2.486,
+   "total_ms": 138.595,
+   "rows": 4400
+  },
+  {
+   "tic": 645,
+   "e2e_ms": 137.286,
+   "exec_ms": 128.953,
+   "fetch_ms": 5.292,
+   "decode_ms": 2.491,
+   "total_ms": 136.736,
+   "rows": 4400
+  },
+  {
+   "tic": 646,
+   "e2e_ms": 145.624,
+   "exec_ms": 137.606,
+   "fetch_ms": 4.971,
+   "decode_ms": 2.501,
+   "total_ms": 145.077,
+   "rows": 4400
+  },
+  {
+   "tic": 647,
+   "e2e_ms": 148.268,
+   "exec_ms": 140.28,
+   "fetch_ms": 4.98,
+   "decode_ms": 2.475,
+   "total_ms": 147.735,
+   "rows": 4400
+  },
+  {
+   "tic": 648,
+   "e2e_ms": 153.936,
+   "exec_ms": 145.934,
+   "fetch_ms": 4.962,
+   "decode_ms": 2.5,
+   "total_ms": 153.396,
+   "rows": 4400
+  },
+  {
+   "tic": 649,
+   "e2e_ms": 157.507,
+   "exec_ms": 149.52,
+   "fetch_ms": 4.887,
+   "decode_ms": 2.559,
+   "total_ms": 156.967,
+   "rows": 4400
+  },
+  {
+   "tic": 650,
+   "e2e_ms": 167.559,
+   "exec_ms": 159.143,
+   "fetch_ms": 5.375,
+   "decode_ms": 2.499,
+   "total_ms": 167.016,
+   "rows": 4400
+  },
+  {
+   "tic": 651,
+   "e2e_ms": 165.317,
+   "exec_ms": 157.408,
+   "fetch_ms": 4.813,
+   "decode_ms": 2.551,
+   "total_ms": 164.773,
+   "rows": 4400
+  },
+  {
+   "tic": 652,
+   "e2e_ms": 163.965,
+   "exec_ms": 155.673,
+   "fetch_ms": 5.278,
+   "decode_ms": 2.475,
+   "total_ms": 163.425,
+   "rows": 4400
+  },
+  {
+   "tic": 653,
+   "e2e_ms": 165.064,
+   "exec_ms": 157.208,
+   "fetch_ms": 4.804,
+   "decode_ms": 2.505,
+   "total_ms": 164.517,
+   "rows": 4400
+  },
+  {
+   "tic": 654,
+   "e2e_ms": 166.345,
+   "exec_ms": 158.507,
+   "fetch_ms": 4.798,
+   "decode_ms": 2.497,
+   "total_ms": 165.802,
+   "rows": 4400
+  },
+  {
+   "tic": 655,
+   "e2e_ms": 169.057,
+   "exec_ms": 160.614,
+   "fetch_ms": 5.365,
+   "decode_ms": 2.517,
+   "total_ms": 168.496,
+   "rows": 4400
+  },
+  {
+   "tic": 656,
+   "e2e_ms": 165.909,
+   "exec_ms": 157.573,
+   "fetch_ms": 5.293,
+   "decode_ms": 2.501,
+   "total_ms": 165.367,
+   "rows": 4400
+  },
+  {
+   "tic": 657,
+   "e2e_ms": 166.603,
+   "exec_ms": 158.365,
+   "fetch_ms": 5.191,
+   "decode_ms": 2.5,
+   "total_ms": 166.057,
+   "rows": 4400
+  },
+  {
+   "tic": 658,
+   "e2e_ms": 166.644,
+   "exec_ms": 158.681,
+   "fetch_ms": 4.902,
+   "decode_ms": 2.511,
+   "total_ms": 166.093,
+   "rows": 4400
+  },
+  {
+   "tic": 659,
+   "e2e_ms": 165.06,
+   "exec_ms": 156.96,
+   "fetch_ms": 5.031,
+   "decode_ms": 2.525,
+   "total_ms": 164.516,
+   "rows": 4400
+  },
+  {
+   "tic": 660,
+   "e2e_ms": 163.338,
+   "exec_ms": 155.365,
+   "fetch_ms": 4.912,
+   "decode_ms": 2.511,
+   "total_ms": 162.789,
+   "rows": 4400
+  },
+  {
+   "tic": 661,
+   "e2e_ms": 165.705,
+   "exec_ms": 157.404,
+   "fetch_ms": 5.34,
+   "decode_ms": 2.423,
+   "total_ms": 165.166,
+   "rows": 4400
+  },
+  {
+   "tic": 662,
+   "e2e_ms": 163.803,
+   "exec_ms": 155.386,
+   "fetch_ms": 5.369,
+   "decode_ms": 2.496,
+   "total_ms": 163.252,
+   "rows": 4400
+  },
+  {
+   "tic": 663,
+   "e2e_ms": 162.116,
+   "exec_ms": 153.327,
+   "fetch_ms": 5.548,
+   "decode_ms": 2.666,
+   "total_ms": 161.541,
+   "rows": 4400
+  },
+  {
+   "tic": 664,
+   "e2e_ms": 163.758,
+   "exec_ms": 155.613,
+   "fetch_ms": 5.075,
+   "decode_ms": 2.52,
+   "total_ms": 163.208,
+   "rows": 4400
+  },
+  {
+   "tic": 665,
+   "e2e_ms": 161.717,
+   "exec_ms": 153.529,
+   "fetch_ms": 5.058,
+   "decode_ms": 2.571,
+   "total_ms": 161.158,
+   "rows": 4400
+  },
+  {
+   "tic": 666,
+   "e2e_ms": 159.506,
+   "exec_ms": 151.307,
+   "fetch_ms": 5.166,
+   "decode_ms": 2.491,
+   "total_ms": 158.964,
+   "rows": 4400
+  },
+  {
+   "tic": 667,
+   "e2e_ms": 156.027,
+   "exec_ms": 148.181,
+   "fetch_ms": 4.8,
+   "decode_ms": 2.507,
+   "total_ms": 155.488,
+   "rows": 4400
+  },
+  {
+   "tic": 668,
+   "e2e_ms": 157.056,
+   "exec_ms": 148.889,
+   "fetch_ms": 5.134,
+   "decode_ms": 2.487,
+   "total_ms": 156.509,
+   "rows": 4400
+  },
+  {
+   "tic": 669,
+   "e2e_ms": 159.884,
+   "exec_ms": 151.143,
+   "fetch_ms": 5.526,
+   "decode_ms": 2.649,
+   "total_ms": 159.318,
+   "rows": 4400
+  },
+  {
+   "tic": 670,
+   "e2e_ms": 184.147,
+   "exec_ms": 175.824,
+   "fetch_ms": 5.253,
+   "decode_ms": 2.513,
+   "total_ms": 183.591,
+   "rows": 4400
+  },
+  {
+   "tic": 671,
+   "e2e_ms": 185.75,
+   "exec_ms": 177.319,
+   "fetch_ms": 5.303,
+   "decode_ms": 2.551,
+   "total_ms": 185.173,
+   "rows": 4400
+  },
+  {
+   "tic": 672,
+   "e2e_ms": 162.808,
+   "exec_ms": 154.335,
+   "fetch_ms": 5.325,
+   "decode_ms": 2.58,
+   "total_ms": 162.24,
+   "rows": 4400
+  },
+  {
+   "tic": 673,
+   "e2e_ms": 166.396,
+   "exec_ms": 158.347,
+   "fetch_ms": 4.988,
+   "decode_ms": 2.514,
+   "total_ms": 165.848,
+   "rows": 4400
+  },
+  {
+   "tic": 674,
+   "e2e_ms": 166.217,
+   "exec_ms": 158.274,
+   "fetch_ms": 4.868,
+   "decode_ms": 2.512,
+   "total_ms": 165.654,
+   "rows": 4400
+  },
+  {
+   "tic": 675,
+   "e2e_ms": 158.384,
+   "exec_ms": 150.237,
+   "fetch_ms": 5.107,
+   "decode_ms": 2.502,
+   "total_ms": 157.846,
+   "rows": 4400
+  },
+  {
+   "tic": 676,
+   "e2e_ms": 147.098,
+   "exec_ms": 138.32,
+   "fetch_ms": 5.699,
+   "decode_ms": 2.532,
+   "total_ms": 146.551,
+   "rows": 4400
+  },
+  {
+   "tic": 677,
+   "e2e_ms": 144.638,
+   "exec_ms": 136.9,
+   "fetch_ms": 4.705,
+   "decode_ms": 2.494,
+   "total_ms": 144.099,
+   "rows": 4400
+  },
+  {
+   "tic": 678,
+   "e2e_ms": 142.079,
+   "exec_ms": 134.146,
+   "fetch_ms": 4.892,
+   "decode_ms": 2.501,
+   "total_ms": 141.538,
+   "rows": 4400
+  },
+  {
+   "tic": 679,
+   "e2e_ms": 139.056,
+   "exec_ms": 131.206,
+   "fetch_ms": 4.822,
+   "decode_ms": 2.488,
+   "total_ms": 138.517,
+   "rows": 4400
+  },
+  {
+   "tic": 680,
+   "e2e_ms": 137.235,
+   "exec_ms": 129.298,
+   "fetch_ms": 4.895,
+   "decode_ms": 2.501,
+   "total_ms": 136.694,
+   "rows": 4400
+  },
+  {
+   "tic": 681,
+   "e2e_ms": 133.029,
+   "exec_ms": 125.254,
+   "fetch_ms": 4.756,
+   "decode_ms": 2.481,
+   "total_ms": 132.491,
+   "rows": 4400
+  },
+  {
+   "tic": 682,
+   "e2e_ms": 128.952,
+   "exec_ms": 121.029,
+   "fetch_ms": 4.893,
+   "decode_ms": 2.494,
+   "total_ms": 128.416,
+   "rows": 4400
+  },
+  {
+   "tic": 683,
+   "e2e_ms": 137.203,
+   "exec_ms": 129.015,
+   "fetch_ms": 5.14,
+   "decode_ms": 2.502,
+   "total_ms": 136.657,
+   "rows": 4400
+  },
+  {
+   "tic": 684,
+   "e2e_ms": 129.878,
+   "exec_ms": 122.124,
+   "fetch_ms": 4.726,
+   "decode_ms": 2.481,
+   "total_ms": 129.332,
+   "rows": 4400
+  },
+  {
+   "tic": 685,
+   "e2e_ms": 139.788,
+   "exec_ms": 131.935,
+   "fetch_ms": 4.823,
+   "decode_ms": 2.488,
+   "total_ms": 139.247,
+   "rows": 4400
+  },
+  {
+   "tic": 686,
+   "e2e_ms": 143.375,
+   "exec_ms": 135.444,
+   "fetch_ms": 4.904,
+   "decode_ms": 2.484,
+   "total_ms": 142.832,
+   "rows": 4400
+  },
+  {
+   "tic": 687,
+   "e2e_ms": 125.154,
+   "exec_ms": 116.95,
+   "fetch_ms": 5.173,
+   "decode_ms": 2.478,
+   "total_ms": 124.601,
+   "rows": 4400
+  },
+  {
+   "tic": 688,
+   "e2e_ms": 124.552,
+   "exec_ms": 116.563,
+   "fetch_ms": 4.944,
+   "decode_ms": 2.5,
+   "total_ms": 124.007,
+   "rows": 4400
+  },
+  {
+   "tic": 689,
+   "e2e_ms": 122.61,
+   "exec_ms": 114.805,
+   "fetch_ms": 4.72,
+   "decode_ms": 2.54,
+   "total_ms": 122.065,
+   "rows": 4400
+  },
+  {
+   "tic": 690,
+   "e2e_ms": 122.656,
+   "exec_ms": 114.787,
+   "fetch_ms": 4.82,
+   "decode_ms": 2.509,
+   "total_ms": 122.116,
+   "rows": 4400
+  },
+  {
+   "tic": 691,
+   "e2e_ms": 126.498,
+   "exec_ms": 118.254,
+   "fetch_ms": 5.208,
+   "decode_ms": 2.49,
+   "total_ms": 125.953,
+   "rows": 4400
+  },
+  {
+   "tic": 692,
+   "e2e_ms": 130.791,
+   "exec_ms": 123.04,
+   "fetch_ms": 4.73,
+   "decode_ms": 2.476,
+   "total_ms": 130.247,
+   "rows": 4400
+  },
+  {
+   "tic": 693,
+   "e2e_ms": 136.255,
+   "exec_ms": 128.553,
+   "fetch_ms": 4.651,
+   "decode_ms": 2.506,
+   "total_ms": 135.71,
+   "rows": 4400
+  },
+  {
+   "tic": 694,
+   "e2e_ms": 149.046,
+   "exec_ms": 141.265,
+   "fetch_ms": 4.72,
+   "decode_ms": 2.518,
+   "total_ms": 148.503,
+   "rows": 4400
+  },
+  {
+   "tic": 695,
+   "e2e_ms": 159.39,
+   "exec_ms": 151.237,
+   "fetch_ms": 5.076,
+   "decode_ms": 2.532,
+   "total_ms": 158.845,
+   "rows": 4400
+  },
+  {
+   "tic": 696,
+   "e2e_ms": 169.9,
+   "exec_ms": 162.11,
+   "fetch_ms": 4.754,
+   "decode_ms": 2.497,
+   "total_ms": 169.361,
+   "rows": 4400
+  },
+  {
+   "tic": 697,
+   "e2e_ms": 169.462,
+   "exec_ms": 161.334,
+   "fetch_ms": 5.082,
+   "decode_ms": 2.497,
+   "total_ms": 168.914,
+   "rows": 4400
+  },
+  {
+   "tic": 698,
+   "e2e_ms": 173.934,
+   "exec_ms": 165.807,
+   "fetch_ms": 5.077,
+   "decode_ms": 2.507,
+   "total_ms": 173.391,
+   "rows": 4400
+  },
+  {
+   "tic": 699,
+   "e2e_ms": 171.039,
+   "exec_ms": 162.958,
+   "fetch_ms": 5.002,
+   "decode_ms": 2.532,
+   "total_ms": 170.492,
+   "rows": 4400
+  },
+  {
+   "tic": 700,
+   "e2e_ms": 167.924,
+   "exec_ms": 159.464,
+   "fetch_ms": 5.431,
+   "decode_ms": 2.488,
+   "total_ms": 167.383,
+   "rows": 4400
+  },
+  {
+   "tic": 701,
+   "e2e_ms": 169.941,
+   "exec_ms": 161.994,
+   "fetch_ms": 4.891,
+   "decode_ms": 2.513,
+   "total_ms": 169.398,
+   "rows": 4400
+  },
+  {
+   "tic": 702,
+   "e2e_ms": 168.681,
+   "exec_ms": 160.55,
+   "fetch_ms": 5.083,
+   "decode_ms": 2.496,
+   "total_ms": 168.129,
+   "rows": 4400
+  },
+  {
+   "tic": 703,
+   "e2e_ms": 168.66,
+   "exec_ms": 160.694,
+   "fetch_ms": 4.895,
+   "decode_ms": 2.514,
+   "total_ms": 168.103,
+   "rows": 4400
+  },
+  {
+   "tic": 704,
+   "e2e_ms": 170.128,
+   "exec_ms": 161.663,
+   "fetch_ms": 5.431,
+   "decode_ms": 2.493,
+   "total_ms": 169.586,
+   "rows": 4400
+  },
+  {
+   "tic": 705,
+   "e2e_ms": 168.566,
+   "exec_ms": 160.717,
+   "fetch_ms": 4.798,
+   "decode_ms": 2.51,
+   "total_ms": 168.025,
+   "rows": 4400
+  },
+  {
+   "tic": 706,
+   "e2e_ms": 168.433,
+   "exec_ms": 160.116,
+   "fetch_ms": 5.26,
+   "decode_ms": 2.51,
+   "total_ms": 167.886,
+   "rows": 4400
+  },
+  {
+   "tic": 707,
+   "e2e_ms": 168.2,
+   "exec_ms": 159.956,
+   "fetch_ms": 5.193,
+   "decode_ms": 2.508,
+   "total_ms": 167.656,
+   "rows": 4400
+  },
+  {
+   "tic": 708,
+   "e2e_ms": 162.631,
+   "exec_ms": 154.635,
+   "fetch_ms": 4.936,
+   "decode_ms": 2.518,
+   "total_ms": 162.09,
+   "rows": 4400
+  },
+  {
+   "tic": 709,
+   "e2e_ms": 161.364,
+   "exec_ms": 153.196,
+   "fetch_ms": 5.061,
+   "decode_ms": 2.563,
+   "total_ms": 160.82,
+   "rows": 4400
+  },
+  {
+   "tic": 710,
+   "e2e_ms": 163.894,
+   "exec_ms": 155.827,
+   "fetch_ms": 5.011,
+   "decode_ms": 2.511,
+   "total_ms": 163.349,
+   "rows": 4400
+  },
+  {
+   "tic": 711,
+   "e2e_ms": 158.926,
+   "exec_ms": 150.849,
+   "fetch_ms": 4.909,
+   "decode_ms": 2.624,
+   "total_ms": 158.382,
+   "rows": 4400
+  },
+  {
+   "tic": 712,
+   "e2e_ms": 159.99,
+   "exec_ms": 151.991,
+   "fetch_ms": 4.954,
+   "decode_ms": 2.5,
+   "total_ms": 159.444,
+   "rows": 4400
+  },
+  {
+   "tic": 713,
+   "e2e_ms": 160.131,
+   "exec_ms": 152.193,
+   "fetch_ms": 4.874,
+   "decode_ms": 2.519,
+   "total_ms": 159.586,
+   "rows": 4400
+  },
+  {
+   "tic": 714,
+   "e2e_ms": 159.931,
+   "exec_ms": 151.907,
+   "fetch_ms": 4.969,
+   "decode_ms": 2.505,
+   "total_ms": 159.381,
+   "rows": 4400
+  },
+  {
+   "tic": 715,
+   "e2e_ms": 160.568,
+   "exec_ms": 152.72,
+   "fetch_ms": 4.817,
+   "decode_ms": 2.493,
+   "total_ms": 160.03,
+   "rows": 4400
+  },
+  {
+   "tic": 716,
+   "e2e_ms": 186.761,
+   "exec_ms": 178.763,
+   "fetch_ms": 4.934,
+   "decode_ms": 2.518,
+   "total_ms": 186.215,
+   "rows": 4400
+  },
+  {
+   "tic": 717,
+   "e2e_ms": 195.579,
+   "exec_ms": 187.145,
+   "fetch_ms": 5.391,
+   "decode_ms": 2.502,
+   "total_ms": 195.038,
+   "rows": 4400
+  },
+  {
+   "tic": 718,
+   "e2e_ms": 178.404,
+   "exec_ms": 169.949,
+   "fetch_ms": 5.389,
+   "decode_ms": 2.521,
+   "total_ms": 177.859,
+   "rows": 4400
+  },
+  {
+   "tic": 719,
+   "e2e_ms": 179.995,
+   "exec_ms": 171.734,
+   "fetch_ms": 5.206,
+   "decode_ms": 2.514,
+   "total_ms": 179.453,
+   "rows": 4400
+  },
+  {
+   "tic": 720,
+   "e2e_ms": 183.223,
+   "exec_ms": 175.131,
+   "fetch_ms": 4.97,
+   "decode_ms": 2.562,
+   "total_ms": 182.662,
+   "rows": 4400
+  },
+  {
+   "tic": 721,
+   "e2e_ms": 175.613,
+   "exec_ms": 167.316,
+   "fetch_ms": 5.25,
+   "decode_ms": 2.497,
+   "total_ms": 175.063,
+   "rows": 4400
+  },
+  {
+   "tic": 722,
+   "e2e_ms": 173.616,
+   "exec_ms": 165.586,
+   "fetch_ms": 4.979,
+   "decode_ms": 2.509,
+   "total_ms": 173.074,
+   "rows": 4400
+  },
+  {
+   "tic": 723,
+   "e2e_ms": 171.904,
+   "exec_ms": 163.268,
+   "fetch_ms": 5.527,
+   "decode_ms": 2.551,
+   "total_ms": 171.347,
+   "rows": 4400
+  },
+  {
+   "tic": 724,
+   "e2e_ms": 180.343,
+   "exec_ms": 172.204,
+   "fetch_ms": 5.103,
+   "decode_ms": 2.486,
+   "total_ms": 179.794,
+   "rows": 4400
+  },
+  {
+   "tic": 725,
+   "e2e_ms": 173.161,
+   "exec_ms": 165.243,
+   "fetch_ms": 4.866,
+   "decode_ms": 2.498,
+   "total_ms": 172.607,
+   "rows": 4400
+  },
+  {
+   "tic": 726,
+   "e2e_ms": 174.583,
+   "exec_ms": 166.52,
+   "fetch_ms": 5.029,
+   "decode_ms": 2.495,
+   "total_ms": 174.043,
+   "rows": 4400
+  },
+  {
+   "tic": 727,
+   "e2e_ms": 178.617,
+   "exec_ms": 169.851,
+   "fetch_ms": 5.711,
+   "decode_ms": 2.511,
+   "total_ms": 178.072,
+   "rows": 4400
+  },
+  {
+   "tic": 728,
+   "e2e_ms": 178.754,
+   "exec_ms": 170.464,
+   "fetch_ms": 5.249,
+   "decode_ms": 2.493,
+   "total_ms": 178.207,
+   "rows": 4400
+  },
+  {
+   "tic": 729,
+   "e2e_ms": 180.684,
+   "exec_ms": 172.353,
+   "fetch_ms": 5.252,
+   "decode_ms": 2.529,
+   "total_ms": 180.135,
+   "rows": 4400
+  },
+  {
+   "tic": 730,
+   "e2e_ms": 179.993,
+   "exec_ms": 171.663,
+   "fetch_ms": 5.143,
+   "decode_ms": 2.621,
+   "total_ms": 179.427,
+   "rows": 4400
+  },
+  {
+   "tic": 731,
+   "e2e_ms": 178.131,
+   "exec_ms": 169.9,
+   "fetch_ms": 5.161,
+   "decode_ms": 2.529,
+   "total_ms": 177.59,
+   "rows": 4400
+  },
+  {
+   "tic": 732,
+   "e2e_ms": 180.167,
+   "exec_ms": 171.773,
+   "fetch_ms": 5.337,
+   "decode_ms": 2.512,
+   "total_ms": 179.622,
+   "rows": 4400
+  },
+  {
+   "tic": 733,
+   "e2e_ms": 178.164,
+   "exec_ms": 170.264,
+   "fetch_ms": 4.843,
+   "decode_ms": 2.513,
+   "total_ms": 177.621,
+   "rows": 4400
+  },
+  {
+   "tic": 734,
+   "e2e_ms": 175.952,
+   "exec_ms": 167.742,
+   "fetch_ms": 5.113,
+   "decode_ms": 2.529,
+   "total_ms": 175.383,
+   "rows": 4400
+  },
+  {
+   "tic": 735,
+   "e2e_ms": 171.826,
+   "exec_ms": 163.404,
+   "fetch_ms": 5.354,
+   "decode_ms": 2.519,
+   "total_ms": 171.277,
+   "rows": 4400
+  },
+  {
+   "tic": 736,
+   "e2e_ms": 171.931,
+   "exec_ms": 163.659,
+   "fetch_ms": 5.253,
+   "decode_ms": 2.476,
+   "total_ms": 171.388,
+   "rows": 4400
+  },
+  {
+   "tic": 737,
+   "e2e_ms": 169.539,
+   "exec_ms": 161.222,
+   "fetch_ms": 5.262,
+   "decode_ms": 2.515,
+   "total_ms": 168.999,
+   "rows": 4400
+  },
+  {
+   "tic": 738,
+   "e2e_ms": 170.504,
+   "exec_ms": 162.052,
+   "fetch_ms": 5.402,
+   "decode_ms": 2.509,
+   "total_ms": 169.963,
+   "rows": 4400
+  },
+  {
+   "tic": 739,
+   "e2e_ms": 170.49,
+   "exec_ms": 162.136,
+   "fetch_ms": 5.286,
+   "decode_ms": 2.522,
+   "total_ms": 169.944,
+   "rows": 4400
+  },
+  {
+   "tic": 740,
+   "e2e_ms": 168.733,
+   "exec_ms": 160.44,
+   "fetch_ms": 5.245,
+   "decode_ms": 2.506,
+   "total_ms": 168.191,
+   "rows": 4400
+  },
+  {
+   "tic": 741,
+   "e2e_ms": 171.262,
+   "exec_ms": 163.16,
+   "fetch_ms": 5.048,
+   "decode_ms": 2.513,
+   "total_ms": 170.721,
+   "rows": 4400
+  },
+  {
+   "tic": 742,
+   "e2e_ms": 171.941,
+   "exec_ms": 163.637,
+   "fetch_ms": 5.237,
+   "decode_ms": 2.524,
+   "total_ms": 171.398,
+   "rows": 4400
+  },
+  {
+   "tic": 743,
+   "e2e_ms": 172.622,
+   "exec_ms": 164.179,
+   "fetch_ms": 5.403,
+   "decode_ms": 2.499,
+   "total_ms": 172.082,
+   "rows": 4400
+  },
+  {
+   "tic": 744,
+   "e2e_ms": 175.885,
+   "exec_ms": 167.546,
+   "fetch_ms": 5.274,
+   "decode_ms": 2.525,
+   "total_ms": 175.344,
+   "rows": 4400
+  },
+  {
+   "tic": 745,
+   "e2e_ms": 179.728,
+   "exec_ms": 170.828,
+   "fetch_ms": 5.759,
+   "decode_ms": 2.577,
+   "total_ms": 179.164,
+   "rows": 4400
+  },
+  {
+   "tic": 746,
+   "e2e_ms": 192.845,
+   "exec_ms": 184.389,
+   "fetch_ms": 5.384,
+   "decode_ms": 2.518,
+   "total_ms": 192.291,
+   "rows": 4400
+  },
+  {
+   "tic": 747,
+   "e2e_ms": 184.928,
+   "exec_ms": 176.679,
+   "fetch_ms": 5.16,
+   "decode_ms": 2.537,
+   "total_ms": 184.377,
+   "rows": 4400
+  },
+  {
+   "tic": 748,
+   "e2e_ms": 178.299,
+   "exec_ms": 169.406,
+   "fetch_ms": 5.819,
+   "decode_ms": 2.512,
+   "total_ms": 177.737,
+   "rows": 4400
+  },
+  {
+   "tic": 749,
+   "e2e_ms": 182.212,
+   "exec_ms": 173.842,
+   "fetch_ms": 5.314,
+   "decode_ms": 2.516,
+   "total_ms": 181.672,
+   "rows": 4400
+  },
+  {
+   "tic": 750,
+   "e2e_ms": 177.876,
+   "exec_ms": 169.459,
+   "fetch_ms": 5.196,
+   "decode_ms": 2.651,
+   "total_ms": 177.306,
+   "rows": 4400
+  },
+  {
+   "tic": 751,
+   "e2e_ms": 184.099,
+   "exec_ms": 176.064,
+   "fetch_ms": 4.96,
+   "decode_ms": 2.532,
+   "total_ms": 183.556,
+   "rows": 4400
+  },
+  {
+   "tic": 752,
+   "e2e_ms": 186.674,
+   "exec_ms": 177.742,
+   "fetch_ms": 5.874,
+   "decode_ms": 2.511,
+   "total_ms": 186.126,
+   "rows": 4400
+  },
+  {
+   "tic": 753,
+   "e2e_ms": 178.964,
+   "exec_ms": 170.508,
+   "fetch_ms": 5.362,
+   "decode_ms": 2.542,
+   "total_ms": 178.411,
+   "rows": 4400
+  },
+  {
+   "tic": 754,
+   "e2e_ms": 168.84,
+   "exec_ms": 160.45,
+   "fetch_ms": 5.301,
+   "decode_ms": 2.547,
+   "total_ms": 168.298,
+   "rows": 4400
+  },
+  {
+   "tic": 755,
+   "e2e_ms": 179.648,
+   "exec_ms": 171.393,
+   "fetch_ms": 5.202,
+   "decode_ms": 2.508,
+   "total_ms": 179.102,
+   "rows": 4400
+  },
+  {
+   "tic": 756,
+   "e2e_ms": 161.293,
+   "exec_ms": 153.073,
+   "fetch_ms": 5.185,
+   "decode_ms": 2.491,
+   "total_ms": 160.748,
+   "rows": 4400
+  },
+  {
+   "tic": 757,
+   "e2e_ms": 152.714,
+   "exec_ms": 144.125,
+   "fetch_ms": 5.532,
+   "decode_ms": 2.515,
+   "total_ms": 152.173,
+   "rows": 4400
+  },
+  {
+   "tic": 758,
+   "e2e_ms": 146.862,
+   "exec_ms": 138.566,
+   "fetch_ms": 5.241,
+   "decode_ms": 2.509,
+   "total_ms": 146.315,
+   "rows": 4400
+  },
+  {
+   "tic": 759,
+   "e2e_ms": 150.832,
+   "exec_ms": 142.629,
+   "fetch_ms": 5.139,
+   "decode_ms": 2.522,
+   "total_ms": 150.29,
+   "rows": 4400
+  },
+  {
+   "tic": 760,
+   "e2e_ms": 139.955,
+   "exec_ms": 131.879,
+   "fetch_ms": 5.024,
+   "decode_ms": 2.51,
+   "total_ms": 139.413,
+   "rows": 4400
+  },
+  {
+   "tic": 761,
+   "e2e_ms": 136.815,
+   "exec_ms": 128.717,
+   "fetch_ms": 5.041,
+   "decode_ms": 2.51,
+   "total_ms": 136.268,
+   "rows": 4400
+  },
+  {
+   "tic": 762,
+   "e2e_ms": 142.837,
+   "exec_ms": 134.826,
+   "fetch_ms": 4.961,
+   "decode_ms": 2.507,
+   "total_ms": 142.293,
+   "rows": 4400
+  },
+  {
+   "tic": 763,
+   "e2e_ms": 142.85,
+   "exec_ms": 134.631,
+   "fetch_ms": 5.141,
+   "decode_ms": 2.537,
+   "total_ms": 142.309,
+   "rows": 4400
+  },
+  {
+   "tic": 764,
+   "e2e_ms": 147.735,
+   "exec_ms": 139.613,
+   "fetch_ms": 5.064,
+   "decode_ms": 2.507,
+   "total_ms": 147.185,
+   "rows": 4400
+  },
+  {
+   "tic": 765,
+   "e2e_ms": 159.443,
+   "exec_ms": 151.137,
+   "fetch_ms": 5.251,
+   "decode_ms": 2.509,
+   "total_ms": 158.896,
+   "rows": 4400
+  },
+  {
+   "tic": 766,
+   "e2e_ms": 165.985,
+   "exec_ms": 158.131,
+   "fetch_ms": 4.795,
+   "decode_ms": 2.514,
+   "total_ms": 165.44,
+   "rows": 4400
+  },
+  {
+   "tic": 767,
+   "e2e_ms": 175.018,
+   "exec_ms": 166.747,
+   "fetch_ms": 5.177,
+   "decode_ms": 2.525,
+   "total_ms": 174.448,
+   "rows": 4400
+  },
+  {
+   "tic": 768,
+   "e2e_ms": 172.09,
+   "exec_ms": 163.96,
+   "fetch_ms": 5.09,
+   "decode_ms": 2.498,
+   "total_ms": 171.548,
+   "rows": 4400
+  },
+  {
+   "tic": 769,
+   "e2e_ms": 168.704,
+   "exec_ms": 160.371,
+   "fetch_ms": 5.281,
+   "decode_ms": 2.511,
+   "total_ms": 168.163,
+   "rows": 4400
+  },
+  {
+   "tic": 770,
+   "e2e_ms": 165.946,
+   "exec_ms": 157.908,
+   "fetch_ms": 4.987,
+   "decode_ms": 2.512,
+   "total_ms": 165.407,
+   "rows": 4400
+  },
+  {
+   "tic": 771,
+   "e2e_ms": 172.058,
+   "exec_ms": 163.169,
+   "fetch_ms": 5.839,
+   "decode_ms": 2.499,
+   "total_ms": 171.506,
+   "rows": 4400
+  },
+  {
+   "tic": 772,
+   "e2e_ms": 161.84,
+   "exec_ms": 153.725,
+   "fetch_ms": 5.08,
+   "decode_ms": 2.493,
+   "total_ms": 161.298,
+   "rows": 4400
+  },
+  {
+   "tic": 773,
+   "e2e_ms": 157.239,
+   "exec_ms": 149.048,
+   "fetch_ms": 5.145,
+   "decode_ms": 2.505,
+   "total_ms": 156.699,
+   "rows": 4400
+  },
+  {
+   "tic": 774,
+   "e2e_ms": 152.278,
+   "exec_ms": 143.97,
+   "fetch_ms": 5.252,
+   "decode_ms": 2.51,
+   "total_ms": 151.731,
+   "rows": 4400
+  },
+  {
+   "tic": 775,
+   "e2e_ms": 144.955,
+   "exec_ms": 136.672,
+   "fetch_ms": 5.236,
+   "decode_ms": 2.504,
+   "total_ms": 144.413,
+   "rows": 4400
+  },
+  {
+   "tic": 776,
+   "e2e_ms": 145.609,
+   "exec_ms": 137.394,
+   "fetch_ms": 5.158,
+   "decode_ms": 2.51,
+   "total_ms": 145.062,
+   "rows": 4400
+  },
+  {
+   "tic": 777,
+   "e2e_ms": 145.666,
+   "exec_ms": 137.757,
+   "fetch_ms": 4.863,
+   "decode_ms": 2.504,
+   "total_ms": 145.124,
+   "rows": 4400
+  },
+  {
+   "tic": 778,
+   "e2e_ms": 145.391,
+   "exec_ms": 137.355,
+   "fetch_ms": 4.944,
+   "decode_ms": 2.538,
+   "total_ms": 144.837,
+   "rows": 4400
+  },
+  {
+   "tic": 779,
+   "e2e_ms": 145.457,
+   "exec_ms": 137.641,
+   "fetch_ms": 4.756,
+   "decode_ms": 2.52,
+   "total_ms": 144.918,
+   "rows": 4400
+  },
+  {
+   "tic": 780,
+   "e2e_ms": 144.056,
+   "exec_ms": 136.313,
+   "fetch_ms": 4.702,
+   "decode_ms": 2.502,
+   "total_ms": 143.517,
+   "rows": 4400
+  },
+  {
+   "tic": 781,
+   "e2e_ms": 145.161,
+   "exec_ms": 137.067,
+   "fetch_ms": 4.961,
+   "decode_ms": 2.564,
+   "total_ms": 144.593,
+   "rows": 4400
+  },
+  {
+   "tic": 782,
+   "e2e_ms": 147.153,
+   "exec_ms": 139.331,
+   "fetch_ms": 4.769,
+   "decode_ms": 2.511,
+   "total_ms": 146.611,
+   "rows": 4400
+  },
+  {
+   "tic": 783,
+   "e2e_ms": 174.017,
+   "exec_ms": 166.061,
+   "fetch_ms": 4.905,
+   "decode_ms": 2.511,
+   "total_ms": 173.477,
+   "rows": 4400
+  },
+  {
+   "tic": 784,
+   "e2e_ms": 153.989,
+   "exec_ms": 145.988,
+   "fetch_ms": 4.949,
+   "decode_ms": 2.505,
+   "total_ms": 153.442,
+   "rows": 4400
+  },
+  {
+   "tic": 785,
+   "e2e_ms": 151.783,
+   "exec_ms": 143.702,
+   "fetch_ms": 5.022,
+   "decode_ms": 2.51,
+   "total_ms": 151.234,
+   "rows": 4400
+  },
+  {
+   "tic": 786,
+   "e2e_ms": 149.153,
+   "exec_ms": 141.306,
+   "fetch_ms": 4.789,
+   "decode_ms": 2.509,
+   "total_ms": 148.604,
+   "rows": 4400
+  },
+  {
+   "tic": 787,
+   "e2e_ms": 148.875,
+   "exec_ms": 140.272,
+   "fetch_ms": 5.519,
+   "decode_ms": 2.542,
+   "total_ms": 148.332,
+   "rows": 4400
+  },
+  {
+   "tic": 788,
+   "e2e_ms": 151.253,
+   "exec_ms": 143.228,
+   "fetch_ms": 5.069,
+   "decode_ms": 2.421,
+   "total_ms": 150.718,
+   "rows": 4400
+  },
+  {
+   "tic": 789,
+   "e2e_ms": 148.778,
+   "exec_ms": 140.609,
+   "fetch_ms": 5.152,
+   "decode_ms": 2.483,
+   "total_ms": 148.244,
+   "rows": 4400
+  },
+  {
+   "tic": 790,
+   "e2e_ms": 148.995,
+   "exec_ms": 140.505,
+   "fetch_ms": 5.442,
+   "decode_ms": 2.505,
+   "total_ms": 148.451,
+   "rows": 4400
+  },
+  {
+   "tic": 791,
+   "e2e_ms": 148.294,
+   "exec_ms": 140.279,
+   "fetch_ms": 4.947,
+   "decode_ms": 2.508,
+   "total_ms": 147.733,
+   "rows": 4400
+  },
+  {
+   "tic": 792,
+   "e2e_ms": 148.008,
+   "exec_ms": 140.017,
+   "fetch_ms": 4.929,
+   "decode_ms": 2.517,
+   "total_ms": 147.463,
+   "rows": 4400
+  },
+  {
+   "tic": 793,
+   "e2e_ms": 146.625,
+   "exec_ms": 138.487,
+   "fetch_ms": 5.08,
+   "decode_ms": 2.512,
+   "total_ms": 146.078,
+   "rows": 4400
+  },
+  {
+   "tic": 794,
+   "e2e_ms": 153.944,
+   "exec_ms": 145.526,
+   "fetch_ms": 5.362,
+   "decode_ms": 2.507,
+   "total_ms": 153.394,
+   "rows": 4400
+  },
+  {
+   "tic": 795,
+   "e2e_ms": 149.827,
+   "exec_ms": 141.571,
+   "fetch_ms": 5.195,
+   "decode_ms": 2.505,
+   "total_ms": 149.271,
+   "rows": 4400
+  },
+  {
+   "tic": 796,
+   "e2e_ms": 147.084,
+   "exec_ms": 139.02,
+   "fetch_ms": 5.004,
+   "decode_ms": 2.511,
+   "total_ms": 146.535,
+   "rows": 4400
+  },
+  {
+   "tic": 797,
+   "e2e_ms": 148.611,
+   "exec_ms": 140.516,
+   "fetch_ms": 5.042,
+   "decode_ms": 2.502,
+   "total_ms": 148.06,
+   "rows": 4400
+  },
+  {
+   "tic": 798,
+   "e2e_ms": 145.75,
+   "exec_ms": 137.527,
+   "fetch_ms": 5.255,
+   "decode_ms": 2.432,
+   "total_ms": 145.214,
+   "rows": 4400
+  },
+  {
+   "tic": 799,
+   "e2e_ms": 143.437,
+   "exec_ms": 135.462,
+   "fetch_ms": 4.892,
+   "decode_ms": 2.528,
+   "total_ms": 142.881,
+   "rows": 4400
+  },
+  {
+   "tic": 800,
+   "e2e_ms": 140.407,
+   "exec_ms": 132.349,
+   "fetch_ms": 5.035,
+   "decode_ms": 2.484,
+   "total_ms": 139.869,
+   "rows": 4400
+  },
+  {
+   "tic": 801,
+   "e2e_ms": 143.167,
+   "exec_ms": 134.845,
+   "fetch_ms": 5.261,
+   "decode_ms": 2.512,
+   "total_ms": 142.618,
+   "rows": 4400
+  },
+  {
+   "tic": 802,
+   "e2e_ms": 135.729,
+   "exec_ms": 127.69,
+   "fetch_ms": 4.926,
+   "decode_ms": 2.544,
+   "total_ms": 135.161,
+   "rows": 4400
+  },
+  {
+   "tic": 803,
+   "e2e_ms": 165.779,
+   "exec_ms": 157.793,
+   "fetch_ms": 4.922,
+   "decode_ms": 2.52,
+   "total_ms": 165.235,
+   "rows": 4400
+  },
+  {
+   "tic": 804,
+   "e2e_ms": 154.073,
+   "exec_ms": 146.145,
+   "fetch_ms": 4.881,
+   "decode_ms": 2.505,
+   "total_ms": 153.531,
+   "rows": 4400
+  },
+  {
+   "tic": 805,
+   "e2e_ms": 156.939,
+   "exec_ms": 148.834,
+   "fetch_ms": 5.041,
+   "decode_ms": 2.507,
+   "total_ms": 156.383,
+   "rows": 4400
+  },
+  {
+   "tic": 806,
+   "e2e_ms": 168.343,
+   "exec_ms": 159.562,
+   "fetch_ms": 5.721,
+   "decode_ms": 2.499,
+   "total_ms": 167.782,
+   "rows": 4400
+  },
+  {
+   "tic": 807,
+   "e2e_ms": 180.217,
+   "exec_ms": 171.82,
+   "fetch_ms": 5.317,
+   "decode_ms": 2.528,
+   "total_ms": 179.666,
+   "rows": 4400
+  },
+  {
+   "tic": 808,
+   "e2e_ms": 172.75,
+   "exec_ms": 165.2,
+   "fetch_ms": 4.51,
+   "decode_ms": 2.504,
+   "total_ms": 172.215,
+   "rows": 4400
+  },
+  {
+   "tic": 809,
+   "e2e_ms": 170.067,
+   "exec_ms": 161.77,
+   "fetch_ms": 5.248,
+   "decode_ms": 2.497,
+   "total_ms": 169.515,
+   "rows": 4400
+  },
+  {
+   "tic": 810,
+   "e2e_ms": 175.534,
+   "exec_ms": 166.99,
+   "fetch_ms": 5.494,
+   "decode_ms": 2.497,
+   "total_ms": 174.981,
+   "rows": 4400
+  },
+  {
+   "tic": 811,
+   "e2e_ms": 185.909,
+   "exec_ms": 177.899,
+   "fetch_ms": 4.953,
+   "decode_ms": 2.509,
+   "total_ms": 185.362,
+   "rows": 4400
+  },
+  {
+   "tic": 812,
+   "e2e_ms": 182.936,
+   "exec_ms": 175.037,
+   "fetch_ms": 4.852,
+   "decode_ms": 2.499,
+   "total_ms": 182.388,
+   "rows": 4400
+  },
+  {
+   "tic": 813,
+   "e2e_ms": 178.836,
+   "exec_ms": 170.812,
+   "fetch_ms": 4.968,
+   "decode_ms": 2.514,
+   "total_ms": 178.294,
+   "rows": 4400
+  },
+  {
+   "tic": 814,
+   "e2e_ms": 177.933,
+   "exec_ms": 170.162,
+   "fetch_ms": 4.8,
+   "decode_ms": 2.432,
+   "total_ms": 177.395,
+   "rows": 4400
+  },
+  {
+   "tic": 815,
+   "e2e_ms": 177.444,
+   "exec_ms": 169.524,
+   "fetch_ms": 4.832,
+   "decode_ms": 2.53,
+   "total_ms": 176.886,
+   "rows": 4400
+  },
+  {
+   "tic": 816,
+   "e2e_ms": 176.791,
+   "exec_ms": 169.01,
+   "fetch_ms": 4.787,
+   "decode_ms": 2.461,
+   "total_ms": 176.258,
+   "rows": 4400
+  },
+  {
+   "tic": 817,
+   "e2e_ms": 175.513,
+   "exec_ms": 167.306,
+   "fetch_ms": 5.144,
+   "decode_ms": 2.515,
+   "total_ms": 174.965,
+   "rows": 4400
+  },
+  {
+   "tic": 818,
+   "e2e_ms": 167.311,
+   "exec_ms": 159.491,
+   "fetch_ms": 4.775,
+   "decode_ms": 2.502,
+   "total_ms": 166.768,
+   "rows": 4400
+  },
+  {
+   "tic": 819,
+   "e2e_ms": 162.282,
+   "exec_ms": 153.586,
+   "fetch_ms": 5.653,
+   "decode_ms": 2.5,
+   "total_ms": 161.739,
+   "rows": 4400
+  },
+  {
+   "tic": 820,
+   "e2e_ms": 155.968,
+   "exec_ms": 148.182,
+   "fetch_ms": 4.738,
+   "decode_ms": 2.509,
+   "total_ms": 155.429,
+   "rows": 4400
+  },
+  {
+   "tic": 821,
+   "e2e_ms": 143.282,
+   "exec_ms": 135.46,
+   "fetch_ms": 4.773,
+   "decode_ms": 2.504,
+   "total_ms": 142.737,
+   "rows": 4400
+  },
+  {
+   "tic": 822,
+   "e2e_ms": 134.804,
+   "exec_ms": 126.757,
+   "fetch_ms": 5.013,
+   "decode_ms": 2.495,
+   "total_ms": 134.266,
+   "rows": 4400
+  },
+  {
+   "tic": 823,
+   "e2e_ms": 133.656,
+   "exec_ms": 125.753,
+   "fetch_ms": 4.839,
+   "decode_ms": 2.51,
+   "total_ms": 133.102,
+   "rows": 4400
+  },
+  {
+   "tic": 824,
+   "e2e_ms": 133.103,
+   "exec_ms": 125.25,
+   "fetch_ms": 4.799,
+   "decode_ms": 2.515,
+   "total_ms": 132.564,
+   "rows": 4400
+  },
+  {
+   "tic": 825,
+   "e2e_ms": 131.325,
+   "exec_ms": 122.675,
+   "fetch_ms": 5.603,
+   "decode_ms": 2.505,
+   "total_ms": 130.783,
+   "rows": 4400
+  },
+  {
+   "tic": 826,
+   "e2e_ms": 134.521,
+   "exec_ms": 126.277,
+   "fetch_ms": 5.104,
+   "decode_ms": 2.575,
+   "total_ms": 133.956,
+   "rows": 4400
+  },
+  {
+   "tic": 827,
+   "e2e_ms": 136.621,
+   "exec_ms": 128.451,
+   "fetch_ms": 5.112,
+   "decode_ms": 2.507,
+   "total_ms": 136.07,
+   "rows": 4400
+  },
+  {
+   "tic": 828,
+   "e2e_ms": 137.89,
+   "exec_ms": 129.734,
+   "fetch_ms": 5.097,
+   "decode_ms": 2.514,
+   "total_ms": 137.345,
+   "rows": 4400
+  },
+  {
+   "tic": 829,
+   "e2e_ms": 144.939,
+   "exec_ms": 136.014,
+   "fetch_ms": 5.863,
+   "decode_ms": 2.502,
+   "total_ms": 144.379,
+   "rows": 4400
+  },
+  {
+   "tic": 830,
+   "e2e_ms": 148.078,
+   "exec_ms": 140.123,
+   "fetch_ms": 4.867,
+   "decode_ms": 2.541,
+   "total_ms": 147.531,
+   "rows": 4400
+  },
+  {
+   "tic": 831,
+   "e2e_ms": 151.271,
+   "exec_ms": 143.042,
+   "fetch_ms": 5.184,
+   "decode_ms": 2.511,
+   "total_ms": 150.737,
+   "rows": 4400
+  },
+  {
+   "tic": 832,
+   "e2e_ms": 156.951,
+   "exec_ms": 149.058,
+   "fetch_ms": 4.856,
+   "decode_ms": 2.497,
+   "total_ms": 156.411,
+   "rows": 4400
+  },
+  {
+   "tic": 833,
+   "e2e_ms": 162.604,
+   "exec_ms": 154.463,
+   "fetch_ms": 5.112,
+   "decode_ms": 2.491,
+   "total_ms": 162.065,
+   "rows": 4400
+  },
+  {
+   "tic": 834,
+   "e2e_ms": 168.333,
+   "exec_ms": 160.353,
+   "fetch_ms": 4.934,
+   "decode_ms": 2.507,
+   "total_ms": 167.795,
+   "rows": 4400
+  },
+  {
+   "tic": 835,
+   "e2e_ms": 176.846,
+   "exec_ms": 168.518,
+   "fetch_ms": 5.245,
+   "decode_ms": 2.535,
+   "total_ms": 176.299,
+   "rows": 4400
+  },
+  {
+   "tic": 836,
+   "e2e_ms": 186.366,
+   "exec_ms": 178.233,
+   "fetch_ms": 5.083,
+   "decode_ms": 2.507,
+   "total_ms": 185.824,
+   "rows": 4400
+  },
+  {
+   "tic": 837,
+   "e2e_ms": 191.562,
+   "exec_ms": 183.149,
+   "fetch_ms": 5.343,
+   "decode_ms": 2.526,
+   "total_ms": 191.017,
+   "rows": 4400
+  },
+  {
+   "tic": 838,
+   "e2e_ms": 192.139,
+   "exec_ms": 183.674,
+   "fetch_ms": 5.367,
+   "decode_ms": 2.545,
+   "total_ms": 191.586,
+   "rows": 4400
+  },
+  {
+   "tic": 839,
+   "e2e_ms": 187.092,
+   "exec_ms": 178.195,
+   "fetch_ms": 5.833,
+   "decode_ms": 2.518,
+   "total_ms": 186.546,
+   "rows": 4400
+  },
+  {
+   "tic": 840,
+   "e2e_ms": 188.08,
+   "exec_ms": 180.261,
+   "fetch_ms": 4.759,
+   "decode_ms": 2.519,
+   "total_ms": 187.54,
+   "rows": 4400
+  },
+  {
+   "tic": 841,
+   "e2e_ms": 185.179,
+   "exec_ms": 177.186,
+   "fetch_ms": 4.915,
+   "decode_ms": 2.536,
+   "total_ms": 184.637,
+   "rows": 4400
+  },
+  {
+   "tic": 842,
+   "e2e_ms": 180.925,
+   "exec_ms": 172.952,
+   "fetch_ms": 4.901,
+   "decode_ms": 2.531,
+   "total_ms": 180.384,
+   "rows": 4400
+  },
+  {
+   "tic": 843,
+   "e2e_ms": 178.893,
+   "exec_ms": 170.7,
+   "fetch_ms": 5.166,
+   "decode_ms": 2.483,
+   "total_ms": 178.349,
+   "rows": 4400
+  },
+  {
+   "tic": 844,
+   "e2e_ms": 178.637,
+   "exec_ms": 170.452,
+   "fetch_ms": 5.118,
+   "decode_ms": 2.528,
+   "total_ms": 178.098,
+   "rows": 4400
+  },
+  {
+   "tic": 845,
+   "e2e_ms": 177.16,
+   "exec_ms": 169.241,
+   "fetch_ms": 4.864,
+   "decode_ms": 2.516,
+   "total_ms": 176.622,
+   "rows": 4400
+  },
+  {
+   "tic": 846,
+   "e2e_ms": 173.552,
+   "exec_ms": 165.477,
+   "fetch_ms": 5.005,
+   "decode_ms": 2.524,
+   "total_ms": 173.005,
+   "rows": 4400
+  },
+  {
+   "tic": 847,
+   "e2e_ms": 172.018,
+   "exec_ms": 163.977,
+   "fetch_ms": 4.95,
+   "decode_ms": 2.549,
+   "total_ms": 171.475,
+   "rows": 4400
+  },
+  {
+   "tic": 848,
+   "e2e_ms": 160.742,
+   "exec_ms": 152.939,
+   "fetch_ms": 4.755,
+   "decode_ms": 2.508,
+   "total_ms": 160.201,
+   "rows": 4400
+  },
+  {
+   "tic": 849,
+   "e2e_ms": 156.457,
+   "exec_ms": 148.495,
+   "fetch_ms": 4.911,
+   "decode_ms": 2.507,
+   "total_ms": 155.913,
+   "rows": 4400
+  },
+  {
+   "tic": 850,
+   "e2e_ms": 153.696,
+   "exec_ms": 145.4,
+   "fetch_ms": 5.221,
+   "decode_ms": 2.529,
+   "total_ms": 153.149,
+   "rows": 4400
+  },
+  {
+   "tic": 851,
+   "e2e_ms": 146.357,
+   "exec_ms": 138.457,
+   "fetch_ms": 4.836,
+   "decode_ms": 2.523,
+   "total_ms": 145.816,
+   "rows": 4400
+  },
+  {
+   "tic": 852,
+   "e2e_ms": 139.812,
+   "exec_ms": 131.994,
+   "fetch_ms": 4.776,
+   "decode_ms": 2.503,
+   "total_ms": 139.273,
+   "rows": 4400
+  },
+  {
+   "tic": 853,
+   "e2e_ms": 140.119,
+   "exec_ms": 131.866,
+   "fetch_ms": 5.214,
+   "decode_ms": 2.502,
+   "total_ms": 139.582,
+   "rows": 4400
+  },
+  {
+   "tic": 854,
+   "e2e_ms": 140.876,
+   "exec_ms": 132.668,
+   "fetch_ms": 5.095,
+   "decode_ms": 2.57,
+   "total_ms": 140.333,
+   "rows": 4400
+  },
+  {
+   "tic": 855,
+   "e2e_ms": 134.348,
+   "exec_ms": 126.43,
+   "fetch_ms": 4.841,
+   "decode_ms": 2.534,
+   "total_ms": 133.805,
+   "rows": 4400
+  },
+  {
+   "tic": 856,
+   "e2e_ms": 143.462,
+   "exec_ms": 135.21,
+   "fetch_ms": 5.216,
+   "decode_ms": 2.496,
+   "total_ms": 142.922,
+   "rows": 4400
+  },
+  {
+   "tic": 857,
+   "e2e_ms": 137.325,
+   "exec_ms": 129.14,
+   "fetch_ms": 5.126,
+   "decode_ms": 2.517,
+   "total_ms": 136.782,
+   "rows": 4400
+  },
+  {
+   "tic": 858,
+   "e2e_ms": 127.633,
+   "exec_ms": 119.313,
+   "fetch_ms": 5.262,
+   "decode_ms": 2.512,
+   "total_ms": 127.087,
+   "rows": 4400
+  },
+  {
+   "tic": 859,
+   "e2e_ms": 125.716,
+   "exec_ms": 117.319,
+   "fetch_ms": 5.334,
+   "decode_ms": 2.523,
+   "total_ms": 125.176,
+   "rows": 4400
+  },
+  {
+   "tic": 860,
+   "e2e_ms": 128.187,
+   "exec_ms": 120.11,
+   "fetch_ms": 5.022,
+   "decode_ms": 2.51,
+   "total_ms": 127.642,
+   "rows": 4400
+  },
+  {
+   "tic": 861,
+   "e2e_ms": 125.981,
+   "exec_ms": 117.908,
+   "fetch_ms": 5.012,
+   "decode_ms": 2.515,
+   "total_ms": 125.435,
+   "rows": 4400
+  },
+  {
+   "tic": 862,
+   "e2e_ms": 120.029,
+   "exec_ms": 112.189,
+   "fetch_ms": 4.805,
+   "decode_ms": 2.494,
+   "total_ms": 119.488,
+   "rows": 4400
+  },
+  {
+   "tic": 863,
+   "e2e_ms": 113.617,
+   "exec_ms": 105.245,
+   "fetch_ms": 5.232,
+   "decode_ms": 2.571,
+   "total_ms": 113.048,
+   "rows": 4400
+  },
+  {
+   "tic": 864,
+   "e2e_ms": 113.124,
+   "exec_ms": 104.972,
+   "fetch_ms": 5.103,
+   "decode_ms": 2.506,
+   "total_ms": 112.581,
+   "rows": 4400
+  },
+  {
+   "tic": 865,
+   "e2e_ms": 109.399,
+   "exec_ms": 101.488,
+   "fetch_ms": 4.891,
+   "decode_ms": 2.479,
+   "total_ms": 108.858,
+   "rows": 4400
+  },
+  {
+   "tic": 866,
+   "e2e_ms": 112.077,
+   "exec_ms": 103.639,
+   "fetch_ms": 5.388,
+   "decode_ms": 2.497,
+   "total_ms": 111.524,
+   "rows": 4400
+  },
+  {
+   "tic": 867,
+   "e2e_ms": 109.307,
+   "exec_ms": 101.486,
+   "fetch_ms": 4.789,
+   "decode_ms": 2.492,
+   "total_ms": 108.767,
+   "rows": 4400
+  },
+  {
+   "tic": 868,
+   "e2e_ms": 106.29,
+   "exec_ms": 98.407,
+   "fetch_ms": 4.851,
+   "decode_ms": 2.492,
+   "total_ms": 105.75,
+   "rows": 4400
+  },
+  {
+   "tic": 869,
+   "e2e_ms": 106.617,
+   "exec_ms": 98.07,
+   "fetch_ms": 5.493,
+   "decode_ms": 2.498,
+   "total_ms": 106.061,
+   "rows": 4400
+  },
+  {
+   "tic": 870,
+   "e2e_ms": 104.648,
+   "exec_ms": 96.511,
+   "fetch_ms": 5.101,
+   "decode_ms": 2.496,
+   "total_ms": 104.108,
+   "rows": 4400
+  },
+  {
+   "tic": 871,
+   "e2e_ms": 102.751,
+   "exec_ms": 94.66,
+   "fetch_ms": 5.033,
+   "decode_ms": 2.519,
+   "total_ms": 102.212,
+   "rows": 4400
+  },
+  {
+   "tic": 872,
+   "e2e_ms": 100.809,
+   "exec_ms": 92.989,
+   "fetch_ms": 4.769,
+   "decode_ms": 2.502,
+   "total_ms": 100.26,
+   "rows": 4400
+  },
+  {
+   "tic": 873,
+   "e2e_ms": 98.705,
+   "exec_ms": 90.813,
+   "fetch_ms": 4.834,
+   "decode_ms": 2.517,
+   "total_ms": 98.165,
+   "rows": 4400
+  },
+  {
+   "tic": 874,
+   "e2e_ms": 100.925,
+   "exec_ms": 92.709,
+   "fetch_ms": 5.214,
+   "decode_ms": 2.465,
+   "total_ms": 100.388,
+   "rows": 4400
+  },
+  {
+   "tic": 875,
+   "e2e_ms": 100.754,
+   "exec_ms": 92.781,
+   "fetch_ms": 4.913,
+   "decode_ms": 2.509,
+   "total_ms": 100.203,
+   "rows": 4400
+  },
+  {
+   "tic": 876,
+   "e2e_ms": 97.778,
+   "exec_ms": 89.784,
+   "fetch_ms": 4.952,
+   "decode_ms": 2.496,
+   "total_ms": 97.232,
+   "rows": 4400
+  },
+  {
+   "tic": 877,
+   "e2e_ms": 96.4,
+   "exec_ms": 88.402,
+   "fetch_ms": 4.944,
+   "decode_ms": 2.498,
+   "total_ms": 95.845,
+   "rows": 4400
+  },
+  {
+   "tic": 878,
+   "e2e_ms": 96.914,
+   "exec_ms": 88.841,
+   "fetch_ms": 5.058,
+   "decode_ms": 2.477,
+   "total_ms": 96.376,
+   "rows": 4400
+  },
+  {
+   "tic": 879,
+   "e2e_ms": 94.7,
+   "exec_ms": 86.573,
+   "fetch_ms": 5.019,
+   "decode_ms": 2.557,
+   "total_ms": 94.149,
+   "rows": 4400
+  },
+  {
+   "tic": 880,
+   "e2e_ms": 99.592,
+   "exec_ms": 91.209,
+   "fetch_ms": 5.326,
+   "decode_ms": 2.501,
+   "total_ms": 99.037,
+   "rows": 4400
+  },
+  {
+   "tic": 881,
+   "e2e_ms": 94.219,
+   "exec_ms": 85.714,
+   "fetch_ms": 5.46,
+   "decode_ms": 2.5,
+   "total_ms": 93.674,
+   "rows": 4400
+  },
+  {
+   "tic": 882,
+   "e2e_ms": 92.757,
+   "exec_ms": 84.749,
+   "fetch_ms": 4.972,
+   "decode_ms": 2.492,
+   "total_ms": 92.213,
+   "rows": 4400
+  },
+  {
+   "tic": 883,
+   "e2e_ms": 92.438,
+   "exec_ms": 84.62,
+   "fetch_ms": 4.776,
+   "decode_ms": 2.505,
+   "total_ms": 91.901,
+   "rows": 4400
+  },
+  {
+   "tic": 884,
+   "e2e_ms": 91.804,
+   "exec_ms": 83.721,
+   "fetch_ms": 5.043,
+   "decode_ms": 2.503,
+   "total_ms": 91.267,
+   "rows": 4400
+  },
+  {
+   "tic": 885,
+   "e2e_ms": 92.315,
+   "exec_ms": 84.214,
+   "fetch_ms": 5.07,
+   "decode_ms": 2.489,
+   "total_ms": 91.772,
+   "rows": 4400
+  },
+  {
+   "tic": 886,
+   "e2e_ms": 93.411,
+   "exec_ms": 85.286,
+   "fetch_ms": 5.092,
+   "decode_ms": 2.494,
+   "total_ms": 92.871,
+   "rows": 4400
+  },
+  {
+   "tic": 887,
+   "e2e_ms": 89.81,
+   "exec_ms": 82.292,
+   "fetch_ms": 4.482,
+   "decode_ms": 2.499,
+   "total_ms": 89.272,
+   "rows": 4400
+  },
+  {
+   "tic": 888,
+   "e2e_ms": 89.453,
+   "exec_ms": 81.705,
+   "fetch_ms": 4.728,
+   "decode_ms": 2.485,
+   "total_ms": 88.918,
+   "rows": 4400
+  },
+  {
+   "tic": 889,
+   "e2e_ms": 83.909,
+   "exec_ms": 76.215,
+   "fetch_ms": 4.65,
+   "decode_ms": 2.503,
+   "total_ms": 83.368,
+   "rows": 4400
+  },
+  {
+   "tic": 890,
+   "e2e_ms": 83.967,
+   "exec_ms": 76.131,
+   "fetch_ms": 4.797,
+   "decode_ms": 2.491,
+   "total_ms": 83.419,
+   "rows": 4400
+  },
+  {
+   "tic": 891,
+   "e2e_ms": 82.932,
+   "exec_ms": 75.112,
+   "fetch_ms": 4.765,
+   "decode_ms": 2.518,
+   "total_ms": 82.395,
+   "rows": 4400
+  },
+  {
+   "tic": 892,
+   "e2e_ms": 82.299,
+   "exec_ms": 74.577,
+   "fetch_ms": 4.695,
+   "decode_ms": 2.487,
+   "total_ms": 81.759,
+   "rows": 4400
+  },
+  {
+   "tic": 893,
+   "e2e_ms": 83.456,
+   "exec_ms": 75.462,
+   "fetch_ms": 4.969,
+   "decode_ms": 2.474,
+   "total_ms": 82.905,
+   "rows": 4400
+  },
+  {
+   "tic": 894,
+   "e2e_ms": 83.153,
+   "exec_ms": 75.501,
+   "fetch_ms": 4.615,
+   "decode_ms": 2.491,
+   "total_ms": 82.607,
+   "rows": 4400
+  },
+  {
+   "tic": 895,
+   "e2e_ms": 72.029,
+   "exec_ms": 64.272,
+   "fetch_ms": 4.724,
+   "decode_ms": 2.493,
+   "total_ms": 71.49,
+   "rows": 4400
+  },
+  {
+   "tic": 896,
+   "e2e_ms": 67.241,
+   "exec_ms": 59.436,
+   "fetch_ms": 4.788,
+   "decode_ms": 2.475,
+   "total_ms": 66.698,
+   "rows": 4400
+  },
+  {
+   "tic": 897,
+   "e2e_ms": 145.699,
+   "exec_ms": 137.975,
+   "fetch_ms": 4.605,
+   "decode_ms": 2.556,
+   "total_ms": 145.137,
+   "rows": 4400
+  },
+  {
+   "tic": 898,
+   "e2e_ms": 144.789,
+   "exec_ms": 136.941,
+   "fetch_ms": 4.811,
+   "decode_ms": 2.489,
+   "total_ms": 144.242,
+   "rows": 4400
+  },
+  {
+   "tic": 899,
+   "e2e_ms": 138.962,
+   "exec_ms": 131.178,
+   "fetch_ms": 4.744,
+   "decode_ms": 2.498,
+   "total_ms": 138.42,
+   "rows": 4400
+  },
+  {
+   "tic": 900,
+   "e2e_ms": 138.267,
+   "exec_ms": 130.455,
+   "fetch_ms": 4.785,
+   "decode_ms": 2.48,
+   "total_ms": 137.721,
+   "rows": 4400
+  },
+  {
+   "tic": 901,
+   "e2e_ms": 141.141,
+   "exec_ms": 133.335,
+   "fetch_ms": 4.773,
+   "decode_ms": 2.487,
+   "total_ms": 140.595,
+   "rows": 4400
+  },
+  {
+   "tic": 902,
+   "e2e_ms": 138.229,
+   "exec_ms": 130.219,
+   "fetch_ms": 4.975,
+   "decode_ms": 2.492,
+   "total_ms": 137.686,
+   "rows": 4400
+  },
+  {
+   "tic": 903,
+   "e2e_ms": 136.279,
+   "exec_ms": 128.174,
+   "fetch_ms": 5.069,
+   "decode_ms": 2.492,
+   "total_ms": 135.735,
+   "rows": 4400
+  },
+  {
+   "tic": 904,
+   "e2e_ms": 137.824,
+   "exec_ms": 130.091,
+   "fetch_ms": 4.699,
+   "decode_ms": 2.484,
+   "total_ms": 137.274,
+   "rows": 4400
+  },
+  {
+   "tic": 905,
+   "e2e_ms": 137.346,
+   "exec_ms": 129.684,
+   "fetch_ms": 4.621,
+   "decode_ms": 2.496,
+   "total_ms": 136.801,
+   "rows": 4400
+  },
+  {
+   "tic": 906,
+   "e2e_ms": 140.544,
+   "exec_ms": 132.823,
+   "fetch_ms": 4.684,
+   "decode_ms": 2.489,
+   "total_ms": 139.996,
+   "rows": 4400
+  },
+  {
+   "tic": 907,
+   "e2e_ms": 135.352,
+   "exec_ms": 127.626,
+   "fetch_ms": 4.672,
+   "decode_ms": 2.512,
+   "total_ms": 134.81,
+   "rows": 4400
+  },
+  {
+   "tic": 908,
+   "e2e_ms": 139.532,
+   "exec_ms": 131.613,
+   "fetch_ms": 4.853,
+   "decode_ms": 2.516,
+   "total_ms": 138.983,
+   "rows": 4400
+  },
+  {
+   "tic": 909,
+   "e2e_ms": 137.33,
+   "exec_ms": 129.548,
+   "fetch_ms": 4.717,
+   "decode_ms": 2.516,
+   "total_ms": 136.781,
+   "rows": 4400
+  },
+  {
+   "tic": 910,
+   "e2e_ms": 138.261,
+   "exec_ms": 130.139,
+   "fetch_ms": 5.068,
+   "decode_ms": 2.504,
+   "total_ms": 137.711,
+   "rows": 4400
+  },
+  {
+   "tic": 911,
+   "e2e_ms": 137.293,
+   "exec_ms": 129.361,
+   "fetch_ms": 4.868,
+   "decode_ms": 2.519,
+   "total_ms": 136.749,
+   "rows": 4400
+  },
+  {
+   "tic": 912,
+   "e2e_ms": 138.593,
+   "exec_ms": 130.704,
+   "fetch_ms": 4.831,
+   "decode_ms": 2.515,
+   "total_ms": 138.049,
+   "rows": 4400
+  },
+  {
+   "tic": 913,
+   "e2e_ms": 131.691,
+   "exec_ms": 123.348,
+   "fetch_ms": 5.298,
+   "decode_ms": 2.49,
+   "total_ms": 131.136,
+   "rows": 4400
+  },
+  {
+   "tic": 914,
+   "e2e_ms": 125.645,
+   "exec_ms": 117.673,
+   "fetch_ms": 4.931,
+   "decode_ms": 2.488,
+   "total_ms": 125.092,
+   "rows": 4400
+  },
+  {
+   "tic": 915,
+   "e2e_ms": 131.706,
+   "exec_ms": 123.53,
+   "fetch_ms": 5.055,
+   "decode_ms": 2.553,
+   "total_ms": 131.139,
+   "rows": 4400
+  },
+  {
+   "tic": 916,
+   "e2e_ms": 131.615,
+   "exec_ms": 123.892,
+   "fetch_ms": 4.674,
+   "decode_ms": 2.5,
+   "total_ms": 131.066,
+   "rows": 4400
+  },
+  {
+   "tic": 917,
+   "e2e_ms": 129.27,
+   "exec_ms": 121.426,
+   "fetch_ms": 4.806,
+   "decode_ms": 2.496,
+   "total_ms": 128.729,
+   "rows": 4400
+  },
+  {
+   "tic": 918,
+   "e2e_ms": 135.757,
+   "exec_ms": 127.875,
+   "fetch_ms": 4.827,
+   "decode_ms": 2.514,
+   "total_ms": 135.215,
+   "rows": 4400
+  },
+  {
+   "tic": 919,
+   "e2e_ms": 143.391,
+   "exec_ms": 135.485,
+   "fetch_ms": 4.819,
+   "decode_ms": 2.546,
+   "total_ms": 142.85,
+   "rows": 4400
+  },
+  {
+   "tic": 920,
+   "e2e_ms": 151.496,
+   "exec_ms": 143.607,
+   "fetch_ms": 4.864,
+   "decode_ms": 2.482,
+   "total_ms": 150.953,
+   "rows": 4400
+  },
+  {
+   "tic": 921,
+   "e2e_ms": 175.152,
+   "exec_ms": 165.733,
+   "fetch_ms": 6.235,
+   "decode_ms": 2.613,
+   "total_ms": 174.581,
+   "rows": 4400
+  },
+  {
+   "tic": 922,
+   "e2e_ms": 161.984,
+   "exec_ms": 153.32,
+   "fetch_ms": 5.547,
+   "decode_ms": 2.554,
+   "total_ms": 161.42,
+   "rows": 4400
+  },
+  {
+   "tic": 923,
+   "e2e_ms": 149.423,
+   "exec_ms": 140.895,
+   "fetch_ms": 5.477,
+   "decode_ms": 2.505,
+   "total_ms": 148.877,
+   "rows": 4400
+  },
+  {
+   "tic": 924,
+   "e2e_ms": 140.21,
+   "exec_ms": 132.225,
+   "fetch_ms": 4.965,
+   "decode_ms": 2.473,
+   "total_ms": 139.663,
+   "rows": 4400
+  },
+  {
+   "tic": 925,
+   "e2e_ms": 133.37,
+   "exec_ms": 125.067,
+   "fetch_ms": 5.246,
+   "decode_ms": 2.508,
+   "total_ms": 132.822,
+   "rows": 4400
+  },
+  {
+   "tic": 926,
+   "e2e_ms": 127.785,
+   "exec_ms": 119.512,
+   "fetch_ms": 5.194,
+   "decode_ms": 2.534,
+   "total_ms": 127.239,
+   "rows": 4400
+  },
+  {
+   "tic": 927,
+   "e2e_ms": 123.966,
+   "exec_ms": 116.064,
+   "fetch_ms": 4.86,
+   "decode_ms": 2.498,
+   "total_ms": 123.422,
+   "rows": 4400
+  },
+  {
+   "tic": 928,
+   "e2e_ms": 120.312,
+   "exec_ms": 112.575,
+   "fetch_ms": 4.718,
+   "decode_ms": 2.476,
+   "total_ms": 119.769,
+   "rows": 4400
+  },
+  {
+   "tic": 929,
+   "e2e_ms": 122.984,
+   "exec_ms": 114.747,
+   "fetch_ms": 5.195,
+   "decode_ms": 2.501,
+   "total_ms": 122.443,
+   "rows": 4400
+  },
+  {
+   "tic": 930,
+   "e2e_ms": 123.904,
+   "exec_ms": 116.099,
+   "fetch_ms": 4.78,
+   "decode_ms": 2.477,
+   "total_ms": 123.356,
+   "rows": 4400
+  },
+  {
+   "tic": 931,
+   "e2e_ms": 127.903,
+   "exec_ms": 119.592,
+   "fetch_ms": 5.265,
+   "decode_ms": 2.493,
+   "total_ms": 127.35,
+   "rows": 4400
+  },
+  {
+   "tic": 932,
+   "e2e_ms": 129.458,
+   "exec_ms": 121.332,
+   "fetch_ms": 5.081,
+   "decode_ms": 2.503,
+   "total_ms": 128.916,
+   "rows": 4400
+  },
+  {
+   "tic": 933,
+   "e2e_ms": 130.998,
+   "exec_ms": 122.723,
+   "fetch_ms": 5.304,
+   "decode_ms": 2.435,
+   "total_ms": 130.461,
+   "rows": 4400
+  },
+  {
+   "tic": 934,
+   "e2e_ms": 135.649,
+   "exec_ms": 127.695,
+   "fetch_ms": 4.899,
+   "decode_ms": 2.498,
+   "total_ms": 135.092,
+   "rows": 4400
+  },
+  {
+   "tic": 935,
+   "e2e_ms": 116.942,
+   "exec_ms": 109.336,
+   "fetch_ms": 4.552,
+   "decode_ms": 2.509,
+   "total_ms": 116.396,
+   "rows": 4400
+  },
+  {
+   "tic": 936,
+   "e2e_ms": 115.776,
+   "exec_ms": 107.593,
+   "fetch_ms": 5.138,
+   "decode_ms": 2.505,
+   "total_ms": 115.236,
+   "rows": 4400
+  },
+  {
+   "tic": 937,
+   "e2e_ms": 116.584,
+   "exec_ms": 108.308,
+   "fetch_ms": 5.246,
+   "decode_ms": 2.489,
+   "total_ms": 116.044,
+   "rows": 4400
+  },
+  {
+   "tic": 938,
+   "e2e_ms": 116.661,
+   "exec_ms": 108.578,
+   "fetch_ms": 5.059,
+   "decode_ms": 2.486,
+   "total_ms": 116.123,
+   "rows": 4400
+  },
+  {
+   "tic": 939,
+   "e2e_ms": 118.572,
+   "exec_ms": 110.507,
+   "fetch_ms": 5.018,
+   "decode_ms": 2.508,
+   "total_ms": 118.033,
+   "rows": 4400
+  },
+  {
+   "tic": 940,
+   "e2e_ms": 116.658,
+   "exec_ms": 108.844,
+   "fetch_ms": 4.78,
+   "decode_ms": 2.496,
+   "total_ms": 116.12,
+   "rows": 4400
+  },
+  {
+   "tic": 941,
+   "e2e_ms": 115.013,
+   "exec_ms": 107.228,
+   "fetch_ms": 4.729,
+   "decode_ms": 2.513,
+   "total_ms": 114.47,
+   "rows": 4400
+  },
+  {
+   "tic": 942,
+   "e2e_ms": 122.613,
+   "exec_ms": 114.385,
+   "fetch_ms": 5.181,
+   "decode_ms": 2.499,
+   "total_ms": 122.066,
+   "rows": 4400
+  },
+  {
+   "tic": 943,
+   "e2e_ms": 120.552,
+   "exec_ms": 112.559,
+   "fetch_ms": 4.944,
+   "decode_ms": 2.505,
+   "total_ms": 120.009,
+   "rows": 4400
+  },
+  {
+   "tic": 944,
+   "e2e_ms": 116.608,
+   "exec_ms": 108.551,
+   "fetch_ms": 5.026,
+   "decode_ms": 2.483,
+   "total_ms": 116.06,
+   "rows": 4400
+  },
+  {
+   "tic": 945,
+   "e2e_ms": 143.074,
+   "exec_ms": 135.246,
+   "fetch_ms": 4.783,
+   "decode_ms": 2.503,
+   "total_ms": 142.533,
+   "rows": 4400
+  },
+  {
+   "tic": 946,
+   "e2e_ms": 126.112,
+   "exec_ms": 118.352,
+   "fetch_ms": 4.7,
+   "decode_ms": 2.515,
+   "total_ms": 125.567,
+   "rows": 4400
+  },
+  {
+   "tic": 947,
+   "e2e_ms": 123.541,
+   "exec_ms": 115.629,
+   "fetch_ms": 4.865,
+   "decode_ms": 2.508,
+   "total_ms": 123.002,
+   "rows": 4400
+  },
+  {
+   "tic": 948,
+   "e2e_ms": 123.726,
+   "exec_ms": 115.78,
+   "fetch_ms": 4.91,
+   "decode_ms": 2.497,
+   "total_ms": 123.187,
+   "rows": 4400
+  },
+  {
+   "tic": 949,
+   "e2e_ms": 149.375,
+   "exec_ms": 141.225,
+   "fetch_ms": 5.017,
+   "decode_ms": 2.563,
+   "total_ms": 148.804,
+   "rows": 4400
+  },
+  {
+   "tic": 950,
+   "e2e_ms": 145.772,
+   "exec_ms": 137.897,
+   "fetch_ms": 4.828,
+   "decode_ms": 2.505,
+   "total_ms": 145.229,
+   "rows": 4400
+  },
+  {
+   "tic": 951,
+   "e2e_ms": 143.946,
+   "exec_ms": 135.472,
+   "fetch_ms": 5.418,
+   "decode_ms": 2.511,
+   "total_ms": 143.4,
+   "rows": 4400
+  },
+  {
+   "tic": 952,
+   "e2e_ms": 141.468,
+   "exec_ms": 133.45,
+   "fetch_ms": 4.974,
+   "decode_ms": 2.505,
+   "total_ms": 140.929,
+   "rows": 4400
+  },
+  {
+   "tic": 953,
+   "e2e_ms": 139.787,
+   "exec_ms": 131.588,
+   "fetch_ms": 5.16,
+   "decode_ms": 2.498,
+   "total_ms": 139.246,
+   "rows": 4400
+  },
+  {
+   "tic": 954,
+   "e2e_ms": 138.87,
+   "exec_ms": 130.687,
+   "fetch_ms": 5.139,
+   "decode_ms": 2.502,
+   "total_ms": 138.327,
+   "rows": 4400
+  },
+  {
+   "tic": 955,
+   "e2e_ms": 140.084,
+   "exec_ms": 131.998,
+   "fetch_ms": 5.031,
+   "decode_ms": 2.502,
+   "total_ms": 139.531,
+   "rows": 4400
+  },
+  {
+   "tic": 956,
+   "e2e_ms": 144.371,
+   "exec_ms": 136.307,
+   "fetch_ms": 4.998,
+   "decode_ms": 2.514,
+   "total_ms": 143.819,
+   "rows": 4400
+  },
+  {
+   "tic": 957,
+   "e2e_ms": 141.182,
+   "exec_ms": 133.211,
+   "fetch_ms": 4.921,
+   "decode_ms": 2.51,
+   "total_ms": 140.643,
+   "rows": 4400
+  },
+  {
+   "tic": 958,
+   "e2e_ms": 139.779,
+   "exec_ms": 131.517,
+   "fetch_ms": 5.174,
+   "decode_ms": 2.541,
+   "total_ms": 139.232,
+   "rows": 4400
+  },
+  {
+   "tic": 959,
+   "e2e_ms": 140.522,
+   "exec_ms": 132.228,
+   "fetch_ms": 5.239,
+   "decode_ms": 2.51,
+   "total_ms": 139.977,
+   "rows": 4400
+  },
+  {
+   "tic": 960,
+   "e2e_ms": 137.184,
+   "exec_ms": 129.121,
+   "fetch_ms": 5.0,
+   "decode_ms": 2.518,
+   "total_ms": 136.64,
+   "rows": 4400
+  },
+  {
+   "tic": 961,
+   "e2e_ms": 147.75,
+   "exec_ms": 139.206,
+   "fetch_ms": 5.496,
+   "decode_ms": 2.5,
+   "total_ms": 147.203,
+   "rows": 4400
+  },
+  {
+   "tic": 962,
+   "e2e_ms": 135.835,
+   "exec_ms": 127.935,
+   "fetch_ms": 4.871,
+   "decode_ms": 2.487,
+   "total_ms": 135.293,
+   "rows": 4400
+  },
+  {
+   "tic": 963,
+   "e2e_ms": 135.722,
+   "exec_ms": 127.221,
+   "fetch_ms": 5.44,
+   "decode_ms": 2.513,
+   "total_ms": 135.175,
+   "rows": 4400
+  },
+  {
+   "tic": 964,
+   "e2e_ms": 134.644,
+   "exec_ms": 126.547,
+   "fetch_ms": 5.067,
+   "decode_ms": 2.491,
+   "total_ms": 134.104,
+   "rows": 4400
+  },
+  {
+   "tic": 965,
+   "e2e_ms": 159.256,
+   "exec_ms": 151.409,
+   "fetch_ms": 4.837,
+   "decode_ms": 2.476,
+   "total_ms": 158.722,
+   "rows": 4400
+  },
+  {
+   "tic": 966,
+   "e2e_ms": 129.436,
+   "exec_ms": 121.367,
+   "fetch_ms": 5.005,
+   "decode_ms": 2.509,
+   "total_ms": 128.881,
+   "rows": 4400
+  },
+  {
+   "tic": 967,
+   "e2e_ms": 126.324,
+   "exec_ms": 118.517,
+   "fetch_ms": 4.76,
+   "decode_ms": 2.508,
+   "total_ms": 125.785,
+   "rows": 4400
+  },
+  {
+   "tic": 968,
+   "e2e_ms": 129.146,
+   "exec_ms": 121.243,
+   "fetch_ms": 4.859,
+   "decode_ms": 2.501,
+   "total_ms": 128.603,
+   "rows": 4400
+  },
+  {
+   "tic": 969,
+   "e2e_ms": 128.882,
+   "exec_ms": 120.513,
+   "fetch_ms": 5.322,
+   "decode_ms": 2.505,
+   "total_ms": 128.34,
+   "rows": 4400
+  },
+  {
+   "tic": 970,
+   "e2e_ms": 138.651,
+   "exec_ms": 130.524,
+   "fetch_ms": 5.091,
+   "decode_ms": 2.493,
+   "total_ms": 138.108,
+   "rows": 4400
+  },
+  {
+   "tic": 971,
+   "e2e_ms": 128.92,
+   "exec_ms": 120.439,
+   "fetch_ms": 5.283,
+   "decode_ms": 2.629,
+   "total_ms": 128.351,
+   "rows": 4400
+  },
+  {
+   "tic": 972,
+   "e2e_ms": 125.348,
+   "exec_ms": 117.287,
+   "fetch_ms": 5.001,
+   "decode_ms": 2.511,
+   "total_ms": 124.799,
+   "rows": 4400
+  },
+  {
+   "tic": 973,
+   "e2e_ms": 112.652,
+   "exec_ms": 104.895,
+   "fetch_ms": 4.72,
+   "decode_ms": 2.498,
+   "total_ms": 112.114,
+   "rows": 4400
+  },
+  {
+   "tic": 974,
+   "e2e_ms": 106.646,
+   "exec_ms": 98.769,
+   "fetch_ms": 4.852,
+   "decode_ms": 2.488,
+   "total_ms": 106.109,
+   "rows": 4400
+  },
+  {
+   "tic": 975,
+   "e2e_ms": 106.899,
+   "exec_ms": 98.713,
+   "fetch_ms": 5.14,
+   "decode_ms": 2.504,
+   "total_ms": 106.357,
+   "rows": 4400
+  },
+  {
+   "tic": 976,
+   "e2e_ms": 102.482,
+   "exec_ms": 94.462,
+   "fetch_ms": 5.009,
+   "decode_ms": 2.475,
+   "total_ms": 101.946,
+   "rows": 4400
+  },
+  {
+   "tic": 977,
+   "e2e_ms": 102.21,
+   "exec_ms": 94.311,
+   "fetch_ms": 4.877,
+   "decode_ms": 2.485,
+   "total_ms": 101.672,
+   "rows": 4400
+  },
+  {
+   "tic": 978,
+   "e2e_ms": 107.834,
+   "exec_ms": 99.917,
+   "fetch_ms": 4.893,
+   "decode_ms": 2.484,
+   "total_ms": 107.294,
+   "rows": 4400
+  },
+  {
+   "tic": 979,
+   "e2e_ms": 106.894,
+   "exec_ms": 98.912,
+   "fetch_ms": 4.934,
+   "decode_ms": 2.504,
+   "total_ms": 106.35,
+   "rows": 4400
+  },
+  {
+   "tic": 980,
+   "e2e_ms": 107.67,
+   "exec_ms": 99.765,
+   "fetch_ms": 4.873,
+   "decode_ms": 2.493,
+   "total_ms": 107.131,
+   "rows": 4400
+  },
+  {
+   "tic": 981,
+   "e2e_ms": 100.837,
+   "exec_ms": 92.926,
+   "fetch_ms": 4.875,
+   "decode_ms": 2.497,
+   "total_ms": 100.297,
+   "rows": 4400
+  },
+  {
+   "tic": 982,
+   "e2e_ms": 105.652,
+   "exec_ms": 97.614,
+   "fetch_ms": 5.008,
+   "decode_ms": 2.49,
+   "total_ms": 105.112,
+   "rows": 4400
+  },
+  {
+   "tic": 983,
+   "e2e_ms": 100.593,
+   "exec_ms": 92.379,
+   "fetch_ms": 5.188,
+   "decode_ms": 2.489,
+   "total_ms": 100.056,
+   "rows": 4400
+  },
+  {
+   "tic": 984,
+   "e2e_ms": 93.778,
+   "exec_ms": 85.684,
+   "fetch_ms": 5.047,
+   "decode_ms": 2.506,
+   "total_ms": 93.237,
+   "rows": 4400
+  },
+  {
+   "tic": 985,
+   "e2e_ms": 92.299,
+   "exec_ms": 84.264,
+   "fetch_ms": 4.999,
+   "decode_ms": 2.497,
+   "total_ms": 91.76,
+   "rows": 4400
+  },
+  {
+   "tic": 986,
+   "e2e_ms": 93.746,
+   "exec_ms": 85.652,
+   "fetch_ms": 5.076,
+   "decode_ms": 2.475,
+   "total_ms": 93.203,
+   "rows": 4400
+  },
+  {
+   "tic": 987,
+   "e2e_ms": 89.167,
+   "exec_ms": 80.912,
+   "fetch_ms": 5.213,
+   "decode_ms": 2.502,
+   "total_ms": 88.626,
+   "rows": 4400
+  },
+  {
+   "tic": 988,
+   "e2e_ms": 87.059,
+   "exec_ms": 79.151,
+   "fetch_ms": 4.912,
+   "decode_ms": 2.464,
+   "total_ms": 86.527,
+   "rows": 4400
+  },
+  {
+   "tic": 989,
+   "e2e_ms": 85.326,
+   "exec_ms": 77.211,
+   "fetch_ms": 5.069,
+   "decode_ms": 2.508,
+   "total_ms": 84.788,
+   "rows": 4400
+  },
+  {
+   "tic": 990,
+   "e2e_ms": 82.287,
+   "exec_ms": 74.403,
+   "fetch_ms": 4.856,
+   "decode_ms": 2.489,
+   "total_ms": 81.748,
+   "rows": 4400
+  },
+  {
+   "tic": 991,
+   "e2e_ms": 81.128,
+   "exec_ms": 73.297,
+   "fetch_ms": 4.827,
+   "decode_ms": 2.474,
+   "total_ms": 80.598,
+   "rows": 4400
+  },
+  {
+   "tic": 992,
+   "e2e_ms": 77.257,
+   "exec_ms": 69.508,
+   "fetch_ms": 4.721,
+   "decode_ms": 2.478,
+   "total_ms": 76.707,
+   "rows": 4400
+  },
+  {
+   "tic": 993,
+   "e2e_ms": 74.313,
+   "exec_ms": 66.532,
+   "fetch_ms": 4.773,
+   "decode_ms": 2.472,
+   "total_ms": 73.777,
+   "rows": 4400
+  },
+  {
+   "tic": 994,
+   "e2e_ms": 69.115,
+   "exec_ms": 61.188,
+   "fetch_ms": 4.91,
+   "decode_ms": 2.481,
+   "total_ms": 68.579,
+   "rows": 4400
+  },
+  {
+   "tic": 995,
+   "e2e_ms": 65.658,
+   "exec_ms": 57.744,
+   "fetch_ms": 4.888,
+   "decode_ms": 2.492,
+   "total_ms": 65.124,
+   "rows": 4400
+  },
+  {
+   "tic": 996,
+   "e2e_ms": 62.409,
+   "exec_ms": 54.494,
+   "fetch_ms": 4.889,
+   "decode_ms": 2.487,
+   "total_ms": 61.87,
+   "rows": 4400
+  },
+  {
+   "tic": 997,
+   "e2e_ms": 60.959,
+   "exec_ms": 53.061,
+   "fetch_ms": 4.87,
+   "decode_ms": 2.49,
+   "total_ms": 60.422,
+   "rows": 4400
+  },
+  {
+   "tic": 998,
+   "e2e_ms": 61.019,
+   "exec_ms": 53.009,
+   "fetch_ms": 4.965,
+   "decode_ms": 2.509,
+   "total_ms": 60.483,
+   "rows": 4400
+  },
+  {
+   "tic": 999,
+   "e2e_ms": 58.298,
+   "exec_ms": 50.319,
+   "fetch_ms": 4.977,
+   "decode_ms": 2.468,
+   "total_ms": 57.764,
+   "rows": 4400
+  },
+  {
+   "tic": 1000,
+   "e2e_ms": 57.239,
+   "exec_ms": 49.293,
+   "fetch_ms": 4.978,
+   "decode_ms": 2.44,
+   "total_ms": 56.711,
+   "rows": 4400
+  },
+  {
+   "tic": 1001,
+   "e2e_ms": 56.289,
+   "exec_ms": 48.308,
+   "fetch_ms": 4.953,
+   "decode_ms": 2.483,
+   "total_ms": 55.744,
+   "rows": 4400
+  },
+  {
+   "tic": 1002,
+   "e2e_ms": 54.965,
+   "exec_ms": 47.393,
+   "fetch_ms": 4.55,
+   "decode_ms": 2.486,
+   "total_ms": 54.428,
+   "rows": 4400
+  },
+  {
+   "tic": 1003,
+   "e2e_ms": 54.384,
+   "exec_ms": 46.744,
+   "fetch_ms": 4.623,
+   "decode_ms": 2.481,
+   "total_ms": 53.847,
+   "rows": 4400
+  },
+  {
+   "tic": 1004,
+   "e2e_ms": 53.926,
+   "exec_ms": 46.343,
+   "fetch_ms": 4.588,
+   "decode_ms": 2.458,
+   "total_ms": 53.389,
+   "rows": 4400
+  },
+  {
+   "tic": 1005,
+   "e2e_ms": 53.729,
+   "exec_ms": 46.15,
+   "fetch_ms": 4.565,
+   "decode_ms": 2.473,
+   "total_ms": 53.188,
+   "rows": 4400
+  },
+  {
+   "tic": 1006,
+   "e2e_ms": 52.541,
+   "exec_ms": 44.971,
+   "fetch_ms": 4.537,
+   "decode_ms": 2.493,
+   "total_ms": 52.001,
+   "rows": 4400
+  },
+  {
+   "tic": 1007,
+   "e2e_ms": 53.627,
+   "exec_ms": 45.902,
+   "fetch_ms": 4.705,
+   "decode_ms": 2.475,
+   "total_ms": 53.082,
+   "rows": 4400
+  },
+  {
+   "tic": 1008,
+   "e2e_ms": 53.494,
+   "exec_ms": 45.878,
+   "fetch_ms": 4.608,
+   "decode_ms": 2.469,
+   "total_ms": 52.955,
+   "rows": 4400
+  },
+  {
+   "tic": 1009,
+   "e2e_ms": 53.13,
+   "exec_ms": 45.514,
+   "fetch_ms": 4.592,
+   "decode_ms": 2.481,
+   "total_ms": 52.587,
+   "rows": 4400
+  },
+  {
+   "tic": 1010,
+   "e2e_ms": 52.596,
+   "exec_ms": 45.164,
+   "fetch_ms": 4.432,
+   "decode_ms": 2.453,
+   "total_ms": 52.049,
+   "rows": 4400
+  },
+  {
+   "tic": 1011,
+   "e2e_ms": 54.457,
+   "exec_ms": 46.913,
+   "fetch_ms": 4.535,
+   "decode_ms": 2.469,
+   "total_ms": 53.918,
+   "rows": 4400
+  },
+  {
+   "tic": 1012,
+   "e2e_ms": 53.06,
+   "exec_ms": 45.431,
+   "fetch_ms": 4.621,
+   "decode_ms": 2.465,
+   "total_ms": 52.518,
+   "rows": 4400
+  },
+  {
+   "tic": 1013,
+   "e2e_ms": 52.437,
+   "exec_ms": 44.975,
+   "fetch_ms": 4.451,
+   "decode_ms": 2.469,
+   "total_ms": 51.896,
+   "rows": 4400
+  },
+  {
+   "tic": 1014,
+   "e2e_ms": 52.707,
+   "exec_ms": 45.183,
+   "fetch_ms": 4.52,
+   "decode_ms": 2.464,
+   "total_ms": 52.167,
+   "rows": 4400
+  },
+  {
+   "tic": 1015,
+   "e2e_ms": 53.152,
+   "exec_ms": 45.585,
+   "fetch_ms": 4.548,
+   "decode_ms": 2.48,
+   "total_ms": 52.613,
+   "rows": 4400
+  },
+  {
+   "tic": 1016,
+   "e2e_ms": 53.806,
+   "exec_ms": 46.19,
+   "fetch_ms": 4.605,
+   "decode_ms": 2.472,
+   "total_ms": 53.267,
+   "rows": 4400
+  },
+  {
+   "tic": 1017,
+   "e2e_ms": 53.06,
+   "exec_ms": 45.344,
+   "fetch_ms": 4.624,
+   "decode_ms": 2.533,
+   "total_ms": 52.501,
+   "rows": 4400
+  },
+  {
+   "tic": 1018,
+   "e2e_ms": 54.543,
+   "exec_ms": 46.823,
+   "fetch_ms": 4.709,
+   "decode_ms": 2.469,
+   "total_ms": 54.001,
+   "rows": 4400
+  },
+  {
+   "tic": 1019,
+   "e2e_ms": 54.322,
+   "exec_ms": 46.846,
+   "fetch_ms": 4.435,
+   "decode_ms": 2.495,
+   "total_ms": 53.776,
+   "rows": 4400
+  },
+  {
+   "tic": 1020,
+   "e2e_ms": 54.387,
+   "exec_ms": 46.687,
+   "fetch_ms": 4.656,
+   "decode_ms": 2.501,
+   "total_ms": 53.843,
+   "rows": 4400
+  },
+  {
+   "tic": 1021,
+   "e2e_ms": 54.471,
+   "exec_ms": 46.845,
+   "fetch_ms": 4.615,
+   "decode_ms": 2.468,
+   "total_ms": 53.928,
+   "rows": 4400
+  },
+  {
+   "tic": 1022,
+   "e2e_ms": 55.87,
+   "exec_ms": 47.853,
+   "fetch_ms": 4.974,
+   "decode_ms": 2.491,
+   "total_ms": 55.318,
+   "rows": 4400
+  },
+  {
+   "tic": 1023,
+   "e2e_ms": 55.101,
+   "exec_ms": 47.579,
+   "fetch_ms": 4.492,
+   "decode_ms": 2.487,
+   "total_ms": 54.558,
+   "rows": 4400
+  },
+  {
+   "tic": 1024,
+   "e2e_ms": 54.724,
+   "exec_ms": 47.185,
+   "fetch_ms": 4.527,
+   "decode_ms": 2.465,
+   "total_ms": 54.177,
+   "rows": 4400
+  },
+  {
+   "tic": 1025,
+   "e2e_ms": 54.985,
+   "exec_ms": 47.353,
+   "fetch_ms": 4.604,
+   "decode_ms": 2.481,
+   "total_ms": 54.437,
+   "rows": 4400
+  },
+  {
+   "tic": 1026,
+   "e2e_ms": 55.245,
+   "exec_ms": 47.652,
+   "fetch_ms": 4.561,
+   "decode_ms": 2.487,
+   "total_ms": 54.7,
+   "rows": 4400
+  },
+  {
+   "tic": 1027,
+   "e2e_ms": 57.335,
+   "exec_ms": 49.487,
+   "fetch_ms": 4.78,
+   "decode_ms": 2.505,
+   "total_ms": 56.772,
+   "rows": 4400
+  },
+  {
+   "tic": 1028,
+   "e2e_ms": 57.297,
+   "exec_ms": 49.581,
+   "fetch_ms": 4.688,
+   "decode_ms": 2.483,
+   "total_ms": 56.751,
+   "rows": 4400
+  },
+  {
+   "tic": 1029,
+   "e2e_ms": 56.764,
+   "exec_ms": 48.855,
+   "fetch_ms": 4.883,
+   "decode_ms": 2.48,
+   "total_ms": 56.218,
+   "rows": 4400
+  },
+  {
+   "tic": 1030,
+   "e2e_ms": 55.81,
+   "exec_ms": 48.376,
+   "fetch_ms": 4.407,
+   "decode_ms": 2.482,
+   "total_ms": 55.265,
+   "rows": 4400
+  },
+  {
+   "tic": 1031,
+   "e2e_ms": 55.545,
+   "exec_ms": 48.078,
+   "fetch_ms": 4.408,
+   "decode_ms": 2.505,
+   "total_ms": 54.99,
+   "rows": 4400
+  },
+  {
+   "tic": 1032,
+   "e2e_ms": 55.423,
+   "exec_ms": 47.77,
+   "fetch_ms": 4.648,
+   "decode_ms": 2.472,
+   "total_ms": 54.89,
+   "rows": 4400
+  },
+  {
+   "tic": 1033,
+   "e2e_ms": 55.473,
+   "exec_ms": 47.887,
+   "fetch_ms": 4.584,
+   "decode_ms": 2.461,
+   "total_ms": 54.931,
+   "rows": 4400
+  },
+  {
+   "tic": 1034,
+   "e2e_ms": 56.622,
+   "exec_ms": 48.556,
+   "fetch_ms": 5.032,
+   "decode_ms": 2.487,
+   "total_ms": 56.075,
+   "rows": 4400
+  },
+  {
+   "tic": 1035,
+   "e2e_ms": 56.131,
+   "exec_ms": 48.446,
+   "fetch_ms": 4.649,
+   "decode_ms": 2.495,
+   "total_ms": 55.59,
+   "rows": 4400
+  },
+  {
+   "tic": 1036,
+   "e2e_ms": 56.136,
+   "exec_ms": 48.186,
+   "fetch_ms": 4.93,
+   "decode_ms": 2.483,
+   "total_ms": 55.599,
+   "rows": 4400
+  },
+  {
+   "tic": 1037,
+   "e2e_ms": 55.932,
+   "exec_ms": 48.217,
+   "fetch_ms": 4.69,
+   "decode_ms": 2.48,
+   "total_ms": 55.387,
+   "rows": 4400
+  },
+  {
+   "tic": 1038,
+   "e2e_ms": 56.669,
+   "exec_ms": 48.855,
+   "fetch_ms": 4.776,
+   "decode_ms": 2.484,
+   "total_ms": 56.116,
+   "rows": 4400
+  },
+  {
+   "tic": 1039,
+   "e2e_ms": 55.854,
+   "exec_ms": 48.349,
+   "fetch_ms": 4.468,
+   "decode_ms": 2.485,
+   "total_ms": 55.303,
+   "rows": 4400
+  },
+  {
+   "tic": 1040,
+   "e2e_ms": 56.927,
+   "exec_ms": 49.217,
+   "fetch_ms": 4.596,
+   "decode_ms": 2.544,
+   "total_ms": 56.357,
+   "rows": 4400
+  },
+  {
+   "tic": 1041,
+   "e2e_ms": 59.303,
+   "exec_ms": 51.269,
+   "fetch_ms": 4.987,
+   "decode_ms": 2.492,
+   "total_ms": 58.749,
+   "rows": 4400
+  },
+  {
+   "tic": 1042,
+   "e2e_ms": 57.197,
+   "exec_ms": 49.42,
+   "fetch_ms": 4.749,
+   "decode_ms": 2.481,
+   "total_ms": 56.65,
+   "rows": 4400
+  },
+  {
+   "tic": 1043,
+   "e2e_ms": 56.012,
+   "exec_ms": 48.42,
+   "fetch_ms": 4.532,
+   "decode_ms": 2.501,
+   "total_ms": 55.454,
+   "rows": 4400
+  },
+  {
+   "tic": 1044,
+   "e2e_ms": 57.456,
+   "exec_ms": 49.752,
+   "fetch_ms": 4.654,
+   "decode_ms": 2.505,
+   "total_ms": 56.911,
+   "rows": 4400
+  },
+  {
+   "tic": 1045,
+   "e2e_ms": 60.227,
+   "exec_ms": 50.678,
+   "fetch_ms": 5.942,
+   "decode_ms": 2.976,
+   "total_ms": 59.596,
+   "rows": 4400
+  },
+  {
+   "tic": 1046,
+   "e2e_ms": 64.892,
+   "exec_ms": 55.568,
+   "fetch_ms": 6.051,
+   "decode_ms": 2.677,
+   "total_ms": 64.296,
+   "rows": 4400
+  },
+  {
+   "tic": 1047,
+   "e2e_ms": 58.42,
+   "exec_ms": 50.311,
+   "fetch_ms": 5.062,
+   "decode_ms": 2.501,
+   "total_ms": 57.874,
+   "rows": 4400
+  },
+  {
+   "tic": 1048,
+   "e2e_ms": 56.03,
+   "exec_ms": 48.443,
+   "fetch_ms": 4.564,
+   "decode_ms": 2.48,
+   "total_ms": 55.487,
+   "rows": 4400
+  },
+  {
+   "tic": 1049,
+   "e2e_ms": 57.048,
+   "exec_ms": 49.235,
+   "fetch_ms": 4.778,
+   "decode_ms": 2.492,
+   "total_ms": 56.504,
+   "rows": 4400
+  },
+  {
+   "tic": 1050,
+   "e2e_ms": 55.991,
+   "exec_ms": 48.427,
+   "fetch_ms": 4.54,
+   "decode_ms": 2.481,
+   "total_ms": 55.449,
+   "rows": 4400
+  },
+  {
+   "tic": 1051,
+   "e2e_ms": 55.63,
+   "exec_ms": 48.105,
+   "fetch_ms": 4.586,
+   "decode_ms": 2.401,
+   "total_ms": 55.092,
+   "rows": 4400
+  },
+  {
+   "tic": 1052,
+   "e2e_ms": 57.21,
+   "exec_ms": 49.432,
+   "fetch_ms": 4.738,
+   "decode_ms": 2.492,
+   "total_ms": 56.662,
+   "rows": 4400
+  },
+  {
+   "tic": 1053,
+   "e2e_ms": 56.366,
+   "exec_ms": 48.892,
+   "fetch_ms": 4.443,
+   "decode_ms": 2.484,
+   "total_ms": 55.819,
+   "rows": 4400
+  },
+  {
+   "tic": 1054,
+   "e2e_ms": 57.503,
+   "exec_ms": 49.969,
+   "fetch_ms": 4.507,
+   "decode_ms": 2.474,
+   "total_ms": 56.951,
+   "rows": 4400
+  },
+  {
+   "tic": 1055,
+   "e2e_ms": 56.299,
+   "exec_ms": 48.887,
+   "fetch_ms": 4.377,
+   "decode_ms": 2.492,
+   "total_ms": 55.757,
+   "rows": 4400
+  },
+  {
+   "tic": 1056,
+   "e2e_ms": 56.595,
+   "exec_ms": 48.826,
+   "fetch_ms": 4.761,
+   "decode_ms": 2.468,
+   "total_ms": 56.055,
+   "rows": 4400
+  },
+  {
+   "tic": 1057,
+   "e2e_ms": 56.211,
+   "exec_ms": 48.616,
+   "fetch_ms": 4.592,
+   "decode_ms": 2.465,
+   "total_ms": 55.673,
+   "rows": 4400
+  },
+  {
+   "tic": 1058,
+   "e2e_ms": 55.592,
+   "exec_ms": 48.215,
+   "fetch_ms": 4.32,
+   "decode_ms": 2.516,
+   "total_ms": 55.05,
+   "rows": 4400
+  },
+  {
+   "tic": 1059,
+   "e2e_ms": 55.654,
+   "exec_ms": 48.123,
+   "fetch_ms": 4.476,
+   "decode_ms": 2.516,
+   "total_ms": 55.116,
+   "rows": 4400
+  },
+  {
+   "tic": 1060,
+   "e2e_ms": 55.744,
+   "exec_ms": 48.243,
+   "fetch_ms": 4.477,
+   "decode_ms": 2.485,
+   "total_ms": 55.205,
+   "rows": 4400
+  },
+  {
+   "tic": 1061,
+   "e2e_ms": 56.238,
+   "exec_ms": 48.384,
+   "fetch_ms": 4.763,
+   "decode_ms": 2.534,
+   "total_ms": 55.681,
+   "rows": 4400
+  },
+  {
+   "tic": 1062,
+   "e2e_ms": 57.924,
+   "exec_ms": 50.036,
+   "fetch_ms": 4.783,
+   "decode_ms": 2.54,
+   "total_ms": 57.36,
+   "rows": 4400
+  },
+  {
+   "tic": 1063,
+   "e2e_ms": 58.18,
+   "exec_ms": 50.438,
+   "fetch_ms": 4.697,
+   "decode_ms": 2.502,
+   "total_ms": 57.636,
+   "rows": 4400
+  },
+  {
+   "tic": 1064,
+   "e2e_ms": 56.091,
+   "exec_ms": 48.638,
+   "fetch_ms": 4.414,
+   "decode_ms": 2.488,
+   "total_ms": 55.54,
+   "rows": 4400
+  },
+  {
+   "tic": 1065,
+   "e2e_ms": 56.509,
+   "exec_ms": 48.746,
+   "fetch_ms": 4.728,
+   "decode_ms": 2.489,
+   "total_ms": 55.963,
+   "rows": 4400
+  },
+  {
+   "tic": 1066,
+   "e2e_ms": 56.175,
+   "exec_ms": 48.462,
+   "fetch_ms": 4.661,
+   "decode_ms": 2.5,
+   "total_ms": 55.622,
+   "rows": 4400
+  },
+  {
+   "tic": 1067,
+   "e2e_ms": 58.139,
+   "exec_ms": 50.424,
+   "fetch_ms": 4.583,
+   "decode_ms": 2.57,
+   "total_ms": 57.578,
+   "rows": 4400
+  },
+  {
+   "tic": 1068,
+   "e2e_ms": 58.161,
+   "exec_ms": 50.468,
+   "fetch_ms": 4.561,
+   "decode_ms": 2.566,
+   "total_ms": 57.595,
+   "rows": 4400
+  },
+  {
+   "tic": 1069,
+   "e2e_ms": 56.95,
+   "exec_ms": 49.105,
+   "fetch_ms": 4.79,
+   "decode_ms": 2.502,
+   "total_ms": 56.397,
+   "rows": 4400
+  },
+  {
+   "tic": 1070,
+   "e2e_ms": 55.891,
+   "exec_ms": 48.335,
+   "fetch_ms": 4.529,
+   "decode_ms": 2.483,
+   "total_ms": 55.348,
+   "rows": 4400
+  },
+  {
+   "tic": 1071,
+   "e2e_ms": 56.924,
+   "exec_ms": 48.26,
+   "fetch_ms": 5.637,
+   "decode_ms": 2.487,
+   "total_ms": 56.384,
+   "rows": 4400
+  },
+  {
+   "tic": 1072,
+   "e2e_ms": 56.257,
+   "exec_ms": 48.421,
+   "fetch_ms": 4.79,
+   "decode_ms": 2.5,
+   "total_ms": 55.711,
+   "rows": 4400
+  },
+  {
+   "tic": 1073,
+   "e2e_ms": 56.322,
+   "exec_ms": 48.462,
+   "fetch_ms": 4.831,
+   "decode_ms": 2.489,
+   "total_ms": 55.783,
+   "rows": 4400
+  },
+  {
+   "tic": 1074,
+   "e2e_ms": 56.053,
+   "exec_ms": 48.563,
+   "fetch_ms": 4.463,
+   "decode_ms": 2.485,
+   "total_ms": 55.511,
+   "rows": 4400
+  },
+  {
+   "tic": 1075,
+   "e2e_ms": 55.821,
+   "exec_ms": 48.416,
+   "fetch_ms": 4.366,
+   "decode_ms": 2.495,
+   "total_ms": 55.277,
+   "rows": 4400
+  },
+  {
+   "tic": 1076,
+   "e2e_ms": 55.832,
+   "exec_ms": 48.463,
+   "fetch_ms": 4.341,
+   "decode_ms": 2.482,
+   "total_ms": 55.286,
+   "rows": 4400
+  },
+  {
+   "tic": 1077,
+   "e2e_ms": 56.069,
+   "exec_ms": 48.39,
+   "fetch_ms": 4.65,
+   "decode_ms": 2.49,
+   "total_ms": 55.53,
+   "rows": 4400
+  },
+  {
+   "tic": 1078,
+   "e2e_ms": 56.018,
+   "exec_ms": 48.417,
+   "fetch_ms": 4.562,
+   "decode_ms": 2.493,
+   "total_ms": 55.472,
+   "rows": 4400
+  },
+  {
+   "tic": 1079,
+   "e2e_ms": 56.26,
+   "exec_ms": 48.537,
+   "fetch_ms": 4.605,
+   "decode_ms": 2.556,
+   "total_ms": 55.699,
+   "rows": 4400
+  },
+  {
+   "tic": 1080,
+   "e2e_ms": 57.148,
+   "exec_ms": 49.476,
+   "fetch_ms": 4.637,
+   "decode_ms": 2.495,
+   "total_ms": 56.607,
+   "rows": 4400
+  },
+  {
+   "tic": 1081,
+   "e2e_ms": 55.854,
+   "exec_ms": 48.36,
+   "fetch_ms": 4.461,
+   "decode_ms": 2.485,
+   "total_ms": 55.307,
+   "rows": 4400
+  },
+  {
+   "tic": 1082,
+   "e2e_ms": 56.822,
+   "exec_ms": 49.283,
+   "fetch_ms": 4.514,
+   "decode_ms": 2.479,
+   "total_ms": 56.277,
+   "rows": 4400
+  },
+  {
+   "tic": 1083,
+   "e2e_ms": 60.477,
+   "exec_ms": 52.243,
+   "fetch_ms": 5.135,
+   "decode_ms": 2.549,
+   "total_ms": 59.927,
+   "rows": 4400
+  },
+  {
+   "tic": 1084,
+   "e2e_ms": 57.439,
+   "exec_ms": 49.76,
+   "fetch_ms": 4.669,
+   "decode_ms": 2.472,
+   "total_ms": 56.9,
+   "rows": 4400
+  },
+  {
+   "tic": 1085,
+   "e2e_ms": 56.749,
+   "exec_ms": 49.016,
+   "fetch_ms": 4.703,
+   "decode_ms": 2.481,
+   "total_ms": 56.2,
+   "rows": 4400
+  },
+  {
+   "tic": 1086,
+   "e2e_ms": 56.153,
+   "exec_ms": 48.776,
+   "fetch_ms": 4.352,
+   "decode_ms": 2.48,
+   "total_ms": 55.607,
+   "rows": 4400
+  },
+  {
+   "tic": 1087,
+   "e2e_ms": 56.307,
+   "exec_ms": 48.992,
+   "fetch_ms": 4.289,
+   "decode_ms": 2.486,
+   "total_ms": 55.767,
+   "rows": 4400
+  },
+  {
+   "tic": 1088,
+   "e2e_ms": 58.676,
+   "exec_ms": 50.563,
+   "fetch_ms": 5.072,
+   "decode_ms": 2.484,
+   "total_ms": 58.12,
+   "rows": 4400
+  },
+  {
+   "tic": 1089,
+   "e2e_ms": 58.252,
+   "exec_ms": 50.394,
+   "fetch_ms": 4.785,
+   "decode_ms": 2.528,
+   "total_ms": 57.707,
+   "rows": 4400
+  },
+  {
+   "tic": 1090,
+   "e2e_ms": 56.751,
+   "exec_ms": 49.215,
+   "fetch_ms": 4.49,
+   "decode_ms": 2.497,
+   "total_ms": 56.202,
+   "rows": 4400
+  },
+  {
+   "tic": 1091,
+   "e2e_ms": 56.77,
+   "exec_ms": 49.153,
+   "fetch_ms": 4.573,
+   "decode_ms": 2.495,
+   "total_ms": 56.221,
+   "rows": 4400
+  },
+  {
+   "tic": 1092,
+   "e2e_ms": 57.058,
+   "exec_ms": 49.647,
+   "fetch_ms": 4.387,
+   "decode_ms": 2.484,
+   "total_ms": 56.518,
+   "rows": 4400
+  },
+  {
+   "tic": 1093,
+   "e2e_ms": 56.352,
+   "exec_ms": 48.798,
+   "fetch_ms": 4.539,
+   "decode_ms": 2.47,
+   "total_ms": 55.807,
+   "rows": 4400
+  },
+  {
+   "tic": 1094,
+   "e2e_ms": 56.566,
+   "exec_ms": 48.806,
+   "fetch_ms": 4.74,
+   "decode_ms": 2.481,
+   "total_ms": 56.028,
+   "rows": 4400
+  },
+  {
+   "tic": 1095,
+   "e2e_ms": 56.071,
+   "exec_ms": 48.556,
+   "fetch_ms": 4.48,
+   "decode_ms": 2.496,
+   "total_ms": 55.531,
+   "rows": 4400
+  },
+  {
+   "tic": 1096,
+   "e2e_ms": 56.276,
+   "exec_ms": 48.829,
+   "fetch_ms": 4.435,
+   "decode_ms": 2.466,
+   "total_ms": 55.73,
+   "rows": 4400
+  },
+  {
+   "tic": 1097,
+   "e2e_ms": 57.046,
+   "exec_ms": 49.081,
+   "fetch_ms": 4.947,
+   "decode_ms": 2.474,
+   "total_ms": 56.502,
+   "rows": 4400
+  },
+  {
+   "tic": 1098,
+   "e2e_ms": 57.335,
+   "exec_ms": 49.67,
+   "fetch_ms": 4.605,
+   "decode_ms": 2.498,
+   "total_ms": 56.773,
+   "rows": 4400
+  },
+  {
+   "tic": 1099,
+   "e2e_ms": 56.755,
+   "exec_ms": 49.275,
+   "fetch_ms": 4.456,
+   "decode_ms": 2.484,
+   "total_ms": 56.215,
+   "rows": 4400
+  },
+  {
+   "tic": 1100,
+   "e2e_ms": 59.076,
+   "exec_ms": 51.462,
+   "fetch_ms": 4.576,
+   "decode_ms": 2.495,
+   "total_ms": 58.533,
+   "rows": 4400
+  },
+  {
+   "tic": 1101,
+   "e2e_ms": 57.107,
+   "exec_ms": 49.274,
+   "fetch_ms": 4.798,
+   "decode_ms": 2.489,
+   "total_ms": 56.561,
+   "rows": 4400
+  },
+  {
+   "tic": 1102,
+   "e2e_ms": 56.424,
+   "exec_ms": 48.768,
+   "fetch_ms": 4.631,
+   "decode_ms": 2.481,
+   "total_ms": 55.88,
+   "rows": 4400
+  },
+  {
+   "tic": 1103,
+   "e2e_ms": 57.047,
+   "exec_ms": 49.499,
+   "fetch_ms": 4.518,
+   "decode_ms": 2.492,
+   "total_ms": 56.509,
+   "rows": 4400
+  },
+  {
+   "tic": 1104,
+   "e2e_ms": 57.404,
+   "exec_ms": 49.698,
+   "fetch_ms": 4.671,
+   "decode_ms": 2.489,
+   "total_ms": 56.858,
+   "rows": 4400
+  },
+  {
+   "tic": 1105,
+   "e2e_ms": 56.947,
+   "exec_ms": 49.567,
+   "fetch_ms": 4.363,
+   "decode_ms": 2.478,
+   "total_ms": 56.408,
+   "rows": 4400
+  },
+  {
+   "tic": 1106,
+   "e2e_ms": 57.976,
+   "exec_ms": 50.21,
+   "fetch_ms": 4.738,
+   "decode_ms": 2.477,
+   "total_ms": 57.425,
+   "rows": 4400
+  },
+  {
+   "tic": 1107,
+   "e2e_ms": 58.055,
+   "exec_ms": 50.374,
+   "fetch_ms": 4.649,
+   "decode_ms": 2.493,
+   "total_ms": 57.516,
+   "rows": 4400
+  },
+  {
+   "tic": 1108,
+   "e2e_ms": 57.706,
+   "exec_ms": 49.901,
+   "fetch_ms": 4.778,
+   "decode_ms": 2.487,
+   "total_ms": 57.166,
+   "rows": 4400
+  },
+  {
+   "tic": 1109,
+   "e2e_ms": 57.892,
+   "exec_ms": 50.049,
+   "fetch_ms": 4.834,
+   "decode_ms": 2.467,
+   "total_ms": 57.35,
+   "rows": 4400
+  },
+  {
+   "tic": 1110,
+   "e2e_ms": 57.817,
+   "exec_ms": 50.159,
+   "fetch_ms": 4.612,
+   "decode_ms": 2.502,
+   "total_ms": 57.273,
+   "rows": 4400
+  },
+  {
+   "tic": 1111,
+   "e2e_ms": 57.727,
+   "exec_ms": 50.108,
+   "fetch_ms": 4.559,
+   "decode_ms": 2.513,
+   "total_ms": 57.18,
+   "rows": 4400
+  },
+  {
+   "tic": 1112,
+   "e2e_ms": 57.659,
+   "exec_ms": 50.232,
+   "fetch_ms": 4.344,
+   "decode_ms": 2.531,
+   "total_ms": 57.107,
+   "rows": 4400
+  },
+  {
+   "tic": 1113,
+   "e2e_ms": 57.958,
+   "exec_ms": 50.508,
+   "fetch_ms": 4.429,
+   "decode_ms": 2.48,
+   "total_ms": 57.416,
+   "rows": 4400
+  },
+  {
+   "tic": 1114,
+   "e2e_ms": 58.368,
+   "exec_ms": 50.228,
+   "fetch_ms": 5.091,
+   "decode_ms": 2.507,
+   "total_ms": 57.826,
+   "rows": 4400
+  },
+  {
+   "tic": 1115,
+   "e2e_ms": 58.826,
+   "exec_ms": 51.068,
+   "fetch_ms": 4.718,
+   "decode_ms": 2.5,
+   "total_ms": 58.286,
+   "rows": 4400
+  },
+  {
+   "tic": 1116,
+   "e2e_ms": 57.904,
+   "exec_ms": 50.474,
+   "fetch_ms": 4.395,
+   "decode_ms": 2.487,
+   "total_ms": 57.356,
+   "rows": 4400
+  },
+  {
+   "tic": 1117,
+   "e2e_ms": 57.678,
+   "exec_ms": 50.053,
+   "fetch_ms": 4.606,
+   "decode_ms": 2.479,
+   "total_ms": 57.138,
+   "rows": 4400
+  },
+  {
+   "tic": 1118,
+   "e2e_ms": 58.172,
+   "exec_ms": 50.371,
+   "fetch_ms": 4.756,
+   "decode_ms": 2.506,
+   "total_ms": 57.632,
+   "rows": 4400
+  },
+  {
+   "tic": 1119,
+   "e2e_ms": 58.471,
+   "exec_ms": 50.747,
+   "fetch_ms": 4.68,
+   "decode_ms": 2.499,
+   "total_ms": 57.926,
+   "rows": 4400
+  },
+  {
+   "tic": 1120,
+   "e2e_ms": 58.084,
+   "exec_ms": 50.499,
+   "fetch_ms": 4.556,
+   "decode_ms": 2.49,
+   "total_ms": 57.545,
+   "rows": 4400
+  },
+  {
+   "tic": 1121,
+   "e2e_ms": 61.226,
+   "exec_ms": 53.307,
+   "fetch_ms": 4.895,
+   "decode_ms": 2.482,
+   "total_ms": 60.684,
+   "rows": 4400
+  },
+  {
+   "tic": 1122,
+   "e2e_ms": 62.796,
+   "exec_ms": 55.106,
+   "fetch_ms": 4.589,
+   "decode_ms": 2.555,
+   "total_ms": 62.249,
+   "rows": 4400
+  },
+  {
+   "tic": 1123,
+   "e2e_ms": 58.418,
+   "exec_ms": 50.664,
+   "fetch_ms": 4.703,
+   "decode_ms": 2.51,
+   "total_ms": 57.877,
+   "rows": 4400
+  },
+  {
+   "tic": 1124,
+   "e2e_ms": 58.164,
+   "exec_ms": 50.527,
+   "fetch_ms": 4.622,
+   "decode_ms": 2.478,
+   "total_ms": 57.627,
+   "rows": 4400
+  },
+  {
+   "tic": 1125,
+   "e2e_ms": 57.963,
+   "exec_ms": 50.545,
+   "fetch_ms": 4.415,
+   "decode_ms": 2.464,
+   "total_ms": 57.424,
+   "rows": 4400
+  },
+  {
+   "tic": 1126,
+   "e2e_ms": 58.874,
+   "exec_ms": 51.233,
+   "fetch_ms": 4.655,
+   "decode_ms": 2.454,
+   "total_ms": 58.342,
+   "rows": 4400
+  },
+  {
+   "tic": 1127,
+   "e2e_ms": 58.65,
+   "exec_ms": 51.008,
+   "fetch_ms": 4.589,
+   "decode_ms": 2.508,
+   "total_ms": 58.104,
+   "rows": 4400
+  },
+  {
+   "tic": 1128,
+   "e2e_ms": 57.98,
+   "exec_ms": 50.706,
+   "fetch_ms": 4.256,
+   "decode_ms": 2.468,
+   "total_ms": 57.431,
+   "rows": 4400
+  },
+  {
+   "tic": 1129,
+   "e2e_ms": 58.478,
+   "exec_ms": 50.952,
+   "fetch_ms": 4.456,
+   "decode_ms": 2.531,
+   "total_ms": 57.938,
+   "rows": 4400
+  },
+  {
+   "tic": 1130,
+   "e2e_ms": 58.475,
+   "exec_ms": 50.904,
+   "fetch_ms": 4.511,
+   "decode_ms": 2.521,
+   "total_ms": 57.936,
+   "rows": 4400
+  },
+  {
+   "tic": 1131,
+   "e2e_ms": 59.997,
+   "exec_ms": 51.443,
+   "fetch_ms": 5.423,
+   "decode_ms": 2.56,
+   "total_ms": 59.426,
+   "rows": 4400
+  },
+  {
+   "tic": 1132,
+   "e2e_ms": 62.308,
+   "exec_ms": 54.277,
+   "fetch_ms": 4.978,
+   "decode_ms": 2.498,
+   "total_ms": 61.753,
+   "rows": 4400
+  },
+  {
+   "tic": 1133,
+   "e2e_ms": 60.077,
+   "exec_ms": 52.284,
+   "fetch_ms": 4.767,
+   "decode_ms": 2.489,
+   "total_ms": 59.539,
+   "rows": 4400
+  },
+  {
+   "tic": 1134,
+   "e2e_ms": 59.555,
+   "exec_ms": 51.814,
+   "fetch_ms": 4.683,
+   "decode_ms": 2.52,
+   "total_ms": 59.016,
+   "rows": 4400
+  },
+  {
+   "tic": 1135,
+   "e2e_ms": 59.237,
+   "exec_ms": 51.542,
+   "fetch_ms": 4.64,
+   "decode_ms": 2.509,
+   "total_ms": 58.691,
+   "rows": 4400
+  },
+  {
+   "tic": 1136,
+   "e2e_ms": 59.686,
+   "exec_ms": 52.041,
+   "fetch_ms": 4.607,
+   "decode_ms": 2.498,
+   "total_ms": 59.146,
+   "rows": 4400
+  },
+  {
+   "tic": 1137,
+   "e2e_ms": 60.009,
+   "exec_ms": 52.215,
+   "fetch_ms": 4.73,
+   "decode_ms": 2.523,
+   "total_ms": 59.468,
+   "rows": 4400
+  },
+  {
+   "tic": 1138,
+   "e2e_ms": 60.103,
+   "exec_ms": 52.495,
+   "fetch_ms": 4.605,
+   "decode_ms": 2.464,
+   "total_ms": 59.564,
+   "rows": 4400
+  },
+  {
+   "tic": 1139,
+   "e2e_ms": 59.5,
+   "exec_ms": 51.719,
+   "fetch_ms": 4.707,
+   "decode_ms": 2.531,
+   "total_ms": 58.958,
+   "rows": 4400
+  },
+  {
+   "tic": 1140,
+   "e2e_ms": 59.466,
+   "exec_ms": 51.982,
+   "fetch_ms": 4.434,
+   "decode_ms": 2.496,
+   "total_ms": 58.912,
+   "rows": 4400
+  },
+  {
+   "tic": 1141,
+   "e2e_ms": 58.744,
+   "exec_ms": 51.265,
+   "fetch_ms": 4.436,
+   "decode_ms": 2.501,
+   "total_ms": 58.203,
+   "rows": 4400
+  },
+  {
+   "tic": 1142,
+   "e2e_ms": 59.87,
+   "exec_ms": 52.07,
+   "fetch_ms": 4.756,
+   "decode_ms": 2.504,
+   "total_ms": 59.329,
+   "rows": 4400
+  },
+  {
+   "tic": 1143,
+   "e2e_ms": 60.885,
+   "exec_ms": 53.145,
+   "fetch_ms": 4.689,
+   "decode_ms": 2.51,
+   "total_ms": 60.345,
+   "rows": 4400
+  },
+  {
+   "tic": 1144,
+   "e2e_ms": 60.305,
+   "exec_ms": 52.856,
+   "fetch_ms": 4.496,
+   "decode_ms": 2.414,
+   "total_ms": 59.766,
+   "rows": 4400
+  },
+  {
+   "tic": 1145,
+   "e2e_ms": 60.591,
+   "exec_ms": 52.81,
+   "fetch_ms": 4.743,
+   "decode_ms": 2.482,
+   "total_ms": 60.036,
+   "rows": 4400
+  },
+  {
+   "tic": 1146,
+   "e2e_ms": 61.626,
+   "exec_ms": 53.927,
+   "fetch_ms": 4.628,
+   "decode_ms": 2.524,
+   "total_ms": 61.078,
+   "rows": 4400
+  },
+  {
+   "tic": 1147,
+   "e2e_ms": 63.01,
+   "exec_ms": 55.254,
+   "fetch_ms": 4.711,
+   "decode_ms": 2.493,
+   "total_ms": 62.458,
+   "rows": 4400
+  },
+  {
+   "tic": 1148,
+   "e2e_ms": 61.911,
+   "exec_ms": 54.382,
+   "fetch_ms": 4.496,
+   "decode_ms": 2.492,
+   "total_ms": 61.37,
+   "rows": 4400
+  },
+  {
+   "tic": 1149,
+   "e2e_ms": 64.467,
+   "exec_ms": 56.561,
+   "fetch_ms": 4.892,
+   "decode_ms": 2.474,
+   "total_ms": 63.926,
+   "rows": 4400
+  },
+  {
+   "tic": 1150,
+   "e2e_ms": 62.191,
+   "exec_ms": 54.203,
+   "fetch_ms": 4.773,
+   "decode_ms": 2.639,
+   "total_ms": 61.614,
+   "rows": 4400
+  },
+  {
+   "tic": 1151,
+   "e2e_ms": 61.734,
+   "exec_ms": 54.052,
+   "fetch_ms": 4.65,
+   "decode_ms": 2.491,
+   "total_ms": 61.193,
+   "rows": 4400
+  },
+  {
+   "tic": 1152,
+   "e2e_ms": 61.711,
+   "exec_ms": 54.241,
+   "fetch_ms": 4.434,
+   "decode_ms": 2.492,
+   "total_ms": 61.167,
+   "rows": 4400
+  },
+  {
+   "tic": 1153,
+   "e2e_ms": 61.78,
+   "exec_ms": 54.01,
+   "fetch_ms": 4.728,
+   "decode_ms": 2.505,
+   "total_ms": 61.243,
+   "rows": 4400
+  },
+  {
+   "tic": 1154,
+   "e2e_ms": 61.408,
+   "exec_ms": 53.86,
+   "fetch_ms": 4.52,
+   "decode_ms": 2.485,
+   "total_ms": 60.865,
+   "rows": 4400
+  },
+  {
+   "tic": 1155,
+   "e2e_ms": 62.997,
+   "exec_ms": 55.403,
+   "fetch_ms": 4.551,
+   "decode_ms": 2.503,
+   "total_ms": 62.457,
+   "rows": 4400
+  },
+  {
+   "tic": 1156,
+   "e2e_ms": 64.559,
+   "exec_ms": 56.655,
+   "fetch_ms": 4.75,
+   "decode_ms": 2.582,
+   "total_ms": 63.988,
+   "rows": 4400
+  },
+  {
+   "tic": 1157,
+   "e2e_ms": 65.03,
+   "exec_ms": 57.313,
+   "fetch_ms": 4.692,
+   "decode_ms": 2.478,
+   "total_ms": 64.483,
+   "rows": 4400
+  },
+  {
+   "tic": 1158,
+   "e2e_ms": 61.691,
+   "exec_ms": 53.832,
+   "fetch_ms": 4.781,
+   "decode_ms": 2.527,
+   "total_ms": 61.14,
+   "rows": 4400
+  },
+  {
+   "tic": 1159,
+   "e2e_ms": 60.901,
+   "exec_ms": 53.586,
+   "fetch_ms": 4.265,
+   "decode_ms": 2.515,
+   "total_ms": 60.366,
+   "rows": 4400
+  },
+  {
+   "tic": 1160,
+   "e2e_ms": 60.748,
+   "exec_ms": 53.246,
+   "fetch_ms": 4.478,
+   "decode_ms": 2.485,
+   "total_ms": 60.209,
+   "rows": 4400
+  },
+  {
+   "tic": 1161,
+   "e2e_ms": 57.34,
+   "exec_ms": 49.857,
+   "fetch_ms": 4.472,
+   "decode_ms": 2.47,
+   "total_ms": 56.8,
+   "rows": 4400
+  },
+  {
+   "tic": 1162,
+   "e2e_ms": 79.354,
+   "exec_ms": 71.768,
+   "fetch_ms": 4.478,
+   "decode_ms": 2.551,
+   "total_ms": 78.797,
+   "rows": 4400
+  },
+  {
+   "tic": 1163,
+   "e2e_ms": 83.848,
+   "exec_ms": 76.088,
+   "fetch_ms": 4.6,
+   "decode_ms": 2.601,
+   "total_ms": 83.289,
+   "rows": 4400
+  },
+  {
+   "tic": 1164,
+   "e2e_ms": 87.301,
+   "exec_ms": 79.675,
+   "fetch_ms": 4.581,
+   "decode_ms": 2.506,
+   "total_ms": 86.761,
+   "rows": 4400
+  },
+  {
+   "tic": 1165,
+   "e2e_ms": 89.205,
+   "exec_ms": 81.416,
+   "fetch_ms": 4.735,
+   "decode_ms": 2.508,
+   "total_ms": 88.659,
+   "rows": 4400
+  },
+  {
+   "tic": 1166,
+   "e2e_ms": 94.349,
+   "exec_ms": 86.532,
+   "fetch_ms": 4.794,
+   "decode_ms": 2.491,
+   "total_ms": 93.817,
+   "rows": 4400
+  },
+  {
+   "tic": 1167,
+   "e2e_ms": 97.598,
+   "exec_ms": 89.706,
+   "fetch_ms": 4.813,
+   "decode_ms": 2.538,
+   "total_ms": 97.056,
+   "rows": 4400
+  },
+  {
+   "tic": 1168,
+   "e2e_ms": 98.172,
+   "exec_ms": 90.486,
+   "fetch_ms": 4.623,
+   "decode_ms": 2.526,
+   "total_ms": 97.634,
+   "rows": 4400
+  },
+  {
+   "tic": 1169,
+   "e2e_ms": 104.678,
+   "exec_ms": 97.06,
+   "fetch_ms": 4.57,
+   "decode_ms": 2.509,
+   "total_ms": 104.139,
+   "rows": 4400
+  },
+  {
+   "tic": 1170,
+   "e2e_ms": 97.95,
+   "exec_ms": 89.996,
+   "fetch_ms": 4.893,
+   "decode_ms": 2.513,
+   "total_ms": 97.402,
+   "rows": 4400
+  },
+  {
+   "tic": 1171,
+   "e2e_ms": 94.083,
+   "exec_ms": 86.064,
+   "fetch_ms": 4.952,
+   "decode_ms": 2.524,
+   "total_ms": 93.54,
+   "rows": 4400
+  },
+  {
+   "tic": 1172,
+   "e2e_ms": 89.962,
+   "exec_ms": 82.238,
+   "fetch_ms": 4.714,
+   "decode_ms": 2.478,
+   "total_ms": 89.43,
+   "rows": 4400
+  },
+  {
+   "tic": 1173,
+   "e2e_ms": 89.278,
+   "exec_ms": 81.484,
+   "fetch_ms": 4.756,
+   "decode_ms": 2.493,
+   "total_ms": 88.733,
+   "rows": 4400
+  },
+  {
+   "tic": 1174,
+   "e2e_ms": 85.6,
+   "exec_ms": 77.903,
+   "fetch_ms": 4.665,
+   "decode_ms": 2.491,
+   "total_ms": 85.059,
+   "rows": 4400
+  },
+  {
+   "tic": 1175,
+   "e2e_ms": 68.065,
+   "exec_ms": 60.457,
+   "fetch_ms": 4.549,
+   "decode_ms": 2.498,
+   "total_ms": 67.504,
+   "rows": 4400
+  },
+  {
+   "tic": 1176,
+   "e2e_ms": 62.559,
+   "exec_ms": 55.001,
+   "fetch_ms": 4.518,
+   "decode_ms": 2.493,
+   "total_ms": 62.012,
+   "rows": 4400
+  },
+  {
+   "tic": 1177,
+   "e2e_ms": 60.895,
+   "exec_ms": 53.379,
+   "fetch_ms": 4.498,
+   "decode_ms": 2.478,
+   "total_ms": 60.356,
+   "rows": 4400
+  },
+  {
+   "tic": 1178,
+   "e2e_ms": 60.725,
+   "exec_ms": 53.079,
+   "fetch_ms": 4.626,
+   "decode_ms": 2.481,
+   "total_ms": 60.186,
+   "rows": 4400
+  },
+  {
+   "tic": 1179,
+   "e2e_ms": 60.913,
+   "exec_ms": 53.085,
+   "fetch_ms": 4.732,
+   "decode_ms": 2.552,
+   "total_ms": 60.368,
+   "rows": 4400
+  },
+  {
+   "tic": 1180,
+   "e2e_ms": 61.13,
+   "exec_ms": 53.563,
+   "fetch_ms": 4.544,
+   "decode_ms": 2.473,
+   "total_ms": 60.581,
+   "rows": 4400
+  },
+  {
+   "tic": 1181,
+   "e2e_ms": 63.134,
+   "exec_ms": 55.592,
+   "fetch_ms": 4.522,
+   "decode_ms": 2.476,
+   "total_ms": 62.589,
+   "rows": 4400
+  },
+  {
+   "tic": 1182,
+   "e2e_ms": 62.986,
+   "exec_ms": 55.415,
+   "fetch_ms": 4.514,
+   "decode_ms": 2.497,
+   "total_ms": 62.427,
+   "rows": 4400
+  },
+  {
+   "tic": 1183,
+   "e2e_ms": 63.296,
+   "exec_ms": 55.634,
+   "fetch_ms": 4.636,
+   "decode_ms": 2.487,
+   "total_ms": 62.757,
+   "rows": 4400
+  },
+  {
+   "tic": 1184,
+   "e2e_ms": 62.844,
+   "exec_ms": 55.088,
+   "fetch_ms": 4.671,
+   "decode_ms": 2.544,
+   "total_ms": 62.304,
+   "rows": 4400
+  },
+  {
+   "tic": 1185,
+   "e2e_ms": 62.388,
+   "exec_ms": 54.858,
+   "fetch_ms": 4.511,
+   "decode_ms": 2.48,
+   "total_ms": 61.849,
+   "rows": 4400
+  },
+  {
+   "tic": 1186,
+   "e2e_ms": 62.598,
+   "exec_ms": 55.131,
+   "fetch_ms": 4.441,
+   "decode_ms": 2.481,
+   "total_ms": 62.053,
+   "rows": 4400
+  },
+  {
+   "tic": 1187,
+   "e2e_ms": 63.073,
+   "exec_ms": 55.001,
+   "fetch_ms": 5.023,
+   "decode_ms": 2.508,
+   "total_ms": 62.531,
+   "rows": 4400
+  },
+  {
+   "tic": 1188,
+   "e2e_ms": 63.834,
+   "exec_ms": 56.038,
+   "fetch_ms": 4.751,
+   "decode_ms": 2.496,
+   "total_ms": 63.284,
+   "rows": 4400
+  },
+  {
+   "tic": 1189,
+   "e2e_ms": 63.756,
+   "exec_ms": 56.194,
+   "fetch_ms": 4.541,
+   "decode_ms": 2.475,
+   "total_ms": 63.209,
+   "rows": 4400
+  },
+  {
+   "tic": 1190,
+   "e2e_ms": 63.959,
+   "exec_ms": 56.358,
+   "fetch_ms": 4.555,
+   "decode_ms": 2.504,
+   "total_ms": 63.416,
+   "rows": 4400
+  },
+  {
+   "tic": 1191,
+   "e2e_ms": 63.133,
+   "exec_ms": 55.464,
+   "fetch_ms": 4.627,
+   "decode_ms": 2.499,
+   "total_ms": 62.591,
+   "rows": 4400
+  },
+  {
+   "tic": 1192,
+   "e2e_ms": 63.112,
+   "exec_ms": 55.543,
+   "fetch_ms": 4.529,
+   "decode_ms": 2.492,
+   "total_ms": 62.564,
+   "rows": 4400
+  },
+  {
+   "tic": 1193,
+   "e2e_ms": 63.369,
+   "exec_ms": 55.951,
+   "fetch_ms": 4.4,
+   "decode_ms": 2.475,
+   "total_ms": 62.826,
+   "rows": 4400
+  },
+  {
+   "tic": 1194,
+   "e2e_ms": 64.591,
+   "exec_ms": 56.974,
+   "fetch_ms": 4.593,
+   "decode_ms": 2.483,
+   "total_ms": 64.049,
+   "rows": 4400
+  },
+  {
+   "tic": 1195,
+   "e2e_ms": 62.196,
+   "exec_ms": 54.631,
+   "fetch_ms": 4.5,
+   "decode_ms": 2.523,
+   "total_ms": 61.654,
+   "rows": 4400
+  },
+  {
+   "tic": 1196,
+   "e2e_ms": 62.291,
+   "exec_ms": 54.671,
+   "fetch_ms": 4.587,
+   "decode_ms": 2.494,
+   "total_ms": 61.752,
+   "rows": 4400
+  },
+  {
+   "tic": 1197,
+   "e2e_ms": 62.18,
+   "exec_ms": 54.621,
+   "fetch_ms": 4.521,
+   "decode_ms": 2.489,
+   "total_ms": 61.631,
+   "rows": 4400
+  },
+  {
+   "tic": 1198,
+   "e2e_ms": 62.074,
+   "exec_ms": 54.601,
+   "fetch_ms": 4.422,
+   "decode_ms": 2.506,
+   "total_ms": 61.529,
+   "rows": 4400
+  },
+  {
+   "tic": 1199,
+   "e2e_ms": 63.14,
+   "exec_ms": 55.376,
+   "fetch_ms": 4.717,
+   "decode_ms": 2.495,
+   "total_ms": 62.588,
+   "rows": 4400
+  },
+  {
+   "tic": 1200,
+   "e2e_ms": 57.386,
+   "exec_ms": 49.761,
+   "fetch_ms": 4.592,
+   "decode_ms": 2.484,
+   "total_ms": 56.837,
+   "rows": 4400
+  }
+ ]
+}

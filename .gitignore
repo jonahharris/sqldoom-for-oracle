@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# downloaded (make fetch-wad / fetch-sources); id's doom1.wad is not redistributable
+oracle/wad/*.wad
+oracle/wad/*.zip
+reference/
+# extended ground truth: a release asset (make fetch-reference)
+oracle/reference_data/flows/
+oracle/reference_data/scenarios/
+oracle/reference_data/dm_*/
+oracle/reference_data/api_session/
+oracle/reference_data/e1m1/frames_rgb/
+# outputs
+oracle/tests/out/
+oracle/analysis/plans/
+frame_*.png
+run.gif
+guests.txt
