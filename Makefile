@@ -4,12 +4,12 @@ COMPOSE := docker compose -f oracle/docker-compose.yml
 R       ?= render_optimized.sql
 TIC     ?= 300
 
-.PHONY: fetch-wad fetch-shareware-wad fetch-reference fetch-sources venv db-up db-down init test test-full render anim bench bench-baseline compare reference env play play-shareware play-single-session web client-check load-wad
+.PHONY: fetch-wad fetch-shareware-wad fetch-reference fetch-sources venv db-up db-down init test test-full render anim bench bench-baseline compare reference env setup shareware freedoom play play-single-session server player join web client-check load-wad
 
 fetch-wad:       ## download Freedoom 0.13.0 freedoom1.wad (checksum-pinned) into oracle/wad/
 	$(PY) oracle/client/fetch_data.py wad
 
-fetch-shareware-wad: ## download the Doom 1.9 shareware doom1.wad (Debian package, checksum-pinned); then: make play-shareware
+fetch-shareware-wad: ## download the Doom 1.9 shareware doom1.wad (Debian package, checksum-pinned)
 	$(PY) oracle/client/fetch_data.py shareware
 
 fetch-reference: ## download the extended CedarDB ground truth (flows, scenarios, deathmatches; ~400 MB)
@@ -27,6 +27,10 @@ db-up:           ## start Oracle Free (gvenzl/oracle-free:full) and wait until h
 
 db-down:
 	$(COMPOSE) down
+
+setup: init      ## everything, once: init + the game, flow, screens + the deathmatch server, accounts broker, sound, music
+	$(PY) oracle/client/setup_game.py
+	$(PY) oracle/client/api_install.py --admin
 
 init: fetch-wad  ## schema, WAD, recorded state, precompute, baseline support
 	$(PY) oracle/client/setup_db.py
@@ -68,11 +72,13 @@ load-wad:        ## replace the game data with another IWAD, all its maps: make 
 	$(PY) oracle/client/setup_db.py --wad "$(WAD)"
 	$(PY) oracle/client/setup_game.py
 	DOOM_WAD="$(WAD)" $(PY) oracle/client/api_install.py
-	@echo "loaded $(WAD). Correctness/benchmark suites assume Freedoom: 'make load-wad' restores it."
+	@echo "loaded $(WAD). Tests and benchmarks need Freedoom: 'make freedoom' switches back."
 
-play-shareware: fetch-shareware-wad  ## load shareware Doom (episode 1) into the database and play it
+shareware: fetch-shareware-wad  ## switch the game to Doom 1.9 shareware (episode 1, ~5 min)
 	$(MAKE) load-wad WAD=oracle/wad/doom1.wad
-	$(PY) oracle/client/doom_client.py
+
+freedoom: fetch-wad  ## switch the game back to Freedoom (needed by the tests and benchmarks)
+	$(MAKE) load-wad WAD=oracle/wad/freedoom1.wad
 
 play:            ## single player: title screen, menus, the whole game (pygame window; split rendering on 2+ DB CPUs)
 	$(PY) oracle/client/doom_client.py
@@ -86,3 +92,16 @@ web:             ## the browser client + bridge on http://127.0.0.1:8080/ (needs
 client-check:    ## phase 6: the desktop client headless vs CedarDB, the UI flow smoke
 	$(PY) oracle/tests/client_run_check.py --skip-cedar
 	$(PY) oracle/tests/client_ui_smoke.py
+
+MAP_ID ?= 1
+SKILL  ?= 2
+server:          ## deathmatch referee (the server): make server MAP_ID=1 SKILL=2; Ctrl-C stops it
+	MAP_ID=$(MAP_ID) SKILL=$(SKILL) $(PY) oracle/client/referee.py
+
+player:          ## create (or reset) a deathmatch account: make player NAME=alice (prints the password once)
+	@test -n "$(NAME)" || { echo "usage: make player NAME=alice"; exit 1; }
+	$(PY) oracle/client/accounts.py player $(NAME)
+
+join:            ## join the running match: make join NAME=alice PASSWORD=... (or DOOM_PLAYER_PASSWORD)
+	@test -n "$(NAME)" || { echo "usage: make join NAME=alice PASSWORD=..."; exit 1; }
+	$(PY) oracle/client/doom_client.py --join $(NAME) $(if $(PASSWORD),--password '$(PASSWORD)',)
